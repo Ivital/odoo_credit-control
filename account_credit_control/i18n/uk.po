@@ -16,19 +16,15 @@ msgstr ""
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: \n"
-"Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && "
-"n%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2);\n"
+"Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && n%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2);\n"
 
 #. module: account_credit_control
 #: model:credit.control.policy.level,custom_text:account_credit_control.3_time_3
 msgid ""
 "\n"
-"Our records indicate that we still have not received the payment of the "
-"invoice mentioned below despite our two reminders.\n"
-"If payment have already been sent, please disregard this notice. If not, "
-"please proceed with payment.\n"
-"If your payment has not been received in the next 5 days, your file will be "
-"transferred to our debt collection agency.\n"
+"Our records indicate that we still have not received the payment of the invoice mentioned below despite our two reminders.\n"
+"If payment have already been sent, please disregard this notice. If not, please proceed with payment.\n"
+"If your payment has not been received in the next 5 days, your file will be transferred to our debt collection agency.\n"
 "\n"
 "Should you need us to arrange a payment plan for you, please advise.\n"
 "A customer account statement is enclosed for you convenience.\n"
@@ -45,9 +41,7 @@ msgid "# of Credit Control Communications"
 msgstr ""
 
 #. module: account_credit_control
-#: model:ir.model.fields,field_description:account_credit_control.field_credit_control_run__credit_control_count
-#: model:ir.model.fields,field_description:account_credit_control.field_res_partner__credit_control_count
-#: model:ir.model.fields,field_description:account_credit_control.field_res_users__credit_control_count
+#: model:ir.model.fields,field_description:account_credit_control.field_credit_control_run__credit_control_count model:ir.model.fields,field_description:account_credit_control.field_res_partner__credit_control_count model:ir.model.fields,field_description:account_credit_control.field_res_users__credit_control_count
 msgid "# of Credit Control Lines"
 msgstr ""
 
@@ -62,8 +56,7 @@ msgid "10 days net"
 msgstr ""
 
 #. module: account_credit_control
-#: model:credit.control.policy.level,name:account_credit_control.2_time_1
-#: model:credit.control.policy.level,name:account_credit_control.3_time_2
+#: model:credit.control.policy.level,name:account_credit_control.2_time_1 model:credit.control.policy.level,name:account_credit_control.3_time_2
 msgid "30 days end of month"
 msgstr ""
 
@@ -79,24 +72,20 @@ msgid ""
 "            <br/>\n"
 "            <br/>\n"
 "            <p>\n"
-"                <t t-out=\"object.policy_level_id.custom_mail_text or '' \"/"
-">\n"
+"                <t t-out=\"object.policy_level_id.custom_mail_text or '' \"/>\n"
 "            </p>\n"
 "        "
 msgstr ""
 
 #. module: account_credit_control
 #: model_terms:ir.ui.view,arch_db:account_credit_control.credit_control_policy_changer_form
-msgid ""
-"<span class=\"o_form_label\">This wizard will let you set the overdue policy "
-"and level for selected invoices</span>"
+msgid "<span class=\"o_form_label\">This wizard will let you set the overdue policy and level for selected invoices</span>"
 msgstr ""
 
 #. module: account_credit_control
 #: model_terms:ir.ui.view,arch_db:account_credit_control.credit_line_marker_form
 msgid ""
-"<span class=\"o_form_label\">Warning: you will maybe not be able to revert "
-"this operation.\n"
+"<span class=\"o_form_label\">Warning: you will maybe not be able to revert this operation.\n"
 "                </span>"
 msgstr ""
 
@@ -123,9 +112,7 @@ msgstr ""
 #. module: account_credit_control
 #. odoo-python
 #: code:addons/account_credit_control/models/credit_control_run.py:0
-msgid ""
-"A credit control line more recent than %(controlling_date)s exists at %"
-"(lines_date)s"
+msgid "A credit control line more recent than %(controlling_date)s exists at %(lines_date)s"
 msgstr ""
 
 #. module: account_credit_control
@@ -136,8 +123,7 @@ msgstr ""
 #. module: account_credit_control
 #. odoo-python
 #: code:addons/account_credit_control/models/credit_control_run.py:0
-msgid ""
-"A credit control run is already running in background, please try later."
+msgid "A credit control run is already running in background, please try later."
 msgstr ""
 
 #. module: account_credit_control
@@ -147,51 +133,42 @@ msgid "A run has already been executed more recently (%s)"
 msgstr ""
 
 #. module: account_credit_control
-#: model:ir.model,name:account_credit_control.model_account_account
-#: model:ir.model.fields,field_description:account_credit_control.field_credit_control_line__account_id
-#: model_terms:ir.ui.view,arch_db:account_credit_control.credit_control_line_search
+#: model:ir.model,name:account_credit_control.model_account_account model:ir.model.fields,field_description:account_credit_control.field_credit_control_line__account_id model_terms:ir.ui.view,arch_db:account_credit_control.credit_control_line_search
 msgid "Account"
 msgstr ""
 
 #. module: account_credit_control
-#: model:ir.model.fields,field_description:account_credit_control.field_credit_control_policy__account_ids
-#: model_terms:ir.ui.view,arch_db:account_credit_control.credit_control_policy_form
+#: model:ir.model.fields,field_description:account_credit_control.field_credit_control_policy__account_ids model_terms:ir.ui.view,arch_db:account_credit_control.credit_control_policy_form
 msgid "Accounts"
 msgstr ""
 
 #. module: account_credit_control
-#: model:ir.model.fields,field_description:account_credit_control.field_credit_control_communication__message_needaction
-#: model:ir.model.fields,field_description:account_credit_control.field_credit_control_line__message_needaction
+#: model:ir.model.fields,field_description:account_credit_control.field_credit_control_communication__message_needaction model:ir.model.fields,field_description:account_credit_control.field_credit_control_line__message_needaction
 msgid "Action Needed"
 msgstr ""
 
 #. module: account_credit_control
-#: model:ir.model.fields,field_description:account_credit_control.field_credit_control_policy__active
-#: model:ir.model.fields,field_description:account_credit_control.field_res_partner_payment_action_type__active
+#: model:ir.model.fields,field_description:account_credit_control.field_credit_control_policy__active model:ir.model.fields,field_description:account_credit_control.field_res_partner_payment_action_type__active
 msgid "Active"
 msgstr ""
 
 #. module: account_credit_control
-#: model:ir.model.fields,field_description:account_credit_control.field_credit_control_communication__activity_ids
-#: model:ir.model.fields,field_description:account_credit_control.field_credit_control_line__activity_ids
+#: model:ir.model.fields,field_description:account_credit_control.field_credit_control_communication__activity_ids model:ir.model.fields,field_description:account_credit_control.field_credit_control_line__activity_ids
 msgid "Activities"
 msgstr ""
 
 #. module: account_credit_control
-#: model:ir.model.fields,field_description:account_credit_control.field_credit_control_communication__activity_exception_decoration
-#: model:ir.model.fields,field_description:account_credit_control.field_credit_control_line__activity_exception_decoration
+#: model:ir.model.fields,field_description:account_credit_control.field_credit_control_communication__activity_exception_decoration model:ir.model.fields,field_description:account_credit_control.field_credit_control_line__activity_exception_decoration
 msgid "Activity Exception Decoration"
 msgstr ""
 
 #. module: account_credit_control
-#: model:ir.model.fields,field_description:account_credit_control.field_credit_control_communication__activity_state
-#: model:ir.model.fields,field_description:account_credit_control.field_credit_control_line__activity_state
+#: model:ir.model.fields,field_description:account_credit_control.field_credit_control_communication__activity_state model:ir.model.fields,field_description:account_credit_control.field_credit_control_line__activity_state
 msgid "Activity State"
 msgstr ""
 
 #. module: account_credit_control
-#: model:ir.model.fields,field_description:account_credit_control.field_credit_control_communication__activity_type_icon
-#: model:ir.model.fields,field_description:account_credit_control.field_credit_control_line__activity_type_icon
+#: model:ir.model.fields,field_description:account_credit_control.field_credit_control_communication__activity_type_icon model:ir.model.fields,field_description:account_credit_control.field_credit_control_line__activity_type_icon
 msgid "Activity Type Icon"
 msgstr ""
 
@@ -212,30 +189,22 @@ msgid "An error has occured during the sending of the email."
 msgstr ""
 
 #. module: account_credit_control
-#: model:ir.model.fields,help:account_credit_control.field_credit_control_policy__apply_max_policy_level
-#: model:ir.model.fields,help:account_credit_control.field_res_config_settings__default_apply_max_policy_level
-msgid ""
-"Apply max policy lavel for one partner in a credit control run execution to "
-"have all credit control lines on same communication level"
+#: model:ir.model.fields,help:account_credit_control.field_credit_control_policy__apply_max_policy_level model:ir.model.fields,help:account_credit_control.field_res_config_settings__default_apply_max_policy_level
+msgid "Apply max policy lavel for one partner in a credit control run execution to have all credit control lines on same communication level"
 msgstr ""
 
 #. module: account_credit_control
-#: model:ir.model.fields,field_description:account_credit_control.field_credit_control_policy__apply_max_policy_level
-#: model:ir.model.fields,field_description:account_credit_control.field_res_config_settings__default_apply_max_policy_level
+#: model:ir.model.fields,field_description:account_credit_control.field_credit_control_policy__apply_max_policy_level model:ir.model.fields,field_description:account_credit_control.field_res_config_settings__default_apply_max_policy_level
 msgid "Apply max policy level"
 msgstr ""
 
 #. module: account_credit_control
 #: model_terms:ir.ui.view,arch_db:account_credit_control.res_config_settings_view_form
-msgid ""
-"Apply max policy level for one partner in a "
-"credit                             control run execution to have all credit "
-"control lines on                             same communication level"
+msgid "Apply max policy level for one partner in a credit                             control run execution to have all credit control lines on                             same communication level"
 msgstr ""
 
 #. module: account_credit_control
-#: model_terms:ir.ui.view,arch_db:account_credit_control.credit_control_policy_form
-#: model_terms:ir.ui.view,arch_db:account_credit_control.res_partner_payment_action_type_form_view
+#: model_terms:ir.ui.view,arch_db:account_credit_control.credit_control_policy_form model_terms:ir.ui.view,arch_db:account_credit_control.res_partner_payment_action_type_form_view
 msgid "Archived"
 msgstr ""
 
@@ -250,17 +219,12 @@ msgid "Are you sure you want to set all Draft lines as Ready To Send?"
 msgstr ""
 
 #. module: account_credit_control
-#: model:ir.model.fields,field_description:account_credit_control.field_credit_control_communication__message_attachment_count
-#: model:ir.model.fields,field_description:account_credit_control.field_credit_control_line__message_attachment_count
+#: model:ir.model.fields,field_description:account_credit_control.field_credit_control_communication__message_attachment_count model:ir.model.fields,field_description:account_credit_control.field_credit_control_line__message_attachment_count
 msgid "Attachment Count"
 msgstr ""
 
 #. module: account_credit_control
-#: model_terms:credit.control.policy.level,custom_mail_text:account_credit_control.2_time_1
-#: model_terms:credit.control.policy.level,custom_mail_text:account_credit_control.2_time_2
-#: model_terms:credit.control.policy.level,custom_mail_text:account_credit_control.3_time_1
-#: model_terms:credit.control.policy.level,custom_mail_text:account_credit_control.3_time_2
-#: model_terms:credit.control.policy.level,custom_mail_text:account_credit_control.3_time_3
+#: model_terms:credit.control.policy.level,custom_mail_text:account_credit_control.2_time_1 model_terms:credit.control.policy.level,custom_mail_text:account_credit_control.2_time_2 model_terms:credit.control.policy.level,custom_mail_text:account_credit_control.3_time_1 model_terms:credit.control.policy.level,custom_mail_text:account_credit_control.3_time_2 model_terms:credit.control.policy.level,custom_mail_text:account_credit_control.3_time_3
 msgid "Best regards"
 msgstr ""
 
@@ -271,23 +235,17 @@ msgid "Can not get function for computation mode: %s is not implemented"
 msgstr ""
 
 #. module: account_credit_control
-#: model_terms:ir.ui.view,arch_db:account_credit_control.credit_control_policy_changer_form
-#: model_terms:ir.ui.view,arch_db:account_credit_control.credit_line_emailer_form
-#: model_terms:ir.ui.view,arch_db:account_credit_control.credit_line_marker_form
-#: model_terms:ir.ui.view,arch_db:account_credit_control.credit_line_printer_form
+#: model_terms:ir.ui.view,arch_db:account_credit_control.credit_control_policy_changer_form model_terms:ir.ui.view,arch_db:account_credit_control.credit_line_emailer_form model_terms:ir.ui.view,arch_db:account_credit_control.credit_line_marker_form model_terms:ir.ui.view,arch_db:account_credit_control.credit_line_printer_form
 msgid "Cancel"
 msgstr "Скасувати"
 
 #. module: account_credit_control
-#: model:ir.actions.act_window,name:account_credit_control.open_credit_line_marker_wizard
-#: model:ir.actions.act_window,name:account_credit_control.open_credit_line_marker_wizard_menu_action
-#: model_terms:ir.ui.view,arch_db:account_credit_control.credit_line_marker_form
+#: model:ir.actions.act_window,name:account_credit_control.open_credit_line_marker_wizard model:ir.actions.act_window,name:account_credit_control.open_credit_line_marker_wizard_menu_action model_terms:ir.ui.view,arch_db:account_credit_control.credit_line_marker_form
 msgid "Change Lines' State"
 msgstr ""
 
 #. module: account_credit_control
-#: model:ir.actions.act_window,name:account_credit_control.action_wizard_credit_policy_changer
-#: model:ir.actions.act_window,name:account_credit_control.action_wizard_credit_policy_changer_menu_action
+#: model:ir.actions.act_window,name:account_credit_control.action_wizard_credit_policy_changer model:ir.actions.act_window,name:account_credit_control.action_wizard_credit_policy_changer_menu_action
 msgid "Change current credit policy"
 msgstr ""
 
@@ -307,9 +265,7 @@ msgid "Change the state of the selected lines."
 msgstr ""
 
 #. module: account_credit_control
-#: model:ir.model.fields,field_description:account_credit_control.field_credit_control_line__channel
-#: model:ir.model.fields,field_description:account_credit_control.field_credit_control_policy_level__channel
-#: model_terms:ir.ui.view,arch_db:account_credit_control.credit_control_line_search
+#: model:ir.model.fields,field_description:account_credit_control.field_credit_control_line__channel model:ir.model.fields,field_description:account_credit_control.field_credit_control_policy_level__channel model_terms:ir.ui.view,arch_db:account_credit_control.credit_control_line_search
 msgid "Channel"
 msgstr ""
 
@@ -324,8 +280,7 @@ msgid "Communication process"
 msgstr ""
 
 #. module: account_credit_control
-#: model:ir.ui.menu,name:account_credit_control.credit_control_communication_action_menu
-#: model_terms:ir.ui.view,arch_db:account_credit_control.credit_control_run_form
+#: model:ir.ui.menu,name:account_credit_control.credit_control_communication_action_menu model_terms:ir.ui.view,arch_db:account_credit_control.credit_control_run_form
 msgid "Communications"
 msgstr ""
 
@@ -335,13 +290,7 @@ msgid "Companies"
 msgstr ""
 
 #. module: account_credit_control
-#: model:ir.model.fields,field_description:account_credit_control.field_credit_control_analysis__company_id
-#: model:ir.model.fields,field_description:account_credit_control.field_credit_control_communication__company_id
-#: model:ir.model.fields,field_description:account_credit_control.field_credit_control_line__company_id
-#: model:ir.model.fields,field_description:account_credit_control.field_credit_control_policy__company_id
-#: model:ir.model.fields,field_description:account_credit_control.field_credit_control_run__company_id
-#: model:ir.model.fields,field_description:account_credit_control.field_res_partner_payment_action_type__company_id
-#: model_terms:ir.ui.view,arch_db:account_credit_control.credit_control_communication_search_view
+#: model:ir.model.fields,field_description:account_credit_control.field_credit_control_analysis__company_id model:ir.model.fields,field_description:account_credit_control.field_credit_control_communication__company_id model:ir.model.fields,field_description:account_credit_control.field_credit_control_line__company_id model:ir.model.fields,field_description:account_credit_control.field_credit_control_policy__company_id model:ir.model.fields,field_description:account_credit_control.field_credit_control_run__company_id model:ir.model.fields,field_description:account_credit_control.field_res_partner_payment_action_type__company_id model_terms:ir.ui.view,arch_db:account_credit_control.credit_control_communication_search_view
 msgid "Company"
 msgstr ""
 
@@ -371,8 +320,7 @@ msgid "Contact Address"
 msgstr ""
 
 #. module: account_credit_control
-#: model_terms:ir.ui.view,arch_db:account_credit_control.credit_control_communication_form_view
-#: model_terms:ir.ui.view,arch_db:account_credit_control.credit_control_communication_search_view
+#: model_terms:ir.ui.view,arch_db:account_credit_control.credit_control_communication_form_view model_terms:ir.ui.view,arch_db:account_credit_control.credit_control_communication_search_view
 msgid "Control Credit Communications"
 msgstr ""
 
@@ -393,49 +341,22 @@ msgid "Controlling date"
 msgstr ""
 
 #. module: account_credit_control
-#: model:ir.model.fields,field_description:account_credit_control.field_credit_control_communication__create_uid
-#: model:ir.model.fields,field_description:account_credit_control.field_credit_control_emailer__create_uid
-#: model:ir.model.fields,field_description:account_credit_control.field_credit_control_line__create_uid
-#: model:ir.model.fields,field_description:account_credit_control.field_credit_control_marker__create_uid
-#: model:ir.model.fields,field_description:account_credit_control.field_credit_control_policy__create_uid
-#: model:ir.model.fields,field_description:account_credit_control.field_credit_control_policy_changer__create_uid
-#: model:ir.model.fields,field_description:account_credit_control.field_credit_control_policy_level__create_uid
-#: model:ir.model.fields,field_description:account_credit_control.field_credit_control_printer__create_uid
-#: model:ir.model.fields,field_description:account_credit_control.field_credit_control_run__create_uid
-#: model:ir.model.fields,field_description:account_credit_control.field_res_partner_payment_action_type__create_uid
+#: model:ir.model.fields,field_description:account_credit_control.field_credit_control_communication__create_uid model:ir.model.fields,field_description:account_credit_control.field_credit_control_emailer__create_uid model:ir.model.fields,field_description:account_credit_control.field_credit_control_line__create_uid model:ir.model.fields,field_description:account_credit_control.field_credit_control_marker__create_uid model:ir.model.fields,field_description:account_credit_control.field_credit_control_policy__create_uid model:ir.model.fields,field_description:account_credit_control.field_credit_control_policy_changer__create_uid model:ir.model.fields,field_description:account_credit_control.field_credit_control_policy_level__create_uid model:ir.model.fields,field_description:account_credit_control.field_credit_control_printer__create_uid model:ir.model.fields,field_description:account_credit_control.field_credit_control_run__create_uid model:ir.model.fields,field_description:account_credit_control.field_res_partner_payment_action_type__create_uid
 msgid "Created by"
 msgstr "Створив"
 
 #. module: account_credit_control
-#: model:ir.model.fields,field_description:account_credit_control.field_credit_control_communication__create_date
-#: model:ir.model.fields,field_description:account_credit_control.field_credit_control_emailer__create_date
-#: model:ir.model.fields,field_description:account_credit_control.field_credit_control_line__create_date
-#: model:ir.model.fields,field_description:account_credit_control.field_credit_control_marker__create_date
-#: model:ir.model.fields,field_description:account_credit_control.field_credit_control_policy__create_date
-#: model:ir.model.fields,field_description:account_credit_control.field_credit_control_policy_changer__create_date
-#: model:ir.model.fields,field_description:account_credit_control.field_credit_control_policy_level__create_date
-#: model:ir.model.fields,field_description:account_credit_control.field_credit_control_printer__create_date
-#: model:ir.model.fields,field_description:account_credit_control.field_credit_control_run__create_date
-#: model:ir.model.fields,field_description:account_credit_control.field_res_partner_payment_action_type__create_date
+#: model:ir.model.fields,field_description:account_credit_control.field_credit_control_communication__create_date model:ir.model.fields,field_description:account_credit_control.field_credit_control_emailer__create_date model:ir.model.fields,field_description:account_credit_control.field_credit_control_line__create_date model:ir.model.fields,field_description:account_credit_control.field_credit_control_marker__create_date model:ir.model.fields,field_description:account_credit_control.field_credit_control_policy__create_date model:ir.model.fields,field_description:account_credit_control.field_credit_control_policy_changer__create_date model:ir.model.fields,field_description:account_credit_control.field_credit_control_policy_level__create_date model:ir.model.fields,field_description:account_credit_control.field_credit_control_printer__create_date model:ir.model.fields,field_description:account_credit_control.field_credit_control_run__create_date model:ir.model.fields,field_description:account_credit_control.field_res_partner_payment_action_type__create_date
 msgid "Created on"
 msgstr "Дата створення"
 
 #. module: account_credit_control
-#: model:ir.module.category,name:account_credit_control.category_credit_control
-#: model:ir.ui.menu,name:account_credit_control.base_credit_control_configuration_menu
-#: model:ir.ui.menu,name:account_credit_control.base_credit_control_menu
-#: model_terms:ir.ui.view,arch_db:account_credit_control.partner_followup_form_view
-#: model_terms:ir.ui.view,arch_db:account_credit_control.partner_view_buttons
-#: model_terms:ir.ui.view,arch_db:account_credit_control.res_config_settings_view_form
-#: model_terms:ir.ui.view,arch_db:account_credit_control.view_move_form
+#: model:ir.module.category,name:account_credit_control.category_credit_control model:ir.ui.menu,name:account_credit_control.base_credit_control_configuration_menu model:ir.ui.menu,name:account_credit_control.base_credit_control_menu model_terms:ir.ui.view,arch_db:account_credit_control.partner_followup_form_view model_terms:ir.ui.view,arch_db:account_credit_control.partner_view_buttons model_terms:ir.ui.view,arch_db:account_credit_control.res_config_settings_view_form model_terms:ir.ui.view,arch_db:account_credit_control.view_move_form
 msgid "Credit Control"
 msgstr ""
 
 #. module: account_credit_control
-#: model:ir.actions.act_window,name:account_credit_control.credit_control_analysis_act_window
-#: model:ir.model,name:account_credit_control.model_credit_control_analysis
-#: model:ir.ui.menu,name:account_credit_control.credit_control_analysis_menu
-#: model_terms:ir.ui.view,arch_db:account_credit_control.credit_control_analysis_pivot_view
+#: model:ir.actions.act_window,name:account_credit_control.credit_control_analysis_act_window model:ir.model,name:account_credit_control.model_credit_control_analysis model:ir.ui.menu,name:account_credit_control.credit_control_analysis_menu model_terms:ir.ui.view,arch_db:account_credit_control.credit_control_analysis_pivot_view
 msgid "Credit Control Analysis"
 msgstr ""
 
@@ -450,32 +371,22 @@ msgid "Credit Control Email"
 msgstr ""
 
 #. module: account_credit_control
-#: model:ir.model.fields,field_description:account_credit_control.field_res_partner__credit_control_analysis_ids
-#: model:ir.model.fields,field_description:account_credit_control.field_res_users__credit_control_analysis_ids
+#: model:ir.model.fields,field_description:account_credit_control.field_res_partner__credit_control_analysis_ids model:ir.model.fields,field_description:account_credit_control.field_res_users__credit_control_analysis_ids
 msgid "Credit Control Levels"
 msgstr ""
 
 #. module: account_credit_control
-#: model:ir.actions.act_window,name:account_credit_control.credit_control_line_action
-#: model:ir.model.fields,field_description:account_credit_control.field_credit_control_emailer__line_ids
-#: model:ir.model.fields,field_description:account_credit_control.field_credit_control_marker__line_ids
-#: model:ir.model.fields,field_description:account_credit_control.field_credit_control_printer__line_ids
+#: model:ir.actions.act_window,name:account_credit_control.credit_control_line_action model:ir.model.fields,field_description:account_credit_control.field_credit_control_emailer__line_ids model:ir.model.fields,field_description:account_credit_control.field_credit_control_marker__line_ids model:ir.model.fields,field_description:account_credit_control.field_credit_control_printer__line_ids
 msgid "Credit Control Lines"
 msgstr ""
 
 #. module: account_credit_control
-#: model:ir.actions.act_window,name:account_credit_control.credit_policy_configuration_action
-#: model:ir.ui.menu,name:account_credit_control.credit_policy_configuration_action_menu
+#: model:ir.actions.act_window,name:account_credit_control.credit_policy_configuration_action model:ir.ui.menu,name:account_credit_control.credit_policy_configuration_action_menu
 msgid "Credit Control Policies"
 msgstr ""
 
 #. module: account_credit_control
-#: model:ir.model.fields,field_description:account_credit_control.field_account_bank_statement_line__credit_policy_id
-#: model:ir.model.fields,field_description:account_credit_control.field_account_move__credit_policy_id
-#: model:ir.model.fields,field_description:account_credit_control.field_res_company__credit_policy_id
-#: model:ir.model.fields,field_description:account_credit_control.field_res_config_settings__credit_policy_id
-#: model:ir.model.fields,field_description:account_credit_control.field_res_partner__credit_policy_id
-#: model:ir.model.fields,field_description:account_credit_control.field_res_users__credit_policy_id
+#: model:ir.model.fields,field_description:account_credit_control.field_account_bank_statement_line__credit_policy_id model:ir.model.fields,field_description:account_credit_control.field_account_move__credit_policy_id model:ir.model.fields,field_description:account_credit_control.field_res_company__credit_policy_id model:ir.model.fields,field_description:account_credit_control.field_res_config_settings__credit_policy_id model:ir.model.fields,field_description:account_credit_control.field_res_partner__credit_policy_id model:ir.model.fields,field_description:account_credit_control.field_res_users__credit_policy_id
 msgid "Credit Control Policy"
 msgstr ""
 
@@ -495,8 +406,7 @@ msgid "Credit Control Summary"
 msgstr ""
 
 #. module: account_credit_control
-#: model:ir.model.fields,field_description:account_credit_control.field_res_company__credit_control_tolerance
-#: model:ir.model.fields,field_description:account_credit_control.field_res_config_settings__credit_control_tolerance
+#: model:ir.model.fields,field_description:account_credit_control.field_res_company__credit_control_tolerance model:ir.model.fields,field_description:account_credit_control.field_res_config_settings__credit_control_tolerance
 msgid "Credit Control Tolerance"
 msgstr ""
 
@@ -506,12 +416,7 @@ msgid "Credit Control: ({{object.policy_level_id.name or 'n/a'}})"
 msgstr ""
 
 #. module: account_credit_control
-#: model:ir.actions.act_window,name:account_credit_control.act_account_credit_relation_relation
-#: model:ir.actions.act_window,name:account_credit_control.act_partner_credit_relation_relation
-#: model:ir.model.fields,field_description:account_credit_control.field_account_account__credit_control_line_ids
-#: model:ir.model.fields,field_description:account_credit_control.field_account_bank_statement_line__credit_control_line_ids
-#: model:ir.model.fields,field_description:account_credit_control.field_account_move__credit_control_line_ids
-#: model:ir.model.fields,field_description:account_credit_control.field_credit_control_communication__credit_control_line_ids
+#: model:ir.actions.act_window,name:account_credit_control.act_account_credit_relation_relation model:ir.actions.act_window,name:account_credit_control.act_partner_credit_relation_relation model:ir.model.fields,field_description:account_credit_control.field_account_account__credit_control_line_ids model:ir.model.fields,field_description:account_credit_control.field_account_bank_statement_line__credit_control_line_ids model:ir.model.fields,field_description:account_credit_control.field_account_move__credit_control_line_ids model:ir.model.fields,field_description:account_credit_control.field_credit_control_communication__credit_control_line_ids
 msgid "Credit Lines"
 msgstr ""
 
@@ -521,8 +426,7 @@ msgid "Credit Tolerance Limit"
 msgstr ""
 
 #. module: account_credit_control
-#: model:mail.message.subtype,name:account_credit_control.mt_credit_control_new
-#: model:mail.message.subtype,name:account_credit_control.mt_request
+#: model:mail.message.subtype,name:account_credit_control.mt_credit_control_new model:mail.message.subtype,name:account_credit_control.mt_request
 msgid "Credit control"
 msgstr ""
 
@@ -542,21 +446,17 @@ msgid "Credit control notification"
 msgstr ""
 
 #. module: account_credit_control
-#: model_terms:ir.ui.view,arch_db:account_credit_control.credit_control_communication_search_view
-#: model_terms:ir.ui.view,arch_db:account_credit_control.credit_control_line_search
+#: model_terms:ir.ui.view,arch_db:account_credit_control.credit_control_communication_search_view model_terms:ir.ui.view,arch_db:account_credit_control.credit_control_line_search
 msgid "Credit policy"
 msgstr ""
 
 #. module: account_credit_control
-#: model_terms:ir.ui.view,arch_db:account_credit_control.credit_control_communication_search_view
-#: model_terms:ir.ui.view,arch_db:account_credit_control.credit_control_line_search
+#: model_terms:ir.ui.view,arch_db:account_credit_control.credit_control_communication_search_view model_terms:ir.ui.view,arch_db:account_credit_control.credit_control_line_search
 msgid "Credit policy level"
 msgstr ""
 
 #. module: account_credit_control
-#: model:ir.model.fields,field_description:account_credit_control.field_credit_control_analysis__currency_id
-#: model:ir.model.fields,field_description:account_credit_control.field_credit_control_communication__currency_id
-#: model:ir.model.fields,field_description:account_credit_control.field_credit_control_line__currency_id
+#: model:ir.model.fields,field_description:account_credit_control.field_credit_control_analysis__currency_id model:ir.model.fields,field_description:account_credit_control.field_credit_control_communication__currency_id model:ir.model.fields,field_description:account_credit_control.field_credit_control_line__currency_id
 msgid "Currency"
 msgstr ""
 
@@ -576,8 +476,7 @@ msgid "Custom Message after details"
 msgstr ""
 
 #. module: account_credit_control
-#: model:ir.model.fields,field_description:account_credit_control.field_res_partner__payment_note
-#: model:ir.model.fields,field_description:account_credit_control.field_res_users__payment_note
+#: model:ir.model.fields,field_description:account_credit_control.field_res_partner__payment_note model:ir.model.fields,field_description:account_credit_control.field_res_users__payment_note
 msgid "Customer Payment Promise"
 msgstr ""
 
@@ -602,23 +501,12 @@ msgid "Delay (in days)"
 msgstr ""
 
 #. module: account_credit_control
-#: model_terms:ir.ui.view,arch_db:account_credit_control.credit_control_policy_form
-#: model_terms:ir.ui.view,arch_db:account_credit_control.credit_mangement_policy_level_form
+#: model_terms:ir.ui.view,arch_db:account_credit_control.credit_control_policy_form model_terms:ir.ui.view,arch_db:account_credit_control.credit_mangement_policy_level_form
 msgid "Delay Setting"
 msgstr ""
 
 #. module: account_credit_control
-#: model:ir.model.fields,field_description:account_credit_control.field_credit_control_analysis__display_name
-#: model:ir.model.fields,field_description:account_credit_control.field_credit_control_communication__display_name
-#: model:ir.model.fields,field_description:account_credit_control.field_credit_control_emailer__display_name
-#: model:ir.model.fields,field_description:account_credit_control.field_credit_control_line__display_name
-#: model:ir.model.fields,field_description:account_credit_control.field_credit_control_marker__display_name
-#: model:ir.model.fields,field_description:account_credit_control.field_credit_control_policy__display_name
-#: model:ir.model.fields,field_description:account_credit_control.field_credit_control_policy_changer__display_name
-#: model:ir.model.fields,field_description:account_credit_control.field_credit_control_policy_level__display_name
-#: model:ir.model.fields,field_description:account_credit_control.field_credit_control_printer__display_name
-#: model:ir.model.fields,field_description:account_credit_control.field_credit_control_run__display_name
-#: model:ir.model.fields,field_description:account_credit_control.field_res_partner_payment_action_type__display_name
+#: model:ir.model.fields,field_description:account_credit_control.field_credit_control_analysis__display_name model:ir.model.fields,field_description:account_credit_control.field_credit_control_communication__display_name model:ir.model.fields,field_description:account_credit_control.field_credit_control_emailer__display_name model:ir.model.fields,field_description:account_credit_control.field_credit_control_line__display_name model:ir.model.fields,field_description:account_credit_control.field_credit_control_marker__display_name model:ir.model.fields,field_description:account_credit_control.field_credit_control_policy__display_name model:ir.model.fields,field_description:account_credit_control.field_credit_control_policy_changer__display_name model:ir.model.fields,field_description:account_credit_control.field_credit_control_policy_level__display_name model:ir.model.fields,field_description:account_credit_control.field_credit_control_printer__display_name model:ir.model.fields,field_description:account_credit_control.field_credit_control_run__display_name model:ir.model.fields,field_description:account_credit_control.field_res_partner_payment_action_type__display_name
 msgid "Display Name"
 msgstr "Назва для відображення"
 
@@ -633,18 +521,12 @@ msgid "Do Nothing"
 msgstr ""
 
 #. module: account_credit_control
-#: model:ir.model.fields.selection,name:account_credit_control.selection__credit_control_line__state__sent
-#: model:ir.model.fields.selection,name:account_credit_control.selection__credit_control_marker__name__sent
-#: model:ir.model.fields.selection,name:account_credit_control.selection__credit_control_run__state__done
-#: model_terms:ir.ui.view,arch_db:account_credit_control.credit_control_line_search
+#: model:ir.model.fields.selection,name:account_credit_control.selection__credit_control_line__state__sent model:ir.model.fields.selection,name:account_credit_control.selection__credit_control_marker__name__sent model:ir.model.fields.selection,name:account_credit_control.selection__credit_control_run__state__done model_terms:ir.ui.view,arch_db:account_credit_control.credit_control_line_search
 msgid "Done"
 msgstr ""
 
 #. module: account_credit_control
-#: model:ir.model.fields.selection,name:account_credit_control.selection__credit_control_line__state__draft
-#: model:ir.model.fields.selection,name:account_credit_control.selection__credit_control_marker__name__draft
-#: model:ir.model.fields.selection,name:account_credit_control.selection__credit_control_run__state__draft
-#: model_terms:ir.ui.view,arch_db:account_credit_control.credit_control_line_search
+#: model:ir.model.fields.selection,name:account_credit_control.selection__credit_control_line__state__draft model:ir.model.fields.selection,name:account_credit_control.selection__credit_control_marker__name__draft model:ir.model.fields.selection,name:account_credit_control.selection__credit_control_run__state__draft model_terms:ir.ui.view,arch_db:account_credit_control.credit_control_line_search
 msgid "Draft"
 msgstr ""
 
@@ -683,14 +565,12 @@ msgstr ""
 
 #. module: account_credit_control
 #. odoo-python
-#: code:addons/account_credit_control/models/credit_control_communication.py:0
-#: model:ir.model.fields,field_description:account_credit_control.field_credit_control_line__date_due
+#: code:addons/account_credit_control/models/credit_control_communication.py:0 model:ir.model.fields,field_description:account_credit_control.field_credit_control_line__date_due
 msgid "Due date"
 msgstr ""
 
 #. module: account_credit_control
-#: model:ir.model.fields.selection,name:account_credit_control.selection__credit_control_line__channel__email
-#: model:ir.model.fields.selection,name:account_credit_control.selection__credit_control_policy_level__channel__email
+#: model:ir.model.fields.selection,name:account_credit_control.selection__credit_control_line__channel__email model:ir.model.fields.selection,name:account_credit_control.selection__credit_control_policy_level__channel__email
 msgid "Email"
 msgstr ""
 
@@ -715,8 +595,7 @@ msgid "Entry date"
 msgstr ""
 
 #. module: account_credit_control
-#: model:ir.model.fields.selection,name:account_credit_control.selection__credit_control_line__state__error
-#: model_terms:ir.ui.view,arch_db:account_credit_control.credit_control_line_search
+#: model:ir.model.fields.selection,name:account_credit_control.selection__credit_control_line__state__error model_terms:ir.ui.view,arch_db:account_credit_control.credit_control_line_search
 msgid "Error"
 msgstr ""
 
@@ -726,26 +605,22 @@ msgid "Filters"
 msgstr ""
 
 #. module: account_credit_control
-#: model:ir.model.fields,field_description:account_credit_control.field_res_partner__payment_responsible_id
-#: model:ir.model.fields,field_description:account_credit_control.field_res_users__payment_responsible_id
+#: model:ir.model.fields,field_description:account_credit_control.field_res_partner__payment_responsible_id model:ir.model.fields,field_description:account_credit_control.field_res_users__payment_responsible_id
 msgid "Follow-up Responsible"
 msgstr ""
 
 #. module: account_credit_control
-#: model:ir.model.fields,field_description:account_credit_control.field_credit_control_communication__message_follower_ids
-#: model:ir.model.fields,field_description:account_credit_control.field_credit_control_line__message_follower_ids
+#: model:ir.model.fields,field_description:account_credit_control.field_credit_control_communication__message_follower_ids model:ir.model.fields,field_description:account_credit_control.field_credit_control_line__message_follower_ids
 msgid "Followers"
 msgstr ""
 
 #. module: account_credit_control
-#: model:ir.model.fields,field_description:account_credit_control.field_credit_control_communication__message_partner_ids
-#: model:ir.model.fields,field_description:account_credit_control.field_credit_control_line__message_partner_ids
+#: model:ir.model.fields,field_description:account_credit_control.field_credit_control_communication__message_partner_ids model:ir.model.fields,field_description:account_credit_control.field_credit_control_line__message_partner_ids
 msgid "Followers (Partners)"
 msgstr ""
 
 #. module: account_credit_control
-#: model:ir.model.fields,help:account_credit_control.field_credit_control_communication__activity_type_icon
-#: model:ir.model.fields,help:account_credit_control.field_credit_control_line__activity_type_icon
+#: model:ir.model.fields,help:account_credit_control.field_credit_control_communication__activity_type_icon model:ir.model.fields,help:account_credit_control.field_credit_control_line__activity_type_icon
 msgid "Font awesome icon e.g. fa-tasks"
 msgstr ""
 
@@ -767,20 +642,16 @@ msgstr ""
 
 #. module: account_credit_control
 #: model_terms:ir.actions.act_window,help:account_credit_control.credit_control_communication_action
-msgid ""
-"Go to <i>Invoicing &gt; Credit Control &gt; Credit Control Run</i> to create "
-"a new credit control communication process."
+msgid "Go to <i>Invoicing &gt; Credit Control &gt; Credit Control Run</i> to create a new credit control communication process."
 msgstr ""
 
 #. module: account_credit_control
-#: model_terms:ir.ui.view,arch_db:account_credit_control.credit_control_communication_search_view
-#: model_terms:ir.ui.view,arch_db:account_credit_control.credit_control_line_search
+#: model_terms:ir.ui.view,arch_db:account_credit_control.credit_control_communication_search_view model_terms:ir.ui.view,arch_db:account_credit_control.credit_control_line_search
 msgid "Group By"
 msgstr ""
 
 #. module: account_credit_control
-#: model:ir.model.fields,field_description:account_credit_control.field_credit_control_communication__has_message
-#: model:ir.model.fields,field_description:account_credit_control.field_credit_control_line__has_message
+#: model:ir.model.fields,field_description:account_credit_control.field_credit_control_communication__has_message model:ir.model.fields,field_description:account_credit_control.field_credit_control_line__has_message
 msgid "Has Message"
 msgstr ""
 
@@ -790,65 +661,45 @@ msgid "Hide Change State Button"
 msgstr ""
 
 #. module: account_credit_control
-#: model:ir.model.fields,field_description:account_credit_control.field_credit_control_analysis__id
-#: model:ir.model.fields,field_description:account_credit_control.field_credit_control_communication__id
-#: model:ir.model.fields,field_description:account_credit_control.field_credit_control_emailer__id
-#: model:ir.model.fields,field_description:account_credit_control.field_credit_control_line__id
-#: model:ir.model.fields,field_description:account_credit_control.field_credit_control_marker__id
-#: model:ir.model.fields,field_description:account_credit_control.field_credit_control_policy__id
-#: model:ir.model.fields,field_description:account_credit_control.field_credit_control_policy_changer__id
-#: model:ir.model.fields,field_description:account_credit_control.field_credit_control_policy_level__id
-#: model:ir.model.fields,field_description:account_credit_control.field_credit_control_printer__id
-#: model:ir.model.fields,field_description:account_credit_control.field_credit_control_run__id
-#: model:ir.model.fields,field_description:account_credit_control.field_res_partner_payment_action_type__id
+#: model:ir.model.fields,field_description:account_credit_control.field_credit_control_analysis__id model:ir.model.fields,field_description:account_credit_control.field_credit_control_communication__id model:ir.model.fields,field_description:account_credit_control.field_credit_control_emailer__id model:ir.model.fields,field_description:account_credit_control.field_credit_control_line__id model:ir.model.fields,field_description:account_credit_control.field_credit_control_marker__id model:ir.model.fields,field_description:account_credit_control.field_credit_control_policy__id model:ir.model.fields,field_description:account_credit_control.field_credit_control_policy_changer__id model:ir.model.fields,field_description:account_credit_control.field_credit_control_policy_level__id model:ir.model.fields,field_description:account_credit_control.field_credit_control_printer__id model:ir.model.fields,field_description:account_credit_control.field_credit_control_run__id model:ir.model.fields,field_description:account_credit_control.field_res_partner_payment_action_type__id
 msgid "ID"
 msgstr "ID"
 
 #. module: account_credit_control
-#: model:ir.model.fields,field_description:account_credit_control.field_credit_control_communication__activity_exception_icon
-#: model:ir.model.fields,field_description:account_credit_control.field_credit_control_line__activity_exception_icon
+#: model:ir.model.fields,field_description:account_credit_control.field_credit_control_communication__activity_exception_icon model:ir.model.fields,field_description:account_credit_control.field_credit_control_line__activity_exception_icon
 msgid "Icon"
 msgstr ""
 
 #. module: account_credit_control
-#: model:ir.model.fields,help:account_credit_control.field_credit_control_communication__activity_exception_icon
-#: model:ir.model.fields,help:account_credit_control.field_credit_control_line__activity_exception_icon
+#: model:ir.model.fields,help:account_credit_control.field_credit_control_communication__activity_exception_icon model:ir.model.fields,help:account_credit_control.field_credit_control_line__activity_exception_icon
 msgid "Icon to indicate an exception activity."
 msgstr ""
 
 #. module: account_credit_control
 #: model:ir.model.fields,help:account_credit_control.field_credit_control_run__manual_ids
-msgid ""
-"If a credit control line has been generatedon a policy and the policy has "
-"been changed in the meantime, it has to be handled manually"
+msgid "If a credit control line has been generatedon a policy and the policy has been changed in the meantime, it has to be handled manually"
 msgstr ""
 
 #. module: account_credit_control
-#: model:ir.model.fields,help:account_credit_control.field_credit_control_communication__message_needaction
-#: model:ir.model.fields,help:account_credit_control.field_credit_control_line__message_needaction
+#: model:ir.model.fields,help:account_credit_control.field_credit_control_communication__message_needaction model:ir.model.fields,help:account_credit_control.field_credit_control_line__message_needaction
 msgid "If checked, new messages require your attention."
 msgstr ""
 
 #. module: account_credit_control
-#: model:ir.model.fields,help:account_credit_control.field_credit_control_communication__message_has_error
-#: model:ir.model.fields,help:account_credit_control.field_credit_control_line__message_has_error
+#: model:ir.model.fields,help:account_credit_control.field_credit_control_communication__message_has_error model:ir.model.fields,help:account_credit_control.field_credit_control_line__message_has_error
 msgid "If checked, some messages have a delivery error."
 msgstr ""
 
 #. module: account_credit_control
 #: model_terms:credit.control.policy.level,custom_mail_text:account_credit_control.2_time_2
 msgid ""
-"If payment have already been sent, please disregard this notice. If not, "
-"please proceed with payment.<br>\n"
-"  If your payment has not been received in the next 5 days, your file will "
-"be transferred to our debt\n"
+"If payment have already been sent, please disregard this notice. If not, please proceed with payment.<br>\n"
+"  If your payment has not been received in the next 5 days, your file will be transferred to our debt\n"
 "  collection agency."
 msgstr ""
 
 #. module: account_credit_control
-#: model:ir.model.fields.selection,name:account_credit_control.selection__credit_control_line__state__ignored
-#: model:ir.model.fields.selection,name:account_credit_control.selection__credit_control_marker__name__ignored
-#: model_terms:ir.ui.view,arch_db:account_credit_control.credit_control_line_search
+#: model:ir.model.fields.selection,name:account_credit_control.selection__credit_control_line__state__ignored model:ir.model.fields.selection,name:account_credit_control.selection__credit_control_marker__name__ignored model_terms:ir.ui.view,arch_db:account_credit_control.credit_control_line_search
 msgid "Ignored"
 msgstr ""
 
@@ -858,8 +709,7 @@ msgid "Info"
 msgstr ""
 
 #. module: account_credit_control
-#: model:ir.model.fields,field_description:account_credit_control.field_credit_control_line__invoice_id
-#: model_terms:ir.ui.view,arch_db:account_credit_control.credit_control_line_search
+#: model:ir.model.fields,field_description:account_credit_control.field_credit_control_line__invoice_id model_terms:ir.ui.view,arch_db:account_credit_control.credit_control_line_search
 msgid "Invoice"
 msgstr ""
 
@@ -871,15 +721,13 @@ msgstr ""
 
 #. module: account_credit_control
 #. odoo-python
-#: code:addons/account_credit_control/models/credit_control_communication.py:0
-#: model_terms:ir.ui.view,arch_db:account_credit_control.report_credit_control_summary_document
+#: code:addons/account_credit_control/models/credit_control_communication.py:0 model_terms:ir.ui.view,arch_db:account_credit_control.report_credit_control_summary_document
 msgid "Invoice date"
 msgstr ""
 
 #. module: account_credit_control
 #. odoo-python
-#: code:addons/account_credit_control/models/credit_control_communication.py:0
-#: model_terms:ir.ui.view,arch_db:account_credit_control.report_credit_control_summary_document
+#: code:addons/account_credit_control/models/credit_control_communication.py:0 model_terms:ir.ui.view,arch_db:account_credit_control.report_credit_control_summary_document
 msgid "Invoice number"
 msgstr ""
 
@@ -895,8 +743,7 @@ msgid "Invoices summary"
 msgstr ""
 
 #. module: account_credit_control
-#: model:ir.model.fields,field_description:account_credit_control.field_credit_control_communication__message_is_follower
-#: model:ir.model.fields,field_description:account_credit_control.field_credit_control_line__message_is_follower
+#: model:ir.model.fields,field_description:account_credit_control.field_credit_control_communication__message_is_follower model:ir.model.fields,field_description:account_credit_control.field_credit_control_line__message_is_follower
 msgid "Is Follower"
 msgstr ""
 
@@ -911,44 +758,22 @@ msgid "Journal Entry"
 msgstr ""
 
 #. module: account_credit_control
-#: model:ir.model.fields,field_description:account_credit_control.field_credit_control_communication__write_uid
-#: model:ir.model.fields,field_description:account_credit_control.field_credit_control_emailer__write_uid
-#: model:ir.model.fields,field_description:account_credit_control.field_credit_control_line__write_uid
-#: model:ir.model.fields,field_description:account_credit_control.field_credit_control_marker__write_uid
-#: model:ir.model.fields,field_description:account_credit_control.field_credit_control_policy__write_uid
-#: model:ir.model.fields,field_description:account_credit_control.field_credit_control_policy_changer__write_uid
-#: model:ir.model.fields,field_description:account_credit_control.field_credit_control_policy_level__write_uid
-#: model:ir.model.fields,field_description:account_credit_control.field_credit_control_printer__write_uid
-#: model:ir.model.fields,field_description:account_credit_control.field_credit_control_run__write_uid
-#: model:ir.model.fields,field_description:account_credit_control.field_res_partner_payment_action_type__write_uid
+#: model:ir.model.fields,field_description:account_credit_control.field_credit_control_communication__write_uid model:ir.model.fields,field_description:account_credit_control.field_credit_control_emailer__write_uid model:ir.model.fields,field_description:account_credit_control.field_credit_control_line__write_uid model:ir.model.fields,field_description:account_credit_control.field_credit_control_marker__write_uid model:ir.model.fields,field_description:account_credit_control.field_credit_control_policy__write_uid model:ir.model.fields,field_description:account_credit_control.field_credit_control_policy_changer__write_uid model:ir.model.fields,field_description:account_credit_control.field_credit_control_policy_level__write_uid model:ir.model.fields,field_description:account_credit_control.field_credit_control_printer__write_uid model:ir.model.fields,field_description:account_credit_control.field_credit_control_run__write_uid model:ir.model.fields,field_description:account_credit_control.field_res_partner_payment_action_type__write_uid
 msgid "Last Updated by"
 msgstr "Востаннє оновив"
 
 #. module: account_credit_control
-#: model:ir.model.fields,field_description:account_credit_control.field_credit_control_communication__write_date
-#: model:ir.model.fields,field_description:account_credit_control.field_credit_control_emailer__write_date
-#: model:ir.model.fields,field_description:account_credit_control.field_credit_control_line__write_date
-#: model:ir.model.fields,field_description:account_credit_control.field_credit_control_marker__write_date
-#: model:ir.model.fields,field_description:account_credit_control.field_credit_control_policy__write_date
-#: model:ir.model.fields,field_description:account_credit_control.field_credit_control_policy_changer__write_date
-#: model:ir.model.fields,field_description:account_credit_control.field_credit_control_policy_level__write_date
-#: model:ir.model.fields,field_description:account_credit_control.field_credit_control_printer__write_date
-#: model:ir.model.fields,field_description:account_credit_control.field_credit_control_run__write_date
-#: model:ir.model.fields,field_description:account_credit_control.field_res_partner_payment_action_type__write_date
+#: model:ir.model.fields,field_description:account_credit_control.field_credit_control_communication__write_date model:ir.model.fields,field_description:account_credit_control.field_credit_control_emailer__write_date model:ir.model.fields,field_description:account_credit_control.field_credit_control_line__write_date model:ir.model.fields,field_description:account_credit_control.field_credit_control_marker__write_date model:ir.model.fields,field_description:account_credit_control.field_credit_control_policy__write_date model:ir.model.fields,field_description:account_credit_control.field_credit_control_policy_changer__write_date model:ir.model.fields,field_description:account_credit_control.field_credit_control_policy_level__write_date model:ir.model.fields,field_description:account_credit_control.field_credit_control_printer__write_date model:ir.model.fields,field_description:account_credit_control.field_credit_control_run__write_date model:ir.model.fields,field_description:account_credit_control.field_res_partner_payment_action_type__write_date
 msgid "Last Updated on"
 msgstr "Останнє оновлення"
 
 #. module: account_credit_control
-#: model:ir.model.fields.selection,name:account_credit_control.selection__credit_control_line__channel__letter
-#: model:ir.model.fields.selection,name:account_credit_control.selection__credit_control_policy_level__channel__letter
+#: model:ir.model.fields.selection,name:account_credit_control.selection__credit_control_line__channel__letter model:ir.model.fields.selection,name:account_credit_control.selection__credit_control_policy_level__channel__letter
 msgid "Letter"
 msgstr ""
 
 #. module: account_credit_control
-#: model:ir.model.fields,field_description:account_credit_control.field_credit_control_communication__policy_level_id
-#: model:ir.model.fields,field_description:account_credit_control.field_credit_control_line__level
-#: model:ir.model.fields,field_description:account_credit_control.field_credit_control_policy_level__level
-#: model_terms:ir.ui.view,arch_db:account_credit_control.credit_control_line_search
+#: model:ir.model.fields,field_description:account_credit_control.field_credit_control_communication__policy_level_id model:ir.model.fields,field_description:account_credit_control.field_credit_control_line__level model:ir.model.fields,field_description:account_credit_control.field_credit_control_policy_level__level model_terms:ir.ui.view,arch_db:account_credit_control.credit_control_line_search
 msgid "Level"
 msgstr ""
 
@@ -958,11 +783,7 @@ msgid "Level must be unique per policy"
 msgstr ""
 
 #. module: account_credit_control
-#: model:ir.ui.menu,name:account_credit_control.credit_control_line_action_menu
-#: model_terms:ir.ui.view,arch_db:account_credit_control.credit_control_run_form
-#: model_terms:ir.ui.view,arch_db:account_credit_control.credit_line_emailer_form
-#: model_terms:ir.ui.view,arch_db:account_credit_control.credit_line_marker_form
-#: model_terms:ir.ui.view,arch_db:account_credit_control.credit_line_printer_form
+#: model:ir.ui.menu,name:account_credit_control.credit_control_line_action_menu model_terms:ir.ui.view,arch_db:account_credit_control.credit_control_run_form model_terms:ir.ui.view,arch_db:account_credit_control.credit_line_emailer_form model_terms:ir.ui.view,arch_db:account_credit_control.credit_line_marker_form model_terms:ir.ui.view,arch_db:account_credit_control.credit_line_printer_form
 msgid "Lines"
 msgstr ""
 
@@ -992,8 +813,7 @@ msgid "Lines which have been ignored from previous runs."
 msgstr ""
 
 #. module: account_credit_control
-#: model_terms:ir.ui.view,arch_db:account_credit_control.credit_control_policy_form
-#: model_terms:ir.ui.view,arch_db:account_credit_control.credit_mangement_policy_level_form
+#: model_terms:ir.ui.view,arch_db:account_credit_control.credit_control_policy_form model_terms:ir.ui.view,arch_db:account_credit_control.credit_mangement_policy_level_form
 msgid "Mail and reporting"
 msgstr ""
 
@@ -1018,9 +838,7 @@ msgid "Manual Follow-Ups"
 msgstr ""
 
 #. module: account_credit_control
-#: model:ir.model.fields,field_description:account_credit_control.field_credit_control_line__manual_followup
-#: model:ir.model.fields,field_description:account_credit_control.field_res_partner__manual_followup
-#: model:ir.model.fields,field_description:account_credit_control.field_res_users__manual_followup
+#: model:ir.model.fields,field_description:account_credit_control.field_credit_control_line__manual_followup model:ir.model.fields,field_description:account_credit_control.field_res_partner__manual_followup model:ir.model.fields,field_description:account_credit_control.field_res_users__manual_followup
 msgid "Manual Followup"
 msgstr ""
 
@@ -1040,8 +858,7 @@ msgid "Manual followup"
 msgstr ""
 
 #. module: account_credit_control
-#: model:credit.control.policy.level,custom_text:account_credit_control.no_follow_1
-#: model_terms:credit.control.policy.level,custom_mail_text:account_credit_control.no_follow_1
+#: model:credit.control.policy.level,custom_text:account_credit_control.no_follow_1 model_terms:credit.control.policy.level,custom_mail_text:account_credit_control.no_follow_1
 msgid "Manual no follow"
 msgstr ""
 
@@ -1081,14 +898,12 @@ msgid "Max Level"
 msgstr ""
 
 #. module: account_credit_control
-#: model:ir.model.fields,field_description:account_credit_control.field_credit_control_communication__message_has_error
-#: model:ir.model.fields,field_description:account_credit_control.field_credit_control_line__message_has_error
+#: model:ir.model.fields,field_description:account_credit_control.field_credit_control_communication__message_has_error model:ir.model.fields,field_description:account_credit_control.field_credit_control_line__message_has_error
 msgid "Message Delivery error"
 msgstr ""
 
 #. module: account_credit_control
-#: model:ir.model.fields,field_description:account_credit_control.field_credit_control_communication__message_ids
-#: model:ir.model.fields,field_description:account_credit_control.field_credit_control_line__message_ids
+#: model:ir.model.fields,field_description:account_credit_control.field_credit_control_communication__message_ids model:ir.model.fields,field_description:account_credit_control.field_credit_control_line__message_ids
 msgid "Messages"
 msgstr ""
 
@@ -1108,15 +923,12 @@ msgid "Move lines to affect"
 msgstr ""
 
 #. module: account_credit_control
-#: model:ir.model.fields,field_description:account_credit_control.field_credit_control_communication__my_activity_date_deadline
-#: model:ir.model.fields,field_description:account_credit_control.field_credit_control_line__my_activity_date_deadline
+#: model:ir.model.fields,field_description:account_credit_control.field_credit_control_communication__my_activity_date_deadline model:ir.model.fields,field_description:account_credit_control.field_credit_control_line__my_activity_date_deadline
 msgid "My Activity Deadline"
 msgstr ""
 
 #. module: account_credit_control
-#: model:ir.model.fields,field_description:account_credit_control.field_credit_control_policy__name
-#: model:ir.model.fields,field_description:account_credit_control.field_credit_control_policy_level__name
-#: model:ir.model.fields,field_description:account_credit_control.field_res_partner_payment_action_type__name
+#: model:ir.model.fields,field_description:account_credit_control.field_credit_control_policy__name model:ir.model.fields,field_description:account_credit_control.field_credit_control_policy_level__name model:ir.model.fields,field_description:account_credit_control.field_res_partner_payment_action_type__name
 msgid "Name"
 msgstr ""
 
@@ -1131,46 +943,38 @@ msgid "New level to apply"
 msgstr ""
 
 #. module: account_credit_control
-#: model:ir.model.fields,field_description:account_credit_control.field_res_partner__payment_next_action
-#: model:ir.model.fields,field_description:account_credit_control.field_res_users__payment_next_action
+#: model:ir.model.fields,field_description:account_credit_control.field_res_partner__payment_next_action model:ir.model.fields,field_description:account_credit_control.field_res_users__payment_next_action
 msgid "Next Action"
 msgstr ""
 
 #. module: account_credit_control
-#: model:ir.model.fields,field_description:account_credit_control.field_res_partner__payment_next_action_date
-#: model:ir.model.fields,field_description:account_credit_control.field_res_users__payment_next_action_date
+#: model:ir.model.fields,field_description:account_credit_control.field_res_partner__payment_next_action_date model:ir.model.fields,field_description:account_credit_control.field_res_users__payment_next_action_date
 msgid "Next Action Date"
 msgstr ""
 
 #. module: account_credit_control
-#: model:ir.model.fields,field_description:account_credit_control.field_res_partner__payment_next_action_type
-#: model:ir.model.fields,field_description:account_credit_control.field_res_users__payment_next_action_type
+#: model:ir.model.fields,field_description:account_credit_control.field_res_partner__payment_next_action_type model:ir.model.fields,field_description:account_credit_control.field_res_users__payment_next_action_type
 msgid "Next Action Type"
 msgstr ""
 
 #. module: account_credit_control
-#: model:ir.model.fields,field_description:account_credit_control.field_credit_control_communication__activity_date_deadline
-#: model:ir.model.fields,field_description:account_credit_control.field_credit_control_line__activity_date_deadline
+#: model:ir.model.fields,field_description:account_credit_control.field_credit_control_communication__activity_date_deadline model:ir.model.fields,field_description:account_credit_control.field_credit_control_line__activity_date_deadline
 msgid "Next Activity Deadline"
 msgstr ""
 
 #. module: account_credit_control
-#: model:ir.model.fields,field_description:account_credit_control.field_credit_control_communication__activity_summary
-#: model:ir.model.fields,field_description:account_credit_control.field_credit_control_line__activity_summary
+#: model:ir.model.fields,field_description:account_credit_control.field_credit_control_communication__activity_summary model:ir.model.fields,field_description:account_credit_control.field_credit_control_line__activity_summary
 msgid "Next Activity Summary"
 msgstr ""
 
 #. module: account_credit_control
-#: model:ir.model.fields,field_description:account_credit_control.field_credit_control_communication__activity_type_id
-#: model:ir.model.fields,field_description:account_credit_control.field_credit_control_line__activity_type_id
+#: model:ir.model.fields,field_description:account_credit_control.field_credit_control_communication__activity_type_id model:ir.model.fields,field_description:account_credit_control.field_credit_control_line__activity_type_id
 msgid "Next Activity Type"
 msgstr ""
 
 #. module: account_credit_control
 #. odoo-python
-#: code:addons/account_credit_control/wizard/credit_control_emailer.py:0
-#: code:addons/account_credit_control/wizard/credit_control_marker.py:0
-#: code:addons/account_credit_control/wizard/credit_control_printer.py:0
+#: code:addons/account_credit_control/wizard/credit_control_emailer.py:0 code:addons/account_credit_control/wizard/credit_control_marker.py:0 code:addons/account_credit_control/wizard/credit_control_printer.py:0
 msgid "No credit control lines selected."
 msgstr ""
 
@@ -1191,26 +995,22 @@ msgid "No lines will be changed. All the selected lines are already done."
 msgstr ""
 
 #. module: account_credit_control
-#: model:ir.model.fields,field_description:account_credit_control.field_credit_control_communication__message_needaction_counter
-#: model:ir.model.fields,field_description:account_credit_control.field_credit_control_line__message_needaction_counter
+#: model:ir.model.fields,field_description:account_credit_control.field_credit_control_communication__message_needaction_counter model:ir.model.fields,field_description:account_credit_control.field_credit_control_line__message_needaction_counter
 msgid "Number of Actions"
 msgstr ""
 
 #. module: account_credit_control
-#: model:ir.model.fields,field_description:account_credit_control.field_credit_control_communication__message_has_error_counter
-#: model:ir.model.fields,field_description:account_credit_control.field_credit_control_line__message_has_error_counter
+#: model:ir.model.fields,field_description:account_credit_control.field_credit_control_communication__message_has_error_counter model:ir.model.fields,field_description:account_credit_control.field_credit_control_line__message_has_error_counter
 msgid "Number of errors"
 msgstr ""
 
 #. module: account_credit_control
-#: model:ir.model.fields,help:account_credit_control.field_credit_control_communication__message_needaction_counter
-#: model:ir.model.fields,help:account_credit_control.field_credit_control_line__message_needaction_counter
+#: model:ir.model.fields,help:account_credit_control.field_credit_control_communication__message_needaction_counter model:ir.model.fields,help:account_credit_control.field_credit_control_line__message_needaction_counter
 msgid "Number of messages requiring action"
 msgstr ""
 
 #. module: account_credit_control
-#: model:ir.model.fields,help:account_credit_control.field_credit_control_communication__message_has_error_counter
-#: model:ir.model.fields,help:account_credit_control.field_credit_control_line__message_has_error_counter
+#: model:ir.model.fields,help:account_credit_control.field_credit_control_communication__message_has_error_counter model:ir.model.fields,help:account_credit_control.field_credit_control_line__message_has_error_counter
 msgid "Number of messages with delivery error"
 msgstr ""
 
@@ -1226,26 +1026,19 @@ msgstr ""
 
 #. module: account_credit_control
 #: model:ir.model.fields,help:account_credit_control.field_credit_control_analysis__open_balance
-msgid ""
-"Open balance on credit control linesof same partner, policy and currency"
+msgid "Open balance on credit control linesof same partner, policy and currency"
 msgstr ""
 
 #. module: account_credit_control
-#: model:ir.model.fields,help:account_credit_control.field_res_partner__payment_responsible_id
-#: model:ir.model.fields,help:account_credit_control.field_res_users__payment_responsible_id
-msgid ""
-"Optionally you can assign a user to this field, which will make him "
-"responsible for the action."
+#: model:ir.model.fields,help:account_credit_control.field_res_partner__payment_responsible_id model:ir.model.fields,help:account_credit_control.field_res_users__payment_responsible_id
+msgid "Optionally you can assign a user to this field, which will make him responsible for the action."
 msgstr ""
 
 #. module: account_credit_control
-#: model:credit.control.policy.level,custom_text:account_credit_control.2_time_1
-#: model:credit.control.policy.level,custom_text:account_credit_control.3_time_1
+#: model:credit.control.policy.level,custom_text:account_credit_control.2_time_1 model:credit.control.policy.level,custom_text:account_credit_control.3_time_1
 msgid ""
-"Our records indicate that we have not received the payment of the invoice "
-"mentioned below.\n"
-"If it has already been sent, please disregard this notice. If not, please "
-"proceed with payment within 10 days.\n"
+"Our records indicate that we have not received the payment of the invoice mentioned below.\n"
+"If it has already been sent, please disregard this notice. If not, please proceed with payment within 10 days.\n"
 "\n"
 "Thank you in advance for your anticipated cooperation in this matter.\n"
 "\n"
@@ -1256,29 +1049,23 @@ msgstr ""
 #. module: account_credit_control
 #: model_terms:credit.control.policy.level,custom_mail_text:account_credit_control.3_time_1
 msgid ""
-"Our records indicate that we have not received the payment of the invoices "
-"mentioned in the attached document.\n"
+"Our records indicate that we have not received the payment of the invoices mentioned in the attached document.\n"
 "  <br>\n"
-"  If it has already been sent, please disregard this notice. If not, please "
-"proceed with payment within 10 days."
+"  If it has already been sent, please disregard this notice. If not, please proceed with payment within 10 days."
 msgstr ""
 
 #. module: account_credit_control
 #: model_terms:credit.control.policy.level,custom_mail_text:account_credit_control.2_time_1
 msgid ""
-"Our records indicate that we have not received the payment of the invoices "
-"mentioned in the attached document.<br>\n"
-"  If it has already been sent, please disregard this notice. If not, please "
-"proceed with payment within 10 days."
+"Our records indicate that we have not received the payment of the invoices mentioned in the attached document.<br>\n"
+"  If it has already been sent, please disregard this notice. If not, please proceed with payment within 10 days."
 msgstr ""
 
 #. module: account_credit_control
 #: model:credit.control.policy.level,custom_text:account_credit_control.3_time_2
 msgid ""
-"Our records indicate that we have not yet received the payment of the "
-"invoice mentioned below despite our first reminder.\n"
-"If it has already been sent, please disregard this notice. If not, please "
-"proceed with payment within 5 days.\n"
+"Our records indicate that we have not yet received the payment of the invoice mentioned below despite our first reminder.\n"
+"If it has already been sent, please disregard this notice. If not, please proceed with payment within 5 days.\n"
 "\n"
 "Thank you in advance for your anticipated cooperation in this matter.\n"
 "\n"
@@ -1289,40 +1076,30 @@ msgstr ""
 #. module: account_credit_control
 #: model_terms:credit.control.policy.level,custom_mail_text:account_credit_control.3_time_2
 msgid ""
-"Our records indicate that we have not yet received the payment of the "
-"invoices mentioned in the attached document despite our first reminder.<br>\n"
-"  If it has already been sent, please disregard this notice. If not, please "
-"proceed with payment within 5 days."
+"Our records indicate that we have not yet received the payment of the invoices mentioned in the attached document despite our first reminder.<br>\n"
+"  If it has already been sent, please disregard this notice. If not, please proceed with payment within 5 days."
 msgstr ""
 
 #. module: account_credit_control
 #: model_terms:credit.control.policy.level,custom_mail_text:account_credit_control.2_time_2
-msgid ""
-"Our records indicate that we still have not received the payment of the "
-"invoices mentioned in the attached document despite our reminder."
+msgid "Our records indicate that we still have not received the payment of the invoices mentioned in the attached document despite our reminder."
 msgstr ""
 
 #. module: account_credit_control
 #: model_terms:credit.control.policy.level,custom_mail_text:account_credit_control.3_time_3
 msgid ""
-"Our records indicate that we still have not received the payment of the "
-"invoices mentioned in the attached document despite our two reminders.<br>\n"
-"  If payment have already been sent, please disregard this notice. If not, "
-"please proceed with payment.<br>\n"
-"  If your payment has not been received in the next 5 days, your file will "
-"be transferred to our debt collection agency."
+"Our records indicate that we still have not received the payment of the invoices mentioned in the attached document despite our two reminders.<br>\n"
+"  If payment have already been sent, please disregard this notice. If not, please proceed with payment.<br>\n"
+"  If your payment has not been received in the next 5 days, your file will be transferred to our debt collection agency."
 msgstr ""
 
 #. module: account_credit_control
 #: model:credit.control.policy.level,custom_text:account_credit_control.2_time_2
 msgid ""
-"Our records indicate that we still have not received the payment of the "
-"mentioned below invoice despite our reminder.\n"
+"Our records indicate that we still have not received the payment of the mentioned below invoice despite our reminder.\n"
 "\n"
-"If payment have already been sent, please disregard this notice. If not, "
-"please proceed with payment.\n"
-"If your payment has not been received in the next 5 days, your file will be "
-"transferred to our debt collection agency.\n"
+"If payment have already been sent, please disregard this notice. If not, please proceed with payment.\n"
+"If your payment has not been received in the next 5 days, your file will be transferred to our debt collection agency.\n"
 "\n"
 "Should you need us to arrange a payment plan for you, please advise.\n"
 "A customer account statement is enclosed for you convenience.\n"
@@ -1344,24 +1121,17 @@ msgid "Overdue Balance"
 msgstr ""
 
 #. module: account_credit_control
-#: model:ir.model.fields,field_description:account_credit_control.field_credit_control_analysis__policy_level_id
-#: model:ir.model.fields,field_description:account_credit_control.field_credit_control_line__policy_level_id
+#: model:ir.model.fields,field_description:account_credit_control.field_credit_control_analysis__policy_level_id model:ir.model.fields,field_description:account_credit_control.field_credit_control_line__policy_level_id
 msgid "Overdue Level"
 msgstr ""
 
 #. module: account_credit_control
-#: model:ir.model.fields,field_description:account_credit_control.field_credit_control_analysis__partner_id
-#: model:ir.model.fields,field_description:account_credit_control.field_credit_control_communication__partner_id
-#: model:ir.model.fields,field_description:account_credit_control.field_credit_control_line__partner_id
-#: model_terms:ir.ui.view,arch_db:account_credit_control.credit_control_communication_search_view
-#: model_terms:ir.ui.view,arch_db:account_credit_control.credit_control_line_search
+#: model:ir.model.fields,field_description:account_credit_control.field_credit_control_analysis__partner_id model:ir.model.fields,field_description:account_credit_control.field_credit_control_communication__partner_id model:ir.model.fields,field_description:account_credit_control.field_credit_control_line__partner_id model_terms:ir.ui.view,arch_db:account_credit_control.credit_control_communication_search_view model_terms:ir.ui.view,arch_db:account_credit_control.credit_control_line_search
 msgid "Partner"
 msgstr ""
 
 #. module: account_credit_control
-#: model:ir.actions.act_window,name:account_credit_control.res_partner_payment_action_type_act_window
-#: model:ir.model,name:account_credit_control.model_res_partner_payment_action_type
-#: model:ir.ui.menu,name:account_credit_control.res_partner_payment_action_type_menu
+#: model:ir.actions.act_window,name:account_credit_control.res_partner_payment_action_type_act_window model:ir.model,name:account_credit_control.model_res_partner_payment_action_type model:ir.ui.menu,name:account_credit_control.res_partner_payment_action_type_menu
 msgid "Partner Payment Action Types"
 msgstr ""
 
@@ -1376,8 +1146,7 @@ msgid "Partners"
 msgstr ""
 
 #. module: account_credit_control
-#: model:ir.model.fields,help:account_credit_control.field_res_partner__payment_note
-#: model:ir.model.fields,help:account_credit_control.field_res_users__payment_note
+#: model:ir.model.fields,help:account_credit_control.field_res_partner__payment_note model:ir.model.fields,help:account_credit_control.field_res_users__payment_note
 msgid "Payment Note"
 msgstr ""
 
@@ -1388,8 +1157,7 @@ msgid "Payment Reference"
 msgstr ""
 
 #. module: account_credit_control
-#: model:ir.model.fields.selection,name:account_credit_control.selection__credit_control_line__channel__phone
-#: model:ir.model.fields.selection,name:account_credit_control.selection__credit_control_policy_level__channel__phone
+#: model:ir.model.fields.selection,name:account_credit_control.selection__credit_control_line__channel__phone model:ir.model.fields.selection,name:account_credit_control.selection__credit_control_policy_level__channel__phone
 msgid "Phone"
 msgstr ""
 
@@ -1406,23 +1174,19 @@ msgid "Please use wizard on customer invoices"
 msgstr ""
 
 #. module: account_credit_control
-#: model:ir.model.fields,field_description:account_credit_control.field_credit_control_run__policy_ids
-#: model_terms:ir.ui.view,arch_db:account_credit_control.credit_control_run_form
+#: model:ir.model.fields,field_description:account_credit_control.field_credit_control_run__policy_ids model_terms:ir.ui.view,arch_db:account_credit_control.credit_control_run_form
 msgid "Policies"
 msgstr ""
 
 #. module: account_credit_control
-#: model:ir.model.fields,field_description:account_credit_control.field_credit_control_analysis__policy_id
-#: model_terms:ir.ui.view,arch_db:account_credit_control.res_config_settings_view_form
+#: model:ir.model.fields,field_description:account_credit_control.field_credit_control_analysis__policy_id model_terms:ir.ui.view,arch_db:account_credit_control.res_config_settings_view_form
 msgid "Policy"
 msgstr ""
 
 #. module: account_credit_control
 #. odoo-python
 #: code:addons/account_credit_control/models/credit_control_policy.py:0
-msgid ""
-"Policy \"<b>%(name)s</b>\" has generated <b>%(len_policy_lines_generated)d "
-"Credit Control Lines.</b><br/>"
+msgid "Policy \"<b>%(name)s</b>\" has generated <b>%(len_policy_lines_generated)d Credit Control Lines.</b><br/>"
 msgstr ""
 
 #. module: account_credit_control
@@ -1452,8 +1216,7 @@ msgid "Print"
 msgstr ""
 
 #. module: account_credit_control
-#: model:ir.actions.act_window,name:account_credit_control.open_credit_line_printer_wizard
-#: model:ir.actions.act_window,name:account_credit_control.open_credit_line_printer_wizard_menu_action
+#: model:ir.actions.act_window,name:account_credit_control.open_credit_line_printer_wizard model:ir.actions.act_window,name:account_credit_control.open_credit_line_printer_wizard_menu_action
 msgid "Print Lines"
 msgstr ""
 
@@ -1473,15 +1236,12 @@ msgid "Queued"
 msgstr ""
 
 #. module: account_credit_control
-#: model:ir.model.fields,field_description:account_credit_control.field_credit_control_communication__rating_ids
-#: model:ir.model.fields,field_description:account_credit_control.field_credit_control_line__rating_ids
+#: model:ir.model.fields,field_description:account_credit_control.field_credit_control_communication__rating_ids model:ir.model.fields,field_description:account_credit_control.field_credit_control_line__rating_ids
 msgid "Ratings"
 msgstr ""
 
 #. module: account_credit_control
-#: model:ir.model.fields,field_description:account_credit_control.field_credit_control_communication__policy_id
-#: model:ir.model.fields,field_description:account_credit_control.field_credit_control_line__policy_id
-#: model:ir.model.fields,field_description:account_credit_control.field_credit_control_policy_level__policy_id
+#: model:ir.model.fields,field_description:account_credit_control.field_credit_control_communication__policy_id model:ir.model.fields,field_description:account_credit_control.field_credit_control_line__policy_id model:ir.model.fields,field_description:account_credit_control.field_credit_control_policy_level__policy_id
 msgid "Related Policy"
 msgstr ""
 
@@ -1491,8 +1251,7 @@ msgid "Reminded date"
 msgstr ""
 
 #. module: account_credit_control
-#: model:ir.model.fields,field_description:account_credit_control.field_credit_control_run__report
-#: model_terms:ir.ui.view,arch_db:account_credit_control.credit_control_run_form
+#: model:ir.model.fields,field_description:account_credit_control.field_credit_control_run__report model_terms:ir.ui.view,arch_db:account_credit_control.credit_control_run_form
 msgid "Report"
 msgstr ""
 
@@ -1502,8 +1261,7 @@ msgid "Report Date"
 msgstr ""
 
 #. module: account_credit_control
-#: model:ir.model.fields,field_description:account_credit_control.field_credit_control_communication__activity_user_id
-#: model:ir.model.fields,field_description:account_credit_control.field_credit_control_line__activity_user_id
+#: model:ir.model.fields,field_description:account_credit_control.field_credit_control_communication__activity_user_id model:ir.model.fields,field_description:account_credit_control.field_credit_control_line__activity_user_id
 msgid "Responsible User"
 msgstr ""
 
@@ -1513,8 +1271,7 @@ msgid "Run channel action"
 msgstr ""
 
 #. module: account_credit_control
-#: model_terms:ir.ui.view,arch_db:account_credit_control.credit_control_communication_search_view
-#: model_terms:ir.ui.view,arch_db:account_credit_control.credit_control_line_search
+#: model_terms:ir.ui.view,arch_db:account_credit_control.credit_control_communication_search_view model_terms:ir.ui.view,arch_db:account_credit_control.credit_control_line_search
 msgid "Run date"
 msgstr ""
 
@@ -1524,15 +1281,12 @@ msgid "Runs"
 msgstr ""
 
 #. module: account_credit_control
-#: model:ir.model.fields,field_description:account_credit_control.field_credit_control_line__partner_user_id
-#: model_terms:ir.ui.view,arch_db:account_credit_control.credit_control_communication_search_view
-#: model_terms:ir.ui.view,arch_db:account_credit_control.credit_control_line_search
+#: model:ir.model.fields,field_description:account_credit_control.field_credit_control_line__partner_user_id model_terms:ir.ui.view,arch_db:account_credit_control.credit_control_communication_search_view model_terms:ir.ui.view,arch_db:account_credit_control.credit_control_line_search
 msgid "Salesperson"
 msgstr ""
 
 #. module: account_credit_control
-#: model:ir.actions.act_window,name:account_credit_control.open_credit_line_emailer_wizard
-#: model:ir.actions.act_window,name:account_credit_control.open_credit_line_emailer_wizard_menu_action
+#: model:ir.actions.act_window,name:account_credit_control.open_credit_line_emailer_wizard model:ir.actions.act_window,name:account_credit_control.open_credit_line_emailer_wizard_menu_action
 msgid "Send By Email"
 msgstr ""
 
@@ -1572,8 +1326,7 @@ msgid "Set to ready all"
 msgstr ""
 
 #. module: account_credit_control
-#: model_terms:credit.control.policy.level,custom_mail_text:account_credit_control.2_time_2
-#: model_terms:credit.control.policy.level,custom_mail_text:account_credit_control.3_time_3
+#: model_terms:credit.control.policy.level,custom_mail_text:account_credit_control.2_time_2 model_terms:credit.control.policy.level,custom_mail_text:account_credit_control.3_time_3
 msgid ""
 "Should you need us to arrange a payment plan for you, please advise.<br>\n"
 "  A customer account statement is enclosed for you convenience."
@@ -1590,14 +1343,12 @@ msgid "Source"
 msgstr ""
 
 #. module: account_credit_control
-#: model:ir.model.fields,field_description:account_credit_control.field_credit_control_line__state
-#: model:ir.model.fields,field_description:account_credit_control.field_credit_control_run__state
+#: model:ir.model.fields,field_description:account_credit_control.field_credit_control_line__state model:ir.model.fields,field_description:account_credit_control.field_credit_control_run__state
 msgid "State"
 msgstr ""
 
 #. module: account_credit_control
-#: model:ir.model.fields,help:account_credit_control.field_credit_control_communication__activity_state
-#: model:ir.model.fields,help:account_credit_control.field_credit_control_line__activity_state
+#: model:ir.model.fields,help:account_credit_control.field_credit_control_communication__activity_state model:ir.model.fields,help:account_credit_control.field_credit_control_line__activity_state
 msgid ""
 "Status based on activities\n"
 "Overdue: Due date is already passed\n"
@@ -1611,43 +1362,28 @@ msgid "Summary"
 msgstr ""
 
 #. module: account_credit_control
-#: model_terms:credit.control.policy.level,custom_mail_text:account_credit_control.2_time_1
-#: model_terms:credit.control.policy.level,custom_mail_text:account_credit_control.2_time_2
-#: model_terms:credit.control.policy.level,custom_mail_text:account_credit_control.3_time_1
-#: model_terms:credit.control.policy.level,custom_mail_text:account_credit_control.3_time_2
-#: model_terms:credit.control.policy.level,custom_mail_text:account_credit_control.3_time_3
+#: model_terms:credit.control.policy.level,custom_mail_text:account_credit_control.2_time_1 model_terms:credit.control.policy.level,custom_mail_text:account_credit_control.2_time_2 model_terms:credit.control.policy.level,custom_mail_text:account_credit_control.3_time_1 model_terms:credit.control.policy.level,custom_mail_text:account_credit_control.3_time_2 model_terms:credit.control.policy.level,custom_mail_text:account_credit_control.3_time_3
 msgid "Thank you in advance for your anticipated cooperation in this matter."
 msgstr ""
 
 #. module: account_credit_control
 #: model_terms:ir.actions.act_window,help:account_credit_control.credit_control_communication_action
-msgid ""
-"That's the most common way of creating these records. However, you can do it "
-"from here too if you want, by pressing <i>Create</i>."
+msgid "That's the most common way of creating these records. However, you can do it from here too if you want, by pressing <i>Create</i>."
 msgstr ""
 
 #. module: account_credit_control
-#: model:ir.model.fields,help:account_credit_control.field_account_bank_statement_line__credit_policy_id
-#: model:ir.model.fields,help:account_credit_control.field_account_move__credit_policy_id
-msgid ""
-"The Credit Control Policy used for this invoice. If nothing is defined, it "
-"will use the account setting or the partner setting."
+#: model:ir.model.fields,help:account_credit_control.field_account_bank_statement_line__credit_policy_id model:ir.model.fields,help:account_credit_control.field_account_move__credit_policy_id
+msgid "The Credit Control Policy used for this invoice. If nothing is defined, it will use the account setting or the partner setting."
 msgstr ""
 
 #. module: account_credit_control
-#: model:ir.model.fields,help:account_credit_control.field_res_partner__credit_policy_id
-#: model:ir.model.fields,help:account_credit_control.field_res_users__credit_policy_id
-msgid ""
-"The Credit Control Policy used for this partner. This setting can be forced "
-"on the invoice. If nothing is defined, it will use the company setting."
+#: model:ir.model.fields,help:account_credit_control.field_res_partner__credit_policy_id model:ir.model.fields,help:account_credit_control.field_res_users__credit_policy_id
+msgid "The Credit Control Policy used for this partner. This setting can be forced on the invoice. If nothing is defined, it will use the company setting."
 msgstr ""
 
 #. module: account_credit_control
-#: model:ir.model.fields,help:account_credit_control.field_res_company__credit_policy_id
-#: model:ir.model.fields,help:account_credit_control.field_res_config_settings__credit_policy_id
-msgid ""
-"The Credit Control Policy used on partners by default. This setting can be "
-"overridden on partners or invoices."
+#: model:ir.model.fields,help:account_credit_control.field_res_company__credit_policy_id model:ir.model.fields,help:account_credit_control.field_res_config_settings__credit_policy_id
+msgid "The Credit Control Policy used on partners by default. This setting can be overridden on partners or invoices."
 msgstr ""
 
 #. module: account_credit_control
@@ -1672,14 +1408,12 @@ msgid "These lines are to do using the Actions."
 msgstr ""
 
 #. module: account_credit_control
-#: model:ir.model.fields,help:account_credit_control.field_res_partner__payment_next_action
-#: model:ir.model.fields,help:account_credit_control.field_res_users__payment_next_action
+#: model:ir.model.fields,help:account_credit_control.field_res_partner__payment_next_action model:ir.model.fields,help:account_credit_control.field_res_users__payment_next_action
 msgid "This is the next action to be taken."
 msgstr ""
 
 #. module: account_credit_control
-#: model:ir.model.fields,help:account_credit_control.field_res_partner__payment_next_action_date
-#: model:ir.model.fields,help:account_credit_control.field_res_users__payment_next_action_date
+#: model:ir.model.fields,help:account_credit_control.field_res_partner__payment_next_action_date model:ir.model.fields,help:account_credit_control.field_res_users__payment_next_action_date
 msgid "This is when the manual follow-up is needed."
 msgstr ""
 
@@ -1689,9 +1423,7 @@ msgid "This policy will be active only for the selected accounts"
 msgstr ""
 
 #. module: account_credit_control
-#: model:ir.model.fields.selection,name:account_credit_control.selection__credit_control_line__state__to_be_sent
-#: model:ir.model.fields.selection,name:account_credit_control.selection__credit_control_marker__name__to_be_sent
-#: model_terms:ir.ui.view,arch_db:account_credit_control.credit_control_line_search
+#: model:ir.model.fields.selection,name:account_credit_control.selection__credit_control_line__state__to_be_sent model:ir.model.fields.selection,name:account_credit_control.selection__credit_control_marker__name__to_be_sent model_terms:ir.ui.view,arch_db:account_credit_control.credit_control_line_search
 msgid "To Do"
 msgstr ""
 
@@ -1711,35 +1443,29 @@ msgid "Total Invoiced"
 msgstr ""
 
 #. module: account_credit_control
-#: model:ir.model.fields,help:account_credit_control.field_credit_control_communication__activity_exception_decoration
-#: model:ir.model.fields,help:account_credit_control.field_credit_control_line__activity_exception_decoration
+#: model:ir.model.fields,help:account_credit_control.field_credit_control_communication__activity_exception_decoration model:ir.model.fields,help:account_credit_control.field_credit_control_line__activity_exception_decoration
 msgid "Type of the exception activity on record."
 msgstr ""
 
 #. module: account_credit_control
-#: model:ir.model.fields,field_description:account_credit_control.field_credit_control_communication__user_id
-#: model:res.groups,name:account_credit_control.group_account_credit_control_user
+#: model:ir.model.fields,field_description:account_credit_control.field_credit_control_communication__user_id model:res.groups,name:account_credit_control.group_account_credit_control_user
 msgid "User"
 msgstr ""
 
 #. module: account_credit_control
-#: model:ir.model.fields,field_description:account_credit_control.field_credit_control_communication__website_message_ids
-#: model:ir.model.fields,field_description:account_credit_control.field_credit_control_line__website_message_ids
+#: model:ir.model.fields,field_description:account_credit_control.field_credit_control_communication__website_message_ids model:ir.model.fields,field_description:account_credit_control.field_credit_control_line__website_message_ids
 msgid "Website Messages"
 msgstr ""
 
 #. module: account_credit_control
-#: model:ir.model.fields,help:account_credit_control.field_credit_control_communication__website_message_ids
-#: model:ir.model.fields,help:account_credit_control.field_credit_control_line__website_message_ids
+#: model:ir.model.fields,help:account_credit_control.field_credit_control_communication__website_message_ids model:ir.model.fields,help:account_credit_control.field_credit_control_line__website_message_ids
 msgid "Website communication history"
 msgstr ""
 
 #. module: account_credit_control
 #. odoo-python
 #: code:addons/account_credit_control/models/credit_control_line.py:0
-msgid ""
-"You are not allowed to delete a credit control line that is not in draft "
-"state."
+msgid "You are not allowed to delete a credit control line that is not in draft state."
 msgstr ""
 
 #. module: account_credit_control
@@ -1764,6 +1490,11 @@ msgstr ""
 #: model:ir.model,name:account_credit_control.model_credit_control_communication
 msgid "credit control communication"
 msgstr ""
+
+#. module: account_credit_control
+#: model:ir.module.module,shortdesc:base.module_account_credit_control
+msgid "Account Credit Control"
+msgstr "Контроль дебіторської заборгованості"
 
 #~ msgid "Last Modified on"
 #~ msgstr "Остання модифікація"
