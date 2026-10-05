@@ -50,23 +50,23 @@ msgstr "Кількість рядків кредитного контролю"
 #. module: account_credit_control
 #: model:credit.control.policy.level,name:account_credit_control.3_time_3
 msgid "10 days last reminder"
-msgstr ""
+msgstr "10 днів, останнє нагадування"
 
 #. module: account_credit_control
 #: model:credit.control.policy.level,name:account_credit_control.3_time_1
 msgid "10 days net"
-msgstr ""
+msgstr "10 днів нетто"
 
 #. module: account_credit_control
 #: model:credit.control.policy.level,name:account_credit_control.2_time_1
 #: model:credit.control.policy.level,name:account_credit_control.3_time_2
 msgid "30 days end of month"
-msgstr ""
+msgstr "30 днів, кінець місяця"
 
 #. module: account_credit_control
 #: model:credit.control.policy.level,name:account_credit_control.2_time_2
 msgid "60 days last reminder"
-msgstr ""
+msgstr "60 днів, останнє нагадування"
 
 #. module: account_credit_control
 #: model:mail.template,body_html:account_credit_control.email_template_credit_control_base
@@ -116,7 +116,7 @@ msgstr "<strong>Усього виставлено</strong>"
 #. module: account_credit_control
 #: model:ir.model,name:account_credit_control.model_credit_control_line
 msgid "A credit control line"
-msgstr ""
+msgstr "Рядок кредитного контролю"
 
 #. module: account_credit_control
 #. odoo-python
@@ -129,7 +129,7 @@ msgstr ""
 #. module: account_credit_control
 #: model:ir.model,name:account_credit_control.model_credit_control_policy_level
 msgid "A credit control policy level"
-msgstr ""
+msgstr "Рівень політики кредитного контролю"
 
 #. module: account_credit_control
 #. odoo-python
@@ -216,6 +216,9 @@ msgid ""
 "Apply max policy lavel for one partner in a credit control run execution to "
 "have all credit control lines on same communication level"
 msgstr ""
+"Застосувати максимальний рівень політики для одного партнера під час запуску"
+" кредитного контролю, щоб усі рядки кредитного контролю були на одному рівні"
+" комунікації"
 
 #. module: account_credit_control
 #: model:ir.model.fields,field_description:account_credit_control.field_credit_control_policy__apply_max_policy_level
@@ -449,7 +452,7 @@ msgstr "Комунікації кредитного контролю"
 #. module: account_credit_control
 #: model:mail.template,name:account_credit_control.email_template_credit_control_base
 msgid "Credit Control Email"
-msgstr ""
+msgstr "Лист кредитного контролю"
 
 #. module: account_credit_control
 #: model:ir.model.fields,field_description:account_credit_control.field_res_partner__credit_control_analysis_ids
@@ -484,7 +487,7 @@ msgstr "Політика кредитного контролю"
 #. module: account_credit_control
 #: model:ir.model,name:account_credit_control.model_credit_control_policy_changer
 msgid "Credit Control Policy Changer"
-msgstr ""
+msgstr "Змінювач політики кредитного контролю"
 
 #. module: account_credit_control
 #: model:ir.actions.act_window,name:account_credit_control.credit_control_run
@@ -505,7 +508,7 @@ msgstr "Допуск кредитного контролю"
 #. module: account_credit_control
 #: model:mail.template,subject:account_credit_control.email_template_credit_control_base
 msgid "Credit Control: ({{object.policy_level_id.name or 'n/a'}})"
-msgstr ""
+msgstr "Кредитний контроль: ({{object.policy_level_id.name or 'n/a'}})"
 
 #. module: account_credit_control
 #: model:ir.actions.act_window,name:account_credit_control.act_account_credit_relation_relation
@@ -526,12 +529,12 @@ msgstr "Межа допустимого відхилення кредиту"
 #: model:mail.message.subtype,name:account_credit_control.mt_credit_control_new
 #: model:mail.message.subtype,name:account_credit_control.mt_request
 msgid "Credit control"
-msgstr ""
+msgstr "Кредитний контроль"
 
 #. module: account_credit_control
 #: model:ir.model.fields,help:account_credit_control.field_credit_control_line__communication_id
 msgid "Credit control communication process where this line belongs"
-msgstr ""
+msgstr "Процес комунікації кредитного контролю, до якого належить цей рядок"
 
 #. module: account_credit_control
 #: model:ir.model,name:account_credit_control.model_credit_control_run
@@ -541,7 +544,7 @@ msgstr ""
 #. module: account_credit_control
 #: model:mail.message.subtype,description:account_credit_control.mt_request
 msgid "Credit control notification"
-msgstr ""
+msgstr "Сповіщення кредитного контролю"
 
 #. module: account_credit_control
 #: model_terms:ir.ui.view,arch_db:account_credit_control.credit_control_communication_search_view
@@ -596,7 +599,7 @@ msgstr "Політика кредитного контролю контраге�
 #. module: account_credit_control
 #: model:ir.model,name:account_credit_control.model_credit_control_policy
 msgid "Define a reminder policy"
-msgstr ""
+msgstr "Визначити політику нагадувань"
 
 #. module: account_credit_control
 #: model:ir.model.fields,field_description:account_credit_control.field_credit_control_policy_level__delay_days
@@ -662,6 +665,9 @@ msgid ""
 "Ignored lines are lines for which we do not want to send something.\n"
 "Draft and ignored lines will be generated again on the next run."
 msgstr ""
+"Чернеткові рядки потрібно розібрати.\n"
+"Ігноровані рядки — це рядки, для яких нічого не потрібно надсилати.\n"
+"Чернеткові та ігноровані рядки буде створено знову під час наступного запуску."
 
 #. module: account_credit_control
 #: model:ir.model.fields,field_description:account_credit_control.field_credit_control_line__amount_due
@@ -754,7 +760,7 @@ msgstr "Піктограма Font Awesome, наприклад fa-tasks"
 #. module: account_credit_control
 #: model:ir.model.fields,help:account_credit_control.field_credit_control_policy__do_nothing
 msgid "For policies which should not generate lines or are obsolete"
-msgstr ""
+msgstr "Для політик, які не повинні створювати рядки або є застарілими"
 
 #. module: account_credit_control
 #. odoo-python
@@ -827,6 +833,8 @@ msgid ""
 "If a credit control line has been generatedon a policy and the policy has "
 "been changed in the meantime, it has to be handled manually"
 msgstr ""
+"Якщо рядок кредитного контролю було створено за політикою, а політику тим "
+"часом змінено, такий рядок потрібно опрацювати вручну."
 
 #. module: account_credit_control
 #: model:ir.model.fields,help:account_credit_control.field_credit_control_communication__message_needaction
@@ -847,6 +855,9 @@ msgid ""
 "  If your payment has not been received in the next 5 days, your file will be transferred to our debt\n"
 "  collection agency."
 msgstr ""
+"Якщо платіж уже надіслано, проігноруйте це повідомлення. Якщо ні, будь ласка, здійсніть оплату.<br>\n"
+"  Якщо ваш платіж не буде отримано протягом наступних 5 днів, вашу справу буде передано нашій агенції зі\n"
+"  стягнення заборгованості."
 
 #. module: account_credit_control
 #: model:ir.model.fields.selection,name:account_credit_control.selection__credit_control_line__state__ignored
@@ -958,7 +969,7 @@ msgstr "Рівень"
 #. module: account_credit_control
 #: model:ir.model.constraint,message:account_credit_control.constraint_credit_control_policy_level_unique_level
 msgid "Level must be unique per policy"
-msgstr ""
+msgstr "Рівень має бути унікальним у межах політики"
 
 #. module: account_credit_control
 #: model:ir.ui.menu,name:account_credit_control.credit_control_line_action_menu
@@ -1046,7 +1057,7 @@ msgstr "Ручне нагадування"
 #: model:credit.control.policy.level,custom_text:account_credit_control.no_follow_1
 #: model_terms:credit.control.policy.level,custom_mail_text:account_credit_control.no_follow_1
 msgid "Manual no follow"
-msgstr ""
+msgstr "Без автоматичного подальшого відстеження"
 
 #. module: account_credit_control
 #: model:ir.model.fields,field_description:account_credit_control.field_credit_control_line__manually_overridden
@@ -1066,17 +1077,17 @@ msgstr "Позначити рядки листа виконаними"
 #. module: account_credit_control
 #: model:ir.model,name:account_credit_control.model_credit_control_emailer
 msgid "Mass credit line emailer"
-msgstr ""
+msgstr "Масова розсилка кредитних рядків"
 
 #. module: account_credit_control
 #: model:ir.model,name:account_credit_control.model_credit_control_marker
 msgid "Mass marker"
-msgstr ""
+msgstr "Масовий маркер"
 
 #. module: account_credit_control
 #: model:ir.model,name:account_credit_control.model_credit_control_printer
 msgid "Mass printer"
-msgstr ""
+msgstr "Масовий принтер"
 
 #. module: account_credit_control
 #: model:ir.model.fields,field_description:account_credit_control.field_credit_control_analysis__level
@@ -1175,12 +1186,12 @@ msgstr "Тип наступної дії"
 #: code:addons/account_credit_control/wizard/credit_control_marker.py:0
 #: code:addons/account_credit_control/wizard/credit_control_printer.py:0
 msgid "No credit control lines selected."
-msgstr ""
+msgstr "Не вибрано жодного рядка кредитного контролю."
 
 #. module: account_credit_control
 #: model:credit.control.policy.level,name:account_credit_control.no_follow_1
 msgid "No follow"
-msgstr ""
+msgstr "Без подальшого контролю"
 
 #. module: account_credit_control
 #: model:ir.model.fields,field_description:account_credit_control.field_credit_control_policy_changer__do_nothing
@@ -1220,7 +1231,7 @@ msgstr "Кількість повідомлень із помилкою дост
 #. module: account_credit_control
 #: model:ir.model.fields,help:account_credit_control.field_credit_control_printer__mark_as_sent
 msgid "Only letter lines will be marked."
-msgstr ""
+msgstr "Позначатимуться лише рядки листів."
 
 #. module: account_credit_control
 #: model_terms:ir.ui.view,arch_db:account_credit_control.report_credit_control_summary_document
@@ -1232,6 +1243,8 @@ msgstr "Відкрита сума"
 msgid ""
 "Open balance on credit control linesof same partner, policy and currency"
 msgstr ""
+"Відкритий залишок за рядками кредитного контролю того самого партнера, "
+"політики та валюти"
 
 #. module: account_credit_control
 #: model:ir.model.fields,help:account_credit_control.field_res_partner__payment_responsible_id
@@ -1263,6 +1276,9 @@ msgid ""
 "  <br>\n"
 "  If it has already been sent, please disregard this notice. If not, please proceed with payment within 10 days."
 msgstr ""
+"За нашими даними, ми не отримали оплату рахунків-фактур, зазначених у доданому документі.\n"
+"  <br>\n"
+"  Якщо платіж уже надіслано, проігноруйте це повідомлення. Якщо ні, будь ласка, здійсніть оплату протягом 10 днів."
 
 #. module: account_credit_control
 #: model_terms:credit.control.policy.level,custom_mail_text:account_credit_control.2_time_1
@@ -1270,6 +1286,8 @@ msgid ""
 "Our records indicate that we have not received the payment of the invoices mentioned in the attached document.<br>\n"
 "  If it has already been sent, please disregard this notice. If not, please proceed with payment within 10 days."
 msgstr ""
+"За нашими даними, ми не отримали оплату рахунків-фактур, зазначених у доданому документі.<br>\n"
+"  Якщо платіж уже надіслано, проігноруйте це повідомлення. Якщо ні, будь ласка, здійсніть оплату протягом 10 днів."
 
 #. module: account_credit_control
 #: model:credit.control.policy.level,custom_text:account_credit_control.3_time_2
@@ -1289,6 +1307,8 @@ msgid ""
 "Our records indicate that we have not yet received the payment of the invoices mentioned in the attached document despite our first reminder.<br>\n"
 "  If it has already been sent, please disregard this notice. If not, please proceed with payment within 5 days."
 msgstr ""
+"За нашими даними, попри перше нагадування ми досі не отримали оплату рахунків-фактур, зазначених у доданому документі.<br>\n"
+"  Якщо платіж уже надіслано, проігноруйте це повідомлення. Якщо ні, будь ласка, здійсніть оплату протягом 5 днів."
 
 #. module: account_credit_control
 #: model_terms:credit.control.policy.level,custom_mail_text:account_credit_control.2_time_2
@@ -1296,6 +1316,8 @@ msgid ""
 "Our records indicate that we still have not received the payment of the "
 "invoices mentioned in the attached document despite our reminder."
 msgstr ""
+"За нашими даними, попри наше нагадування, ми досі не отримали оплату "
+"рахунків, зазначених у вкладеному документі."
 
 #. module: account_credit_control
 #: model_terms:credit.control.policy.level,custom_mail_text:account_credit_control.3_time_3
@@ -1304,6 +1326,9 @@ msgid ""
 "  If payment have already been sent, please disregard this notice. If not, please proceed with payment.<br>\n"
 "  If your payment has not been received in the next 5 days, your file will be transferred to our debt collection agency."
 msgstr ""
+"За нашими даними, попри два нагадування ми все ще не отримали оплату рахунків-фактур, зазначених у доданому документі.<br>\n"
+"  Якщо платіж уже надіслано, проігноруйте це повідомлення. Якщо ні, будь ласка, здійсніть оплату.<br>\n"
+"  Якщо ваш платіж не буде отримано протягом наступних 5 днів, вашу справу буде передано нашій агенції зі стягнення заборгованості."
 
 #. module: account_credit_control
 #: model:credit.control.policy.level,custom_text:account_credit_control.2_time_2
@@ -1567,6 +1592,8 @@ msgid ""
 "Should you need us to arrange a payment plan for you, please advise.<br>\n"
 "  A customer account statement is enclosed for you convenience."
 msgstr ""
+"Якщо вам потрібно, щоб ми організували для вас план платежів, повідомте нас.<br>\n"
+"До листа додано виписку з рахунку клієнта для вашої зручності."
 
 #. module: account_credit_control
 #: model:ir.model.fields,field_description:account_credit_control.field_credit_control_policy_level__mail_show_invoice_detail
@@ -1628,6 +1655,8 @@ msgid ""
 "The Credit Control Policy used for this invoice. If nothing is defined, it "
 "will use the account setting or the partner setting."
 msgstr ""
+"Політика кредитного контролю для цього рахунка. Якщо нічого не визначено, "
+"використовується налаштування рахунку або партнера."
 
 #. module: account_credit_control
 #: model:ir.model.fields,help:account_credit_control.field_res_partner__credit_policy_id
@@ -1647,6 +1676,8 @@ msgid ""
 "The Credit Control Policy used on partners by default. This setting can be "
 "overridden on partners or invoices."
 msgstr ""
+"Політика кредитного контролю, що за замовчуванням застосовується до "
+"партнерів. Її можна перевизначити для партнерів або рахунків."
 
 #. module: account_credit_control
 #: model_terms:ir.ui.view,arch_db:account_credit_control.credit_control_line_search
@@ -1684,7 +1715,7 @@ msgstr "Момент, коли потрібне ручне подальше оп
 #. module: account_credit_control
 #: model:ir.model.fields,help:account_credit_control.field_credit_control_policy__account_ids
 msgid "This policy will be active only for the selected accounts"
-msgstr ""
+msgstr "Ця політика буде активною лише для вибраних рахунків"
 
 #. module: account_credit_control
 #: model:ir.model.fields.selection,name:account_credit_control.selection__credit_control_line__state__to_be_sent

@@ -23,3 +23,40 @@ msgstr "Кредит"
 #: model:payment.provider,name:website_sale_financial_risk.payment_provider_credit
 msgid "On Credit"
 msgstr "У кредит"
+
+#. module: website_sale_financial_risk
+#: model_terms:payment.provider,pre_msg:website_sale_financial_risk.payment_provider_credit
+msgid ""
+"<i>\n"
+"                    The order will be confirmed <strong>on credit</strong> with no need\n"
+"                    of instant payment, as you still have available credit.\n"
+"                </i>"
+msgstr ""
+"<i>\n"
+"                    Замовлення буде підтверджено <strong>у кредит</strong> без потреби\n"
+"                    негайної оплати, оскільки у вас ще є доступний кредит.\n"
+"                </i>"
+
+#. module: website_sale_financial_risk
+#: model_terms:payment.provider,pending_msg:website_sale_financial_risk.payment_provider_credit
+msgid ""
+"<i>Your order has been <strong>confirmed</strong>.</i><br>\n"
+"                The payment has been registered as <strong>credit</strong> and is pending invoicing."
+msgstr ""
+"<i>Ваше замовлення <strong>підтверджено</strong>.</i><br>\n"
+"                Платіж зареєстровано як <strong>кредит</strong> і він очікує виставлення рахунку."
+
+#. module: website_sale_financial_risk
+#: model_terms:payment.provider,auth_msg:website_sale_financial_risk.payment_provider_credit
+msgid "Your payment has been authorized."
+msgstr "Ваш платіж авторизовано."
+
+#. module: website_sale_financial_risk
+#: model_terms:payment.provider,cancel_msg:website_sale_financial_risk.payment_provider_credit
+msgid "Your payment has been cancelled."
+msgstr "Ваш платіж скасовано."
+
+#. module: website_sale_financial_risk
+#: model_terms:payment.provider,done_msg:website_sale_financial_risk.payment_provider_credit
+msgid "Your payment has been successfully processed."
+msgstr "Ваш платіж успішно оброблено."

@@ -97,3 +97,9 @@ msgid "Total not invoiced of sales orders in Sale Order state"
 msgstr ""
 "Загальна невиставлена сума замовлень на продаж у стані «Замовлення на "
 "продаж»"
+
+#. module: sale_financial_risk
+#: model:ir.model.fields,help:sale_financial_risk.field_res_company__allow_overrisk_sale_confirmation
+#: model:ir.model.fields,help:sale_financial_risk.field_res_config_settings__allow_overrisk_sale_confirmation
+msgid "If is set always allow the confirmation of sale orders."
+msgstr "Якщо встановлено, завжди дозволяти підтвердження замовлень на продаж."

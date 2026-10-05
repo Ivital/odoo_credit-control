@@ -793,3 +793,137 @@ msgstr "Інтерфейс майстра"
 #: model_terms:ir.ui.view,arch_db:account_invoice_overdue_reminder.report_overdue_reminder_document
 msgid "Yours faithfully,"
 msgstr "З повагою,"
+
+#. module: account_invoice_overdue_reminder
+#: model:ir.model.fields,help:account_invoice_overdue_reminder.field_account_invoice_overdue_reminder__action_mail_cc
+#: model:ir.model.fields,help:account_invoice_overdue_reminder.field_overdue_reminder_action__mail_cc
+msgid "Carbon copy message recipients"
+msgstr "Одержувачі копії повідомлення"
+
+#. module: account_invoice_overdue_reminder
+#: model:ir.model.constraint,message:account_invoice_overdue_reminder.constraint_account_invoice_overdue_reminder_counter_positive
+msgid "Counter must always be positive"
+msgstr "Лічильник завжди має бути додатним"
+
+#. module: account_invoice_overdue_reminder
+#: model:overdue.reminder.result,name:account_invoice_overdue_reminder.invoice_dispute
+msgid "Invoice dispute"
+msgstr "Спір щодо рахунка"
+
+#. module: account_invoice_overdue_reminder
+#: model:overdue.reminder.result,name:account_invoice_overdue_reminder.invoice_in_payment_pipe
+msgid "Invoice in payment pipe"
+msgstr "Рахунок у платіжному процесі"
+
+#. module: account_invoice_overdue_reminder
+#: model:overdue.reminder.result,name:account_invoice_overdue_reminder.invoice_not_received
+msgid "Invoice not received"
+msgstr "Рахунок не отримано"
+
+#. module: account_invoice_overdue_reminder
+#: model:overdue.reminder.result,name:account_invoice_overdue_reminder.invoice_wait_approval
+msgid "Invoice waiting approval"
+msgstr "Рахунок очікує схвалення"
+
+#. module: account_invoice_overdue_reminder
+#: model:overdue.reminder.result,name:account_invoice_overdue_reminder.voicemail
+msgid "Message left on voicemail"
+msgstr "Повідомлення залишено в голосовій пошті"
+
+#. module: account_invoice_overdue_reminder
+#: model:ir.model.fields,help:account_invoice_overdue_reminder.field_overdue_reminder_start__min_interval_days
+msgid ""
+"Odoo will not propose to send a reminder to a customer that already got a "
+"reminder for some of the same overdue invoices less than N days ago (N = "
+"Minimum Delay Since Last Reminder)."
+msgstr ""
+"Odoo не пропонуватиме надсилати нагадування клієнту, який уже отримував "
+"нагадування щодо частини тих самих прострочених рахунків менш ніж N днів "
+"тому (N = мінімальна затримка після останнього нагадування)."
+
+#. module: account_invoice_overdue_reminder
+#: model:ir.model.fields,help:account_invoice_overdue_reminder.field_overdue_reminder_start__start_days
+msgid ""
+"Odoo will propose to send an overdue reminder to a customer if it has at "
+"least one invoice which is overdue for more than N days (N = trigger delay)."
+msgstr ""
+"Odoo запропонує надіслати клієнту нагадування про прострочення, якщо в нього"
+" є принаймні один рахунок, прострочений більш ніж на N днів (N = затримка "
+"спрацювання)."
+
+#. module: account_invoice_overdue_reminder
+#: model:ir.model.constraint,message:account_invoice_overdue_reminder.constraint_account_move_counter_positive
+msgid "Overdue Invoice Counter must always be positive"
+msgstr "Лічильник прострочених рахунків завжди має бути додатним"
+
+#. module: account_invoice_overdue_reminder
+#: model:ir.model,name:account_invoice_overdue_reminder.model_account_invoice_overdue_reminder
+msgid "Overdue Invoice Reminder Action History"
+msgstr "Історія дій нагадування про прострочений рахунок"
+
+#. module: account_invoice_overdue_reminder
+#: model:ir.model,name:account_invoice_overdue_reminder.model_overdue_reminder_result
+msgid "Overdue Invoice Reminder Result/Info"
+msgstr "Результат/інформація нагадування про прострочений рахунок"
+
+#. module: account_invoice_overdue_reminder
+#: model:ir.model.constraint,message:account_invoice_overdue_reminder.constraint_res_company_overdue_reminder_min_interval_days_positive
+msgid "Overdue Reminder Minimum Interval must always be strictly positive"
+msgstr ""
+"Мінімальний інтервал нагадування про прострочення завжди має бути строго "
+"додатним"
+
+#. module: account_invoice_overdue_reminder
+#: model:ir.model.constraint,message:account_invoice_overdue_reminder.constraint_res_company_overdue_reminder_start_days_positive
+msgid "Overdue Reminder Trigger Delay must always be positive"
+msgstr ""
+"Затримка спрацювання нагадування про прострочення завжди має бути додатною"
+
+#. module: account_invoice_overdue_reminder
+#: model:ir.model,name:account_invoice_overdue_reminder.model_overdue_reminder_step
+msgid "Overdue reminder wizard step"
+msgstr "Крок майстра нагадування про прострочення"
+
+#. module: account_invoice_overdue_reminder
+#: model:overdue.reminder.result,name:account_invoice_overdue_reminder.invoice_payment_sent
+msgid "Payment sent"
+msgstr "Платіж надіслано"
+
+#. module: account_invoice_overdue_reminder
+#: model:ir.model,name:account_invoice_overdue_reminder.model_overdue_reminder_start_payment
+msgid "Status of payments"
+msgstr "Статус платежів"
+
+#. module: account_invoice_overdue_reminder
+#: model:ir.model.fields,help:account_invoice_overdue_reminder.field_account_bank_statement_line__overdue_reminder_counter
+#: model:ir.model.fields,help:account_invoice_overdue_reminder.field_account_move__overdue_reminder_counter
+msgid "This counter is not increased in case of phone reminder."
+msgstr "Цей лічильник не збільшується у разі телефонного нагадування."
+
+#. module: account_invoice_overdue_reminder
+#: model:ir.model.constraint,message:account_invoice_overdue_reminder.constraint_overdue_reminder_result_name_unique
+msgid "This overdue reminder result already exists"
+msgstr "Такий результат нагадування про прострочення вже існує"
+
+#. module: account_invoice_overdue_reminder
+#: model:overdue.reminder.result,name:account_invoice_overdue_reminder.unreachable
+msgid "Unreachable"
+msgstr "Недоступний"
+
+#. module: account_invoice_overdue_reminder
+#: model:ir.model,name:account_invoice_overdue_reminder.model_overdue_reminder_mass_update
+msgid "Update several actions at the same time"
+msgstr "Оновити кілька дій одночасно"
+
+#. module: account_invoice_overdue_reminder
+#: model:ir.model,name:account_invoice_overdue_reminder.model_overdue_reminder_start
+msgid "Wizard to reminder overdue customer invoice"
+msgstr "Майстер нагадування про прострочений рахунок клієнта"
+
+#. module: account_invoice_overdue_reminder
+#: model:mail.template,subject:account_invoice_overdue_reminder.overdue_invoice_reminder_mail_template
+msgid ""
+"{{object.company_id.name}} - Overdue invoice reminder n°{{object.counter}}"
+msgstr ""
+"{{object.company_id.name}} — нагадування про прострочений рахунок "
+"№{{object.counter}}"

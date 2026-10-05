@@ -90,11 +90,14 @@ msgid ""
 "from sales orders and the over-risk has already been allowed when confirming"
 " these."
 msgstr ""
+"Завжди дозволяти підтвердження чернеток рахунків. Корисно, коли потік "
+"походить із замовлень на продаж і перевищення ризику вже було дозволено під "
+"час їх підтвердження."
 
 #. module: account_financial_risk
 #: model:res.groups,comment:account_financial_risk.group_account_financial_risk_manager
 msgid "Can edit risk limit and overpass partner risk exceptions"
-msgstr ""
+msgstr "Може редагувати ліміт ризику та перевищувати винятки ризику партнера"
 
 #. module: account_financial_risk
 #: model_terms:ir.ui.view,arch_db:account_financial_risk.partner_risk_exceeded_wizard
@@ -424,7 +427,7 @@ msgstr "Об’єкт"
 #. module: account_financial_risk
 #: model:ir.model,name:account_financial_risk.model_partner_risk_exceeded_wiz
 msgid "Partner Risk Exceeded Wizard"
-msgstr ""
+msgstr "Майстер перевищення ризику партнера"
 
 #. module: account_financial_risk
 #. odoo-python
@@ -446,7 +449,7 @@ msgstr "Валюта прайс-листа"
 #. module: account_financial_risk
 #: model:res.groups,comment:account_financial_risk.group_account_financial_risk_user
 msgid "Read only access to financial risk info"
-msgstr ""
+msgstr "Доступ лише для читання до інформації про фінансовий ризик"
 
 #. module: account_financial_risk
 #: model:ir.model.fields.selection,name:account_financial_risk.selection__res_partner__credit_currency__receivable

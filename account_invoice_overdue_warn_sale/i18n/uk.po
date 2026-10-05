@@ -47,3 +47,12 @@ msgstr "Комерційний контрагент для виставленн�
 #: model_terms:ir.ui.view,arch_db:account_invoice_overdue_warn_sale.view_order_form
 msgid "The invoicing partner"
 msgstr "Контрагент для виставлення рахунків"
+
+#. module: account_invoice_overdue_warn_sale
+#: model:ir.model.fields,help:account_invoice_overdue_warn_sale.field_sale_order__overdue_invoice_amount
+msgid ""
+"Overdue invoices total residual amount of the invoicing partner in company "
+"currency."
+msgstr ""
+"Загальна залишкова сума прострочених рахунків партнера з виставлення "
+"рахунків у валюті компанії."

@@ -27,3 +27,14 @@ msgstr "Компанія кредитної політики"
 #: model:ir.model.fields,field_description:partner_risk_insurance_product_sticker_invoice_report.field_credit_policy_company__sticker_count
 msgid "Sticker Count"
 msgstr "Кількість наліпок"
+
+#. module: partner_risk_insurance_product_sticker_invoice_report
+#: model:ir.model,name:partner_risk_insurance_product_sticker_invoice_report.model_credit_policy_company
+msgid "Company of Credit Policies"
+msgstr "Компанія кредитних політик"
+
+#. module: partner_risk_insurance_product_sticker_invoice_report
+#: model:ir.model.fields,help:partner_risk_insurance_product_sticker_invoice_report.field_product_sticker__credit_policy_company_id
+msgid "Display this Sticker only for the selected Credit Policy Company."
+msgstr ""
+"Показувати цю наліпку лише для вибраної компанії політики кредитування."
