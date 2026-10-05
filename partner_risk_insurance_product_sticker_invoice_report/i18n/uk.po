@@ -17,3 +17,13 @@ msgstr ""
 #: model:ir.model.fields,field_description:partner_risk_insurance_product_sticker_invoice_report.field_credit_policy_company__sticker_ids
 msgid "Product Stickers"
 msgstr "Наліпки товарів"
+
+#. module: partner_risk_insurance_product_sticker_invoice_report
+#: model:ir.model.fields,field_description:partner_risk_insurance_product_sticker_invoice_report.field_product_sticker__credit_policy_company_id
+msgid "Credit Policy Company"
+msgstr "Компанія кредитної політики"
+
+#. module: partner_risk_insurance_product_sticker_invoice_report
+#: model:ir.model.fields,field_description:partner_risk_insurance_product_sticker_invoice_report.field_credit_policy_company__sticker_count
+msgid "Sticker Count"
+msgstr "Кількість наліпок"

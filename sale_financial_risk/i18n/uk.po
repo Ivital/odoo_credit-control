@@ -17,3 +17,48 @@ msgstr ""
 #: model:ir.model.fields,field_description:sale_financial_risk.field_sale_order_line__risk_amount
 msgid "Risk Amount"
 msgstr "Сума ризику"
+
+#. module: sale_financial_risk
+#: model:ir.model.fields,field_description:sale_financial_risk.field_res_company__allow_overrisk_sale_confirmation
+#: model:ir.model.fields,field_description:sale_financial_risk.field_res_config_settings__allow_overrisk_sale_confirmation
+msgid "Allow sale order confirmation over the risk"
+msgstr "Дозволити підтвердження замовлення на продаж понад ризик"
+
+#. module: sale_financial_risk
+#: model:ir.model.fields,field_description:sale_financial_risk.field_sale_order_line__risk_partner_id
+msgid "Commercial Entity"
+msgstr "Комерційна організація"
+
+#. module: sale_financial_risk
+#: model:ir.model.fields,field_description:sale_financial_risk.field_sale_order_line__company_currency_id
+msgid "Company Currency"
+msgstr "Валюта компанії"
+
+#. module: sale_financial_risk
+#: model:ir.model.fields,field_description:sale_financial_risk.field_res_partner__risk_sale_order_include
+#: model:ir.model.fields,field_description:sale_financial_risk.field_res_users__risk_sale_order_include
+msgid "Include Sales Orders"
+msgstr "Включати замовлення на продаж"
+
+#. module: sale_financial_risk
+#: model:ir.model.fields,field_description:sale_financial_risk.field_res_config_settings__include_risk_sale_order_done
+#: model_terms:ir.ui.view,arch_db:sale_financial_risk.res_config_settings_view_form
+msgid "Include locked sale orders into risk calculation"
+msgstr "Включати заблоковані замовлення на продаж у розрахунок ризику"
+
+#. module: sale_financial_risk
+#: model:ir.model.fields,field_description:sale_financial_risk.field_res_partner__risk_sale_order_limit
+#: model:ir.model.fields,field_description:sale_financial_risk.field_res_users__risk_sale_order_limit
+msgid "Limit Sales Orders"
+msgstr "Обмежувати замовлення на продаж"
+
+#. module: sale_financial_risk
+#: model_terms:ir.ui.view,arch_db:sale_financial_risk.financial_risk_sale_order_line_pivot_view
+msgid "Sale lines"
+msgstr "Рядки продажу"
+
+#. module: sale_financial_risk
+#: model:ir.model.fields,field_description:sale_financial_risk.field_res_partner__risk_sale_order
+#: model:ir.model.fields,field_description:sale_financial_risk.field_res_users__risk_sale_order
+msgid "Total Sales Orders Not Invoiced"
+msgstr "Загальна сума невиставлених замовлень на продаж"

@@ -17,3 +17,9 @@ msgstr ""
 #: model:account.payment.method,name:website_sale_financial_risk.payment_method_credit
 msgid "Credit"
 msgstr "Кредит"
+
+#. module: website_sale_financial_risk
+#: model:ir.model.fields.selection,name:website_sale_financial_risk.selection__payment_provider__code__credit
+#: model:payment.provider,name:website_sale_financial_risk.payment_provider_credit
+msgid "On Credit"
+msgstr "У кредит"

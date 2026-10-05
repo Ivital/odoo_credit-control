@@ -329,3 +329,316 @@ msgstr "Користувач"
 #: model:ir.model.fields,field_description:account_invoice_overdue_reminder.field_overdue_reminder_start_payment__wizard_id
 msgid "Wizard"
 msgstr "Майстер"
+
+#. module: account_invoice_overdue_reminder
+#: model_terms:ir.ui.view,arch_db:account_invoice_overdue_reminder.view_account_config_settings
+msgid "<span> days</span>"
+msgstr "<span> днів</span>"
+
+#. module: account_invoice_overdue_reminder
+#: model:ir.model.fields,field_description:account_invoice_overdue_reminder.field_res_company__overdue_reminder_attach_invoice
+#: model:ir.model.fields,field_description:account_invoice_overdue_reminder.field_res_config_settings__overdue_reminder_attach_invoice
+msgid "Attach Invoices to Overdue Reminder E-mails"
+msgstr "Додавати рахунки до листів-нагадувань про прострочення"
+
+#. module: account_invoice_overdue_reminder
+#: model:ir.model.fields,field_description:account_invoice_overdue_reminder.field_overdue_reminder_step__result_id
+msgid "Call Result/Info"
+msgstr "Результат/інформація дзвінка"
+
+#. module: account_invoice_overdue_reminder
+#: model_terms:ir.ui.view,arch_db:account_invoice_overdue_reminder.overdue_reminder_mass_update_form
+#: model_terms:ir.ui.view,arch_db:account_invoice_overdue_reminder.overdue_reminder_start_form
+#: model_terms:ir.ui.view,arch_db:account_invoice_overdue_reminder.overdue_reminder_step_form
+msgid "Cancel"
+msgstr "Скасувати"
+
+#. module: account_invoice_overdue_reminder
+#: model:ir.actions.act_window,name:account_invoice_overdue_reminder.mass_update_reminder_type_action
+#: model:ir.model.fields.selection,name:account_invoice_overdue_reminder.selection__overdue_reminder_mass_update__update_action__reminder_type
+#: model_terms:ir.ui.view,arch_db:account_invoice_overdue_reminder.overdue_reminder_step_tree
+msgid "Change Reminder Type"
+msgstr "Змінити тип нагадування"
+
+#. module: account_invoice_overdue_reminder
+#: model:ir.model.fields,field_description:account_invoice_overdue_reminder.field_overdue_reminder_start__partner_policy
+#: model:ir.model.fields,field_description:account_invoice_overdue_reminder.field_res_company__overdue_reminder_partner_policy
+#: model:ir.model.fields,field_description:account_invoice_overdue_reminder.field_res_config_settings__overdue_reminder_partner_policy
+msgid "Contact to Remind"
+msgstr "Контакт для нагадування"
+
+#. module: account_invoice_overdue_reminder
+#: model:ir.model.fields,field_description:account_invoice_overdue_reminder.field_overdue_reminder_step__create_activity
+msgid "Create Activity"
+msgstr "Створити активність"
+
+#. module: account_invoice_overdue_reminder
+#: model_terms:ir.ui.view,arch_db:account_invoice_overdue_reminder.report_overdue_reminder_document
+msgid "Date:"
+msgstr "Дата:"
+
+#. module: account_invoice_overdue_reminder
+#: model_terms:ir.ui.view,arch_db:account_invoice_overdue_reminder.report_overdue_reminder_document
+msgid "Dear Customer,"
+msgstr "Шановний клієнте,"
+
+#. module: account_invoice_overdue_reminder
+#: model:ir.model.fields,field_description:account_invoice_overdue_reminder.field_res_company__overdue_reminder_min_interval_days
+#: model:ir.model.fields,field_description:account_invoice_overdue_reminder.field_res_config_settings__overdue_reminder_min_interval_days
+msgid "Default Overdue Reminder Minimum Interval"
+msgstr "Типовий мінімальний інтервал нагадування про прострочення"
+
+#. module: account_invoice_overdue_reminder
+#: model:ir.model.fields,field_description:account_invoice_overdue_reminder.field_res_company__overdue_reminder_start_days
+#: model:ir.model.fields,field_description:account_invoice_overdue_reminder.field_res_config_settings__overdue_reminder_start_days
+msgid "Default Overdue Reminder Trigger Delay"
+msgstr "Типова затримка тригера нагадування про прострочення"
+
+#. module: account_invoice_overdue_reminder
+#: model:ir.model.fields,field_description:account_invoice_overdue_reminder.field_res_company__overdue_reminder_interface
+#: model:ir.model.fields,field_description:account_invoice_overdue_reminder.field_res_config_settings__overdue_reminder_interface
+msgid "Default Overdue Reminder Wizard Interface"
+msgstr "Типовий інтерфейс майстра нагадування про прострочення"
+
+#. module: account_invoice_overdue_reminder
+#: model:ir.model.fields,field_description:account_invoice_overdue_reminder.field_res_partner__no_overdue_reminder
+#: model:ir.model.fields,field_description:account_invoice_overdue_reminder.field_res_users__no_overdue_reminder
+msgid "Disable Overdue Invoice Reminder"
+msgstr "Вимкнути нагадування про прострочений рахунок"
+
+#. module: account_invoice_overdue_reminder
+#: model:ir.model.fields,field_description:account_invoice_overdue_reminder.field_account_bank_statement_line__no_overdue_reminder
+#: model:ir.model.fields,field_description:account_invoice_overdue_reminder.field_account_move__no_overdue_reminder
+msgid "Disable Overdue Reminder"
+msgstr "Вимкнути нагадування про прострочення"
+
+#. module: account_invoice_overdue_reminder
+#: model:ir.model.fields.selection,name:account_invoice_overdue_reminder.selection__overdue_reminder_step__state__draft
+msgid "Draft"
+msgstr "Чернетка"
+
+#. module: account_invoice_overdue_reminder
+#. odoo-python
+#: code:addons/account_invoice_overdue_reminder/models/overdue_reminder_action.py:0
+#: model_terms:ir.ui.view,arch_db:account_invoice_overdue_reminder.account_invoice_overdue_reminder_search
+#: model_terms:ir.ui.view,arch_db:account_invoice_overdue_reminder.overdue_reminder_action_search
+#: model_terms:ir.ui.view,arch_db:account_invoice_overdue_reminder.overdue_reminder_step_search
+msgid "E-mail"
+msgstr "Електронна пошта"
+
+#. module: account_invoice_overdue_reminder
+#: model:ir.model.fields,field_description:account_invoice_overdue_reminder.field_account_invoice_overdue_reminder__action_mail_state
+#: model:ir.model.fields,field_description:account_invoice_overdue_reminder.field_overdue_reminder_action__mail_state
+msgid "E-mail Status"
+msgstr "Статус електронної пошти"
+
+#. module: account_invoice_overdue_reminder
+#: model:ir.model.fields,field_description:account_invoice_overdue_reminder.field_account_invoice_overdue_reminder__action_result_notes
+#: model:ir.model.fields,field_description:account_invoice_overdue_reminder.field_overdue_reminder_action__result_notes
+msgid "Info/Result Notes"
+msgstr "Примітки до інформації/результату"
+
+#. module: account_invoice_overdue_reminder
+#: model_terms:ir.ui.view,arch_db:account_invoice_overdue_reminder.report_overdue_reminder_document
+msgid "Invoice Number"
+msgstr "Номер рахунку"
+
+#. module: account_invoice_overdue_reminder
+#: model:ir.model.fields,field_description:account_invoice_overdue_reminder.field_overdue_reminder_step__partner_id
+#: model_terms:ir.ui.view,arch_db:account_invoice_overdue_reminder.overdue_reminder_step_form
+msgid "Invoicing Contact"
+msgstr "Контакт для виставлення рахунків"
+
+#. module: account_invoice_overdue_reminder
+#: model:ir.model.fields,field_description:account_invoice_overdue_reminder.field_account_bank_statement_line__overdue_reminder_last_date
+#: model:ir.model.fields,field_description:account_invoice_overdue_reminder.field_account_move__overdue_reminder_last_date
+msgid "Last Overdue Reminder Date"
+msgstr "Дата останнього нагадування про прострочення"
+
+#. module: account_invoice_overdue_reminder
+#. odoo-python
+#: code:addons/account_invoice_overdue_reminder/models/res_company.py:0
+#: model_terms:ir.ui.view,arch_db:account_invoice_overdue_reminder.overdue_reminder_step_form
+msgid "Last Reminder"
+msgstr "Останнє нагадування"
+
+#. module: account_invoice_overdue_reminder
+#: model:ir.model.fields,field_description:account_invoice_overdue_reminder.field_account_invoice_overdue_reminder__write_uid
+#: model:ir.model.fields,field_description:account_invoice_overdue_reminder.field_overdue_reminder_action__write_uid
+#: model:ir.model.fields,field_description:account_invoice_overdue_reminder.field_overdue_reminder_mass_update__write_uid
+#: model:ir.model.fields,field_description:account_invoice_overdue_reminder.field_overdue_reminder_result__write_uid
+#: model:ir.model.fields,field_description:account_invoice_overdue_reminder.field_overdue_reminder_start__write_uid
+#: model:ir.model.fields,field_description:account_invoice_overdue_reminder.field_overdue_reminder_start_payment__write_uid
+#: model:ir.model.fields,field_description:account_invoice_overdue_reminder.field_overdue_reminder_step__write_uid
+msgid "Last Updated by"
+msgstr "Останнє оновлення ким"
+
+#. module: account_invoice_overdue_reminder
+#: model:ir.model.fields,field_description:account_invoice_overdue_reminder.field_account_invoice_overdue_reminder__write_date
+#: model:ir.model.fields,field_description:account_invoice_overdue_reminder.field_overdue_reminder_action__write_date
+#: model:ir.model.fields,field_description:account_invoice_overdue_reminder.field_overdue_reminder_mass_update__write_date
+#: model:ir.model.fields,field_description:account_invoice_overdue_reminder.field_overdue_reminder_result__write_date
+#: model:ir.model.fields,field_description:account_invoice_overdue_reminder.field_overdue_reminder_start__write_date
+#: model:ir.model.fields,field_description:account_invoice_overdue_reminder.field_overdue_reminder_start_payment__write_date
+#: model:ir.model.fields,field_description:account_invoice_overdue_reminder.field_overdue_reminder_step__write_date
+msgid "Last Updated on"
+msgstr "Останнє оновлення"
+
+#. module: account_invoice_overdue_reminder
+#. odoo-python
+#: code:addons/account_invoice_overdue_reminder/models/overdue_reminder_action.py:0
+msgid "Letter"
+msgstr "Лист"
+
+#. module: account_invoice_overdue_reminder
+#: model:ir.model.fields,field_description:account_invoice_overdue_reminder.field_overdue_reminder_step__letter_printed
+msgid "Letter Printed"
+msgstr "Лист надруковано"
+
+#. module: account_invoice_overdue_reminder
+#: model:ir.model.fields,field_description:account_invoice_overdue_reminder.field_overdue_reminder_step__counter
+#: model_terms:ir.ui.view,arch_db:account_invoice_overdue_reminder.overdue_reminder_step_search
+msgid "New Remind Counter"
+msgstr "Новий лічильник нагадувань"
+
+#. module: account_invoice_overdue_reminder
+#: model_terms:ir.ui.view,arch_db:account_invoice_overdue_reminder.overdue_reminder_step_form
+msgid "Order Ref"
+msgstr "Посилання на замовлення"
+
+#. module: account_invoice_overdue_reminder
+#: model_terms:ir.ui.view,arch_db:account_invoice_overdue_reminder.report_overdue_reminder_document
+msgid "Order Ref."
+msgstr "Посилання на замовлення"
+
+#. module: account_invoice_overdue_reminder
+#: model:mail.template,name:account_invoice_overdue_reminder.overdue_invoice_reminder_mail_template
+#: model_terms:ir.ui.view,arch_db:account_invoice_overdue_reminder.view_account_config_settings
+msgid "Overdue Invoice Reminder"
+msgstr "Нагадування про прострочений рахунок"
+
+#. module: account_invoice_overdue_reminder
+#: model:ir.actions.act_window,name:account_invoice_overdue_reminder.overdue_reminder_step_mass_action
+#: model:ir.actions.act_window,name:account_invoice_overdue_reminder.overdue_reminder_step_onebyone_action
+msgid "Overdue Invoice Step"
+msgstr "Крок простроченого рахунку"
+
+#. module: account_invoice_overdue_reminder
+#: model:ir.actions.report,name:account_invoice_overdue_reminder.overdue_reminder_step_report
+msgid "Overdue Letter"
+msgstr "Лист про прострочення"
+
+#. module: account_invoice_overdue_reminder
+#: model:ir.model.fields,field_description:account_invoice_overdue_reminder.field_account_bank_statement_line__overdue_remind_sent
+#: model:ir.model.fields,field_description:account_invoice_overdue_reminder.field_account_move__overdue_remind_sent
+msgid "Overdue Remind Sent"
+msgstr "Нагадування про прострочення надіслано"
+
+#. module: account_invoice_overdue_reminder
+#: model:ir.model,name:account_invoice_overdue_reminder.model_overdue_reminder_action
+#: model:ir.model.fields,field_description:account_invoice_overdue_reminder.field_account_bank_statement_line__overdue_reminder_ids
+#: model:ir.model.fields,field_description:account_invoice_overdue_reminder.field_account_move__overdue_reminder_ids
+msgid "Overdue Reminder Action History"
+msgstr "Історія дій нагадування про прострочення"
+
+#. module: account_invoice_overdue_reminder
+#: model:ir.model.fields,field_description:account_invoice_overdue_reminder.field_account_bank_statement_line__overdue_reminder_counter
+#: model:ir.model.fields,field_description:account_invoice_overdue_reminder.field_account_move__overdue_reminder_counter
+#: model_terms:ir.ui.view,arch_db:account_invoice_overdue_reminder.view_account_invoice_filter
+msgid "Overdue Reminder Count"
+msgstr "Кількість нагадувань про прострочення"
+
+#. module: account_invoice_overdue_reminder
+#: model_terms:ir.ui.view,arch_db:account_invoice_overdue_reminder.report_overdue_reminder_document
+msgid "Past Reminders"
+msgstr "Минулі нагадування"
+
+#. module: account_invoice_overdue_reminder
+#: model_terms:ir.ui.view,arch_db:account_invoice_overdue_reminder.report_overdue_reminder_document
+msgid "Payment Terms"
+msgstr "Умови оплати"
+
+#. module: account_invoice_overdue_reminder
+#: model_terms:ir.ui.view,arch_db:account_invoice_overdue_reminder.account_invoice_overdue_reminder_search
+#: model_terms:ir.ui.view,arch_db:account_invoice_overdue_reminder.overdue_reminder_action_search
+#: model_terms:ir.ui.view,arch_db:account_invoice_overdue_reminder.overdue_reminder_step_search
+msgid "Post"
+msgstr "Провести"
+
+#. module: account_invoice_overdue_reminder
+#: model_terms:ir.ui.view,arch_db:account_invoice_overdue_reminder.overdue_reminder_step_form
+msgid "Print Letter"
+msgstr "Друкувати лист"
+
+#. module: account_invoice_overdue_reminder
+#: model:ir.model.fields,field_description:account_invoice_overdue_reminder.field_account_invoice_overdue_reminder__action_mail_id
+#: model:ir.model.fields,field_description:account_invoice_overdue_reminder.field_overdue_reminder_action__mail_id
+msgid "Reminder E-mail"
+msgstr "Лист-нагадування"
+
+#. module: account_invoice_overdue_reminder
+#: model:ir.model.fields,field_description:account_invoice_overdue_reminder.field_overdue_reminder_step__reminder_type
+msgid "Reminder Type"
+msgstr "Тип нагадування"
+
+#. module: account_invoice_overdue_reminder
+#: model_terms:ir.ui.view,arch_db:account_invoice_overdue_reminder.report_overdue_reminder_document
+msgid "Residual"
+msgstr "Залишок"
+
+#. module: account_invoice_overdue_reminder
+#: model_terms:ir.ui.view,arch_db:account_invoice_overdue_reminder.account_invoice_overdue_reminder_search
+#: model_terms:ir.ui.view,arch_db:account_invoice_overdue_reminder.overdue_reminder_action_search
+msgid "Result/Info"
+msgstr "Результат/Інформація"
+
+#. module: account_invoice_overdue_reminder
+#: model_terms:ir.ui.view,arch_db:account_invoice_overdue_reminder.overdue_reminder_mass_update_form
+msgid "Run"
+msgstr "Запустити"
+
+#. module: account_invoice_overdue_reminder
+#: model:ir.actions.act_window,name:account_invoice_overdue_reminder.mass_update_skip_action
+#: model:ir.model.fields.selection,name:account_invoice_overdue_reminder.selection__overdue_reminder_mass_update__update_action__skip
+#: model_terms:ir.ui.view,arch_db:account_invoice_overdue_reminder.overdue_reminder_step_form
+#: model_terms:ir.ui.view,arch_db:account_invoice_overdue_reminder.overdue_reminder_step_tree
+msgid "Skip"
+msgstr "Пропустити"
+
+#. module: account_invoice_overdue_reminder
+#: model_terms:ir.ui.view,arch_db:account_invoice_overdue_reminder.overdue_reminder_step_form
+msgid "Tax Excluded"
+msgstr "Без податку"
+
+#. module: account_invoice_overdue_reminder
+#: model_terms:ir.ui.view,arch_db:account_invoice_overdue_reminder.report_overdue_reminder_document
+msgid "Total Untaxed"
+msgstr "Усього без податків"
+
+#. module: account_invoice_overdue_reminder
+#: model_terms:ir.ui.view,arch_db:account_invoice_overdue_reminder.report_overdue_reminder_document
+msgid "Total in"
+msgstr "Разом у"
+
+#. module: account_invoice_overdue_reminder
+#: model:ir.model.fields,field_description:account_invoice_overdue_reminder.field_overdue_reminder_start__start_days
+msgid "Trigger Delay"
+msgstr "Затримка запуску"
+
+#. module: account_invoice_overdue_reminder
+#: model:ir.model.fields,field_description:account_invoice_overdue_reminder.field_overdue_reminder_mass_update__update_action
+msgid "Update Action"
+msgstr "Дія оновлення"
+
+#. module: account_invoice_overdue_reminder
+#: model:ir.actions.act_window,name:account_invoice_overdue_reminder.mass_update_validate_action
+#: model:ir.model.fields.selection,name:account_invoice_overdue_reminder.selection__overdue_reminder_mass_update__update_action__validate
+#: model_terms:ir.ui.view,arch_db:account_invoice_overdue_reminder.overdue_reminder_step_form
+#: model_terms:ir.ui.view,arch_db:account_invoice_overdue_reminder.overdue_reminder_step_tree
+msgid "Validate"
+msgstr "Підтвердити"
+
+#. module: account_invoice_overdue_reminder
+#: model_terms:ir.ui.view,arch_db:account_invoice_overdue_reminder.overdue_reminder_start_form
+msgid "days"
+msgstr "дні"

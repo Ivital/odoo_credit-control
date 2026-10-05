@@ -89,3 +89,116 @@ msgstr "Друк"
 #: model:ir.model.fields,field_description:partner_risk_insurance.field_partner_risk_insurance_wizard__date_to
 msgid "To"
 msgstr "Кому"
+
+#. module: partner_risk_insurance
+#: model_terms:ir.ui.view,arch_db:partner_risk_insurance.report_invoice_risk_insurance_document
+msgid "<strong>Date</strong>"
+msgstr "<strong>Дата</strong>"
+
+#. module: partner_risk_insurance
+#: model_terms:ir.ui.view,arch_db:partner_risk_insurance.invoice_risk_insurance_form
+msgid "Cancel"
+msgstr "Скасувати"
+
+#. module: partner_risk_insurance
+#: model:ir.model.fields,field_description:partner_risk_insurance.field_res_partner__company_credit_limit
+#: model:ir.model.fields,field_description:partner_risk_insurance.field_res_users__company_credit_limit
+msgid "Company Credit Limit"
+msgstr "Кредитний ліміт компанії"
+
+#. module: partner_risk_insurance
+#: model_terms:ir.ui.view,arch_db:partner_risk_insurance.view_partner_form
+msgid "Credit Insurance"
+msgstr "Страхування кредиту"
+
+#. module: partner_risk_insurance
+#: model:ir.model.fields,field_description:partner_risk_insurance.field_res_partner__credit_policy_company_id
+#: model:ir.model.fields,field_description:partner_risk_insurance.field_res_users__credit_policy_company_id
+msgid "Credit Policy Company"
+msgstr "Компанія кредитної політики"
+
+#. module: partner_risk_insurance
+#: model_terms:ir.ui.view,arch_db:partner_risk_insurance.invoice_risk_insurance_form
+msgid "Dates"
+msgstr "Дати"
+
+#. module: partner_risk_insurance
+#: model:ir.model.fields,field_description:partner_risk_insurance.field_res_partner__risk_insurance_code
+#: model:ir.model.fields,field_description:partner_risk_insurance.field_res_users__risk_insurance_code
+msgid "Insurance Code"
+msgstr "Код страхування"
+
+#. module: partner_risk_insurance
+#: model:ir.model.fields,field_description:partner_risk_insurance.field_res_partner__risk_insurance_code_2
+#: model:ir.model.fields,field_description:partner_risk_insurance.field_res_users__risk_insurance_code_2
+msgid "Insurance Code 2"
+msgstr "Код страхування 2"
+
+#. module: partner_risk_insurance
+#: model:ir.model.fields,field_description:partner_risk_insurance.field_account_bank_statement_line__credit_policy_company_id
+#: model:ir.model.fields,field_description:partner_risk_insurance.field_account_move__credit_policy_company_id
+msgid "Insurance Company"
+msgstr "Страхова компанія"
+
+#. module: partner_risk_insurance
+#: model:ir.model.fields,field_description:partner_risk_insurance.field_res_partner__risk_insurance_grant_date
+#: model:ir.model.fields,field_description:partner_risk_insurance.field_res_users__risk_insurance_grant_date
+msgid "Insurance Grant Date"
+msgstr "Дата надання страхування"
+
+#. module: partner_risk_insurance
+#: model:ir.model.fields,field_description:partner_risk_insurance.field_account_bank_statement_line__credit_policy_state_id
+#: model:ir.model.fields,field_description:partner_risk_insurance.field_account_move__credit_policy_state_id
+msgid "Insurance Policy"
+msgstr "Страховий поліс"
+
+#. module: partner_risk_insurance
+#: model:ir.model.fields,field_description:partner_risk_insurance.field_res_partner__risk_insurance_requested
+#: model:ir.model.fields,field_description:partner_risk_insurance.field_res_users__risk_insurance_requested
+msgid "Insurance Requested"
+msgstr "Запитано страхування"
+
+#. module: partner_risk_insurance
+#: model:ir.model.fields,field_description:partner_risk_insurance.field_res_partner__risk_insurance_coverage_percent
+#: model:ir.model.fields,field_description:partner_risk_insurance.field_res_users__risk_insurance_coverage_percent
+msgid "Insurance coverage (%)"
+msgstr "Страхове покриття (%)"
+
+#. module: partner_risk_insurance
+#: model:ir.model.fields,field_description:partner_risk_insurance.field_credit_policy_state__insure_invoices
+#: model:ir.model.fields,field_description:partner_risk_insurance.field_res_partner__credit_policy_insure_invoices
+#: model:ir.model.fields,field_description:partner_risk_insurance.field_res_users__credit_policy_insure_invoices
+msgid "Insure Invoices"
+msgstr "Страхувати рахунки"
+
+#. module: partner_risk_insurance
+#: model_terms:ir.ui.view,arch_db:partner_risk_insurance.view_account_invoice_filter
+#: model_terms:ir.ui.view,arch_db:partner_risk_insurance.view_move_form
+msgid "Insured"
+msgstr "Застраховано"
+
+#. module: partner_risk_insurance
+#: model:ir.model.fields,field_description:partner_risk_insurance.field_account_bank_statement_line__insured_with_credit_policy
+#: model:ir.model.fields,field_description:partner_risk_insurance.field_account_move__insured_with_credit_policy
+msgid "Insured by a Credit Policy"
+msgstr "Застраховано кредитною політикою"
+
+#. module: partner_risk_insurance
+#: model:ir.model.fields,field_description:partner_risk_insurance.field_res_partner__insurance_credit_limit
+#: model:ir.model.fields,field_description:partner_risk_insurance.field_res_users__insurance_credit_limit
+msgid "Insured credit limit"
+msgstr "Застрахований кредитний ліміт"
+
+#. module: partner_risk_insurance
+#: model:ir.model.fields,field_description:partner_risk_insurance.field_credit_policy_company__write_uid
+#: model:ir.model.fields,field_description:partner_risk_insurance.field_credit_policy_state__write_uid
+#: model:ir.model.fields,field_description:partner_risk_insurance.field_partner_risk_insurance_wizard__write_uid
+msgid "Last Updated by"
+msgstr "Останнє оновлення ким"
+
+#. module: partner_risk_insurance
+#: model:ir.model.fields,field_description:partner_risk_insurance.field_credit_policy_company__write_date
+#: model:ir.model.fields,field_description:partner_risk_insurance.field_credit_policy_state__write_date
+#: model:ir.model.fields,field_description:partner_risk_insurance.field_partner_risk_insurance_wizard__write_date
+msgid "Last Updated on"
+msgstr "Останнє оновлення"

@@ -56,7 +56,7 @@ msgstr ""
 #: model:ir.model.fields,field_description:account_financial_risk.field_res_partner__move_line_ids
 #: model:ir.model.fields,field_description:account_financial_risk.field_res_users__move_line_ids
 msgid "Account Moves"
-msgstr ""
+msgstr "Бухгалтерські проведення"
 
 #. module: account_financial_risk
 #: model_terms:ir.ui.view,arch_db:account_financial_risk.financial_risk_account_move_line_pivot_view
@@ -67,7 +67,7 @@ msgstr ""
 #: model:ir.model.fields,field_description:account_financial_risk.field_res_company__allow_overrisk_invoice_validation
 #: model:ir.model.fields,field_description:account_financial_risk.field_res_config_settings__allow_overrisk_invoice_validation
 msgid "Allow invoice validation over the risk"
-msgstr ""
+msgstr "Дозволити перевірку рахунку понад ризик"
 
 #. module: account_financial_risk
 #: model_terms:ir.ui.view,arch_db:account_financial_risk.res_config_settings_view_form
@@ -112,7 +112,7 @@ msgstr ""
 #. module: account_financial_risk
 #: model:ir.model.fields.selection,name:account_financial_risk.selection__res_partner__credit_currency__company
 msgid "Company Currency"
-msgstr ""
+msgstr "Валюта компанії"
 
 #. module: account_financial_risk
 #: model:ir.model,name:account_financial_risk.model_res_config_settings
@@ -132,7 +132,7 @@ msgstr "Продовжити"
 #. module: account_financial_risk
 #: model:ir.model.fields,field_description:account_financial_risk.field_partner_risk_exceeded_wiz__continue_method
 msgid "Continue Method"
-msgstr ""
+msgstr "Метод продовження"
 
 #. module: account_financial_risk
 #: model:ir.model.fields,field_description:account_financial_risk.field_partner_risk_exceeded_wiz__create_uid
@@ -148,7 +148,7 @@ msgstr "Дата створення"
 #: model:ir.model.fields,field_description:account_financial_risk.field_res_partner__credit_currency
 #: model:ir.model.fields,field_description:account_financial_risk.field_res_users__credit_currency
 msgid "Credit Currency"
-msgstr ""
+msgstr "Валюта кредиту"
 
 #. module: account_financial_risk
 #: model:ir.model.fields,field_description:account_financial_risk.field_res_partner__credit_limit
@@ -160,7 +160,7 @@ msgstr ""
 #: model:ir.model.fields,field_description:account_financial_risk.field_res_partner__credit_policy
 #: model:ir.model.fields,field_description:account_financial_risk.field_res_users__credit_policy
 msgid "Credit Policy"
-msgstr ""
+msgstr "Кредитна політика"
 
 #. module: account_financial_risk
 #: model_terms:ir.ui.view,arch_db:account_financial_risk.financial_risk_info
@@ -186,6 +186,9 @@ msgid ""
 "Days after due date to set an invoice as unpaid. The change of this field "
 "recompute all partners risk, be patient."
 msgstr ""
+"Кількість днів після строку оплати, через яку рахунок вважається "
+"несплаченим. Зміна цього поля перераховує ризик усіх контрагентів, "
+"зачекайте."
 
 #. module: account_financial_risk
 #: model:ir.model.fields,field_description:account_financial_risk.field_partner_risk_exceeded_wiz__display_name
@@ -195,14 +198,14 @@ msgstr "Назва для відображення"
 #. module: account_financial_risk
 #: model:ir.model.fields,field_description:account_financial_risk.field_partner_risk_exceeded_wiz__exception_msg
 msgid "Exception Msg"
-msgstr ""
+msgstr "Повідомлення винятку"
 
 #. module: account_financial_risk
 #: model:ir.module.category,name:account_financial_risk.category_financial_risk
 #: model_terms:ir.ui.view,arch_db:account_financial_risk.res_config_settings_view_form
 #: model_terms:ir.ui.view,arch_db:account_financial_risk.res_partner_view_risk
 msgid "Financial Risk"
-msgstr ""
+msgstr "Фінансовий ризик"
 
 #. module: account_financial_risk
 #. odoo-python
@@ -257,7 +260,7 @@ msgstr ""
 #. module: account_financial_risk
 #: model_terms:ir.ui.view,arch_db:account_financial_risk.res_partner_view_risk
 msgid "General Limits"
-msgstr ""
+msgstr "Загальні ліміти"
 
 #. module: account_financial_risk
 #: model:ir.model.fields,help:account_financial_risk.field_res_partner__portal_show_financial_risk_visible
@@ -277,6 +280,8 @@ msgstr "ID"
 #: model_terms:ir.ui.view,arch_db:account_financial_risk.res_config_settings_view_form
 msgid "If enabled, portal users will be able to see their credit information."
 msgstr ""
+"Якщо увімкнено, портальні користувачі зможуть бачити свою кредитну "
+"інформацію."
 
 #. module: account_financial_risk
 #: model:ir.model.fields,help:account_financial_risk.field_res_partner__show_financial_risk_in_portal
@@ -290,36 +295,36 @@ msgstr ""
 #: model:ir.model.fields,field_description:account_financial_risk.field_res_partner__risk_invoice_draft_include
 #: model:ir.model.fields,field_description:account_financial_risk.field_res_users__risk_invoice_draft_include
 msgid "Include Draft Invoices"
-msgstr ""
+msgstr "Включати чернетки рахунків"
 
 #. module: account_financial_risk
 #: model:ir.model.fields,field_description:account_financial_risk.field_res_partner__risk_invoice_open_include
 #: model:ir.model.fields,field_description:account_financial_risk.field_res_users__risk_invoice_open_include
 msgid "Include Open Invoices/Principal Balance"
-msgstr ""
+msgstr "Включати відкриті рахунки/основний борг"
 
 #. module: account_financial_risk
 #: model:ir.model.fields,field_description:account_financial_risk.field_res_partner__risk_account_amount_include
 #: model:ir.model.fields,field_description:account_financial_risk.field_res_users__risk_account_amount_include
 msgid "Include Other Account Open Amount"
-msgstr ""
+msgstr "Включати відкриту суму іншого рахунку"
 
 #. module: account_financial_risk
 #: model:ir.model.fields,field_description:account_financial_risk.field_res_partner__risk_account_amount_unpaid_include
 #: model:ir.model.fields,field_description:account_financial_risk.field_res_users__risk_account_amount_unpaid_include
 msgid "Include Other Account Unpaid Amount"
-msgstr ""
+msgstr "Включати несплачену суму іншого рахунку"
 
 #. module: account_financial_risk
 #: model:ir.model.fields,field_description:account_financial_risk.field_res_partner__risk_invoice_unpaid_include
 #: model:ir.model.fields,field_description:account_financial_risk.field_res_users__risk_invoice_unpaid_include
 msgid "Include Unpaid Invoices/Principal Balance"
-msgstr ""
+msgstr "Включати несплачені рахунки/основний борг"
 
 #. module: account_financial_risk
 #: model_terms:ir.ui.view,arch_db:account_financial_risk.res_partner_view_risk
 msgid "Info"
-msgstr ""
+msgstr "Інформація"
 
 #. module: account_financial_risk
 #: model:ir.model.fields,help:account_financial_risk.field_res_partner__risk_exception
@@ -336,7 +341,7 @@ msgstr ""
 #: model:ir.model.fields,field_description:account_financial_risk.field_res_partner__date_credit_limit
 #: model:ir.model.fields,field_description:account_financial_risk.field_res_users__date_credit_limit
 msgid "Last Credit Limit Date"
-msgstr ""
+msgstr "Дата останнього кредитного ліміту"
 
 #. module: account_financial_risk
 #: model:ir.model.fields,field_description:account_financial_risk.field_partner_risk_exceeded_wiz__write_uid
@@ -352,31 +357,31 @@ msgstr "Останнє оновлення"
 #: model:ir.model.fields,field_description:account_financial_risk.field_res_partner__risk_invoice_draft_limit
 #: model:ir.model.fields,field_description:account_financial_risk.field_res_users__risk_invoice_draft_limit
 msgid "Limit In Draft Invoices"
-msgstr ""
+msgstr "Ліміт у чернетках рахунків"
 
 #. module: account_financial_risk
 #: model:ir.model.fields,field_description:account_financial_risk.field_res_partner__risk_invoice_open_limit
 #: model:ir.model.fields,field_description:account_financial_risk.field_res_users__risk_invoice_open_limit
 msgid "Limit In Open Invoices/Principal Balance"
-msgstr ""
+msgstr "Ліміт відкритих рахунків/основного боргу"
 
 #. module: account_financial_risk
 #: model:ir.model.fields,field_description:account_financial_risk.field_res_partner__risk_invoice_unpaid_limit
 #: model:ir.model.fields,field_description:account_financial_risk.field_res_users__risk_invoice_unpaid_limit
 msgid "Limit In Unpaid Invoices/Principal Balance"
-msgstr ""
+msgstr "Ліміт несплачених рахунків/основного боргу"
 
 #. module: account_financial_risk
 #: model:ir.model.fields,field_description:account_financial_risk.field_res_partner__risk_account_amount_limit
 #: model:ir.model.fields,field_description:account_financial_risk.field_res_users__risk_account_amount_limit
 msgid "Limit Other Account Open Amount"
-msgstr ""
+msgstr "Ліміт відкритої суми іншого рахунку"
 
 #. module: account_financial_risk
 #: model:ir.model.fields,field_description:account_financial_risk.field_res_partner__risk_account_amount_unpaid_limit
 #: model:ir.model.fields,field_description:account_financial_risk.field_res_users__risk_account_amount_unpaid_limit
 msgid "Limit Other Account Unpaid Amount"
-msgstr ""
+msgstr "Ліміт несплаченої суми іншого рахунку"
 
 #. module: account_financial_risk
 #: model:res.groups,name:account_financial_risk.group_account_financial_risk_manager
@@ -388,13 +393,13 @@ msgstr "Керівник"
 #: model:ir.model.fields,field_description:account_financial_risk.field_res_users__manual_credit_currency_id
 #: model:ir.model.fields.selection,name:account_financial_risk.selection__res_partner__credit_currency__manual
 msgid "Manual Credit Currency"
-msgstr ""
+msgstr "Валюта ручного кредиту"
 
 #. module: account_financial_risk
 #: model:ir.model.fields,field_description:account_financial_risk.field_res_company__invoice_unpaid_margin
 #: model:ir.model.fields,field_description:account_financial_risk.field_res_config_settings__invoice_unpaid_margin
 msgid "Maturity Margin"
-msgstr ""
+msgstr "Запас до строку погашення"
 
 #. module: account_financial_risk
 #: model:ir.model.fields,field_description:account_financial_risk.field_partner_risk_exceeded_wiz__origin_reference
@@ -416,7 +421,7 @@ msgstr ""
 #: model:ir.model.fields,field_description:account_financial_risk.field_res_partner__portal_show_financial_risk_visible
 #: model:ir.model.fields,field_description:account_financial_risk.field_res_users__portal_show_financial_risk_visible
 msgid "Portal Show Financial Risk Visible"
-msgstr ""
+msgstr "Показ фінансового ризику на порталі"
 
 #. module: account_financial_risk
 #: model:ir.model.fields.selection,name:account_financial_risk.selection__res_partner__credit_currency__pricelist
@@ -473,13 +478,13 @@ msgstr ""
 #: model:ir.model.fields,field_description:account_financial_risk.field_res_partner__risk_allow_edit
 #: model:ir.model.fields,field_description:account_financial_risk.field_res_users__risk_allow_edit
 msgid "Risk Allow Edit"
-msgstr ""
+msgstr "Дозволити редагування ризику"
 
 #. module: account_financial_risk
 #: model:ir.model.fields,field_description:account_financial_risk.field_account_bank_statement_line__risk_amount_total_currency
 #: model:ir.model.fields,field_description:account_financial_risk.field_account_move__risk_amount_total_currency
 msgid "Risk Amount Total"
-msgstr ""
+msgstr "Загальна сума ризику"
 
 #. module: account_financial_risk
 #: model:ir.model.fields,field_description:account_financial_risk.field_account_bank_statement_line__risk_currency_id
@@ -487,41 +492,41 @@ msgstr ""
 #: model:ir.model.fields,field_description:account_financial_risk.field_res_partner__risk_currency_id
 #: model:ir.model.fields,field_description:account_financial_risk.field_res_users__risk_currency_id
 msgid "Risk Currency"
-msgstr ""
+msgstr "Валюта ризику"
 
 #. module: account_financial_risk
 #: model:ir.model.fields,field_description:account_financial_risk.field_res_partner__risk_exception
 #: model:ir.model.fields,field_description:account_financial_risk.field_res_users__risk_exception
 msgid "Risk Exception"
-msgstr ""
+msgstr "Виняток ризику"
 
 #. module: account_financial_risk
 #: model:ir.model.fields,field_description:account_financial_risk.field_res_partner__risk_amount_exceeded
 #: model:ir.model.fields,field_description:account_financial_risk.field_res_users__risk_amount_exceeded
 msgid "Risk Over Limit"
-msgstr ""
+msgstr "Ризик перевищує ліміт"
 
 #. module: account_financial_risk
 #: model_terms:ir.ui.view,arch_db:account_financial_risk.res_partner_view_risk
 msgid "Risk Remaining"
-msgstr ""
+msgstr "Залишковий ризик"
 
 #. module: account_financial_risk
 #: model:ir.model.fields,field_description:account_financial_risk.field_res_partner__risk_remaining_percentage
 #: model:ir.model.fields,field_description:account_financial_risk.field_res_users__risk_remaining_percentage
 msgid "Risk Remaining (Percentage)"
-msgstr ""
+msgstr "Залишок ризику (відсоток)"
 
 #. module: account_financial_risk
 #: model:ir.model.fields,field_description:account_financial_risk.field_res_partner__risk_remaining_value
 #: model:ir.model.fields,field_description:account_financial_risk.field_res_users__risk_remaining_value
 msgid "Risk Remaining (Value)"
-msgstr ""
+msgstr "Залишок ризику (значення)"
 
 #. module: account_financial_risk
 #: model_terms:ir.ui.view,arch_db:account_financial_risk.partner_risk_exceeded_wizard
 msgid "Risk exceeded"
-msgstr ""
+msgstr "Ризик перевищено"
 
 #. module: account_financial_risk
 #: model:ir.model.fields,help:account_financial_risk.field_res_partner__risk_account_amount_limit
@@ -542,12 +547,12 @@ msgstr ""
 #: model:ir.model.fields,field_description:account_financial_risk.field_res_partner__show_financial_risk_in_portal
 #: model:ir.model.fields,field_description:account_financial_risk.field_res_users__show_financial_risk_in_portal
 msgid "Show credit information in portal"
-msgstr ""
+msgstr "Показувати кредитну інформацію на порталі"
 
 #. module: account_financial_risk
 #: model_terms:ir.ui.view,arch_db:account_financial_risk.res_partner_view_risk
 msgid "Specific Limits"
-msgstr ""
+msgstr "Конкретні ліміти"
 
 #. module: account_financial_risk
 #: model:ir.model.fields,help:account_financial_risk.field_res_partner__risk_total
@@ -584,25 +589,25 @@ msgstr ""
 #: model:ir.model.fields,field_description:account_financial_risk.field_res_partner__risk_invoice_draft
 #: model:ir.model.fields,field_description:account_financial_risk.field_res_users__risk_invoice_draft
 msgid "Total Draft Invoices"
-msgstr ""
+msgstr "Загальна сума чернеток рахунків"
 
 #. module: account_financial_risk
 #: model:ir.model.fields,field_description:account_financial_risk.field_res_partner__risk_invoice_open
 #: model:ir.model.fields,field_description:account_financial_risk.field_res_users__risk_invoice_open
 msgid "Total Open Invoices/Principal Balance"
-msgstr ""
+msgstr "Загальна сума відкритих рахунків/основного боргу"
 
 #. module: account_financial_risk
 #: model:ir.model.fields,field_description:account_financial_risk.field_res_partner__risk_account_amount
 #: model:ir.model.fields,field_description:account_financial_risk.field_res_users__risk_account_amount
 msgid "Total Other Account Open Amount"
-msgstr ""
+msgstr "Загальна відкрита сума іншого рахунку"
 
 #. module: account_financial_risk
 #: model:ir.model.fields,field_description:account_financial_risk.field_res_partner__risk_account_amount_unpaid
 #: model:ir.model.fields,field_description:account_financial_risk.field_res_users__risk_account_amount_unpaid
 msgid "Total Other Account Unpaid Amount"
-msgstr ""
+msgstr "Загальна несплачена сума іншого рахунку"
 
 #. module: account_financial_risk
 #: model:ir.model.fields,field_description:account_financial_risk.field_res_partner__risk_total
@@ -614,7 +619,7 @@ msgstr "Загальний ризик"
 #: model:ir.model.fields,field_description:account_financial_risk.field_res_partner__risk_invoice_unpaid
 #: model:ir.model.fields,field_description:account_financial_risk.field_res_users__risk_invoice_unpaid
 msgid "Total Unpaid Invoices/Principal Balance"
-msgstr ""
+msgstr "Загальна сума несплачених рахунків/основного боргу"
 
 #. module: account_financial_risk
 #: model:ir.model.fields,help:account_financial_risk.field_res_partner__risk_invoice_draft
