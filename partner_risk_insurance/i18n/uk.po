@@ -384,3 +384,19 @@ msgstr "Страховий поліс, яким застраховано рах�
 #: model:ir.model,name:partner_risk_insurance.model_partner_risk_insurance_wizard
 msgid "Wizard to see invoices sorted by risk"
 msgstr "Майстер перегляду рахунків, відсортованих за ризиком"
+
+#. module: partner_risk_insurance
+#. odoo-python
+#: code:addons/partner_risk_insurance/models/account_move.py:0
+msgid "The partner %s has no credit policy to insure invoices."
+msgstr "Партнер %s не має кредитної політики для страхування рахунків."
+
+#. module: partner_risk_insurance
+#. odoo-python
+#: code:addons/partner_risk_insurance/wizard/invoice_risk_insurance_wizard.py:0
+msgid ""
+"There aren't moves between this dates\n"
+"Please, select different dates"
+msgstr ""
+"Між цими датами немає переміщень\n"
+"Виберіть інші дати"

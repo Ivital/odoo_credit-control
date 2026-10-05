@@ -125,6 +125,8 @@ msgid ""
 "A credit control line more recent than %(controlling_date)s exists at "
 "%(lines_date)s"
 msgstr ""
+"Існує рядок кредитного контролю новіший за %(controlling_date)s із датою "
+"%(lines_date)s"
 
 #. module: account_credit_control
 #: model:ir.model,name:account_credit_control.model_credit_control_policy_level
@@ -136,13 +138,13 @@ msgstr "Рівень політики кредитного контролю"
 #: code:addons/account_credit_control/models/credit_control_run.py:0
 msgid ""
 "A credit control run is already running in background, please try later."
-msgstr ""
+msgstr "Запуск кредитного контролю вже виконується у фоні, спробуйте пізніше."
 
 #. module: account_credit_control
 #. odoo-python
 #: code:addons/account_credit_control/models/credit_control_run.py:0
 msgid "A run has already been executed more recently (%s)"
-msgstr ""
+msgstr "Пізніший запуск уже було виконано (%s)"
 
 #. module: account_credit_control
 #: model:ir.model,name:account_credit_control.model_account_account
@@ -273,7 +275,7 @@ msgstr "З найкращими побажаннями"
 #. odoo-python
 #: code:addons/account_credit_control/models/credit_control_policy.py:0
 msgid "Can not get function for computation mode: %s is not implemented"
-msgstr ""
+msgstr "Не вдалося отримати функцію для режиму обчислення: %s не реалізовано"
 
 #. module: account_credit_control
 #: model_terms:ir.ui.view,arch_db:account_credit_control.credit_control_policy_changer_form
@@ -385,7 +387,7 @@ msgstr "Керування кредитними комунікаціями"
 #. odoo-python
 #: code:addons/account_credit_control/wizard/credit_control_marker.py:0
 msgid "Control Credit Line"
-msgstr ""
+msgstr "Контроль кредитної лінії"
 
 #. module: account_credit_control
 #: model:ir.model.fields,field_description:account_credit_control.field_credit_control_run__date
@@ -766,7 +768,7 @@ msgstr "Для політик, які не повинні створювати �
 #. odoo-python
 #: code:addons/account_credit_control/wizard/credit_control_emailer.py:0
 msgid "Generated communications"
-msgstr ""
+msgstr "Згенеровані повідомлення"
 
 #. module: account_credit_control
 #: model:ir.model.fields,field_description:account_credit_control.field_credit_control_run__line_ids
@@ -881,7 +883,7 @@ msgstr "Рахунок-фактура"
 #. odoo-python
 #: code:addons/account_credit_control/models/credit_control_communication.py:0
 msgid "Invoice amount"
-msgstr ""
+msgstr "Сума рахунку"
 
 #. module: account_credit_control
 #. odoo-python
@@ -906,7 +908,7 @@ msgstr "Виставлена сума"
 #. odoo-python
 #: code:addons/account_credit_control/models/credit_control_communication.py:0
 msgid "Invoices summary"
-msgstr ""
+msgstr "Підсумок рахунків"
 
 #. module: account_credit_control
 #: model:ir.model.fields,field_description:account_credit_control.field_credit_control_communication__message_is_follower
@@ -1202,7 +1204,7 @@ msgstr "Без політики нагадувань"
 #. odoo-python
 #: code:addons/account_credit_control/wizard/credit_control_marker.py:0
 msgid "No lines will be changed. All the selected lines are already done."
-msgstr ""
+msgstr "Жоден рядок не буде змінено. Усі вибрані рядки вже виконані."
 
 #. module: account_credit_control
 #: model:ir.model.fields,field_description:account_credit_control.field_credit_control_communication__message_needaction_counter
@@ -1411,13 +1413,13 @@ msgstr "Телефон"
 #. odoo-python
 #: code:addons/account_credit_control/models/credit_control_run.py:0
 msgid "Please select a policy"
-msgstr ""
+msgstr "Виберіть політику"
 
 #. module: account_credit_control
 #. odoo-python
 #: code:addons/account_credit_control/wizard/credit_control_policy_changer.py:0
 msgid "Please use wizard on customer invoices"
-msgstr ""
+msgstr "Будь ласка, використовуйте майстер для рахунків клієнтів"
 
 #. module: account_credit_control
 #: model:ir.model.fields,field_description:account_credit_control.field_credit_control_run__policy_ids
@@ -1438,12 +1440,15 @@ msgid ""
 "Policy \"<b>%(name)s</b>\" has generated <b>%(len_policy_lines_generated)d "
 "Credit Control Lines.</b><br/>"
 msgstr ""
+"Політика «<b>%(name)s</b>» створила <b>%(len_policy_lines_generated)d рядків"
+" кредитного контролю.</b><br/>"
 
 #. module: account_credit_control
 #. odoo-python
 #: code:addons/account_credit_control/models/credit_control_policy.py:0
 msgid "Policy \"<b>%s</b>\" has not generated any Credit Control Lines.<br/>"
 msgstr ""
+"Політика «<b>%s</b>» не створила жодного рядка кредитного контролю.<br/>"
 
 #. module: account_credit_control
 #: model:ir.model.fields,field_description:account_credit_control.field_credit_control_policy__level_ids
@@ -1693,7 +1698,7 @@ msgstr "Контрагент мав ручне нагадування."
 #. odoo-python
 #: code:addons/account_credit_control/models/credit_control_policy.py:0
 msgid "The smallest level can not be of type Previous Reminder"
-msgstr ""
+msgstr "Найнижчий рівень не може бути типу «Попереднє нагадування»"
 
 #. module: account_credit_control
 #: model_terms:ir.ui.view,arch_db:account_credit_control.credit_control_line_search
@@ -1770,6 +1775,8 @@ msgid ""
 "You are not allowed to delete a credit control line that is not in draft "
 "state."
 msgstr ""
+"Не дозволено видаляти рядок кредитного контролю, який не перебуває у стані "
+"чернетки."
 
 #. module: account_credit_control
 #. odoo-python
@@ -1779,6 +1786,9 @@ msgid ""
 "Please choose one of the following policies:\n"
 " %(allowed_names)s"
 msgstr ""
+"Можна використовувати лише політику, встановлену для рахунку %(account_name)s.\n"
+"Виберіть одну з таких політик:\n"
+" %(allowed_names)s"
 
 #. module: account_credit_control
 #. odoo-python
@@ -1788,6 +1798,9 @@ msgid ""
 "A payment reminder has already been sent to the customer.\n"
 "You must create a credit note and issue a new invoice."
 msgstr ""
+"Не можна скасувати цей рахунок.\n"
+"Клієнту вже надіслано нагадування про оплату.\n"
+"Потрібно створити кредит-ноту та виставити новий рахунок."
 
 #. module: account_credit_control
 #: model:ir.model,name:account_credit_control.model_credit_control_communication

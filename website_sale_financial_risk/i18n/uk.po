@@ -60,3 +60,9 @@ msgstr "Ваш платіж скасовано."
 #: model_terms:payment.provider,done_msg:website_sale_financial_risk.payment_provider_credit
 msgid "Your payment has been successfully processed."
 msgstr "Ваш платіж успішно оброблено."
+
+#. module: website_sale_financial_risk
+#. odoo-python
+#: code:addons/website_sale_financial_risk/models/payment_transaction.py:0
+msgid "On Credit: No transaction found matching reference %s."
+msgstr "У кредит: не знайдено транзакції, що відповідає посиланню %s."

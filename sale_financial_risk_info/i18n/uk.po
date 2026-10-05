@@ -33,3 +33,9 @@ msgstr "Залишок ризику (значення)"
 #: model:ir.model.fields,field_description:sale_financial_risk_info.field_res_users__risk_percent_warning
 msgid "Risk percent warning"
 msgstr "Відсоткове попередження ризику"
+
+#. module: sale_financial_risk_info
+#. odoo-python
+#: code:addons/sale_financial_risk_info/models/sale.py:0
+msgid "Unlimited"
+msgstr "Необмежено"

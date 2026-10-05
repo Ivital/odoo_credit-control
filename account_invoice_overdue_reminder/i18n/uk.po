@@ -927,3 +927,165 @@ msgid ""
 msgstr ""
 "{{object.company_id.name}} — нагадування про прострочений рахунок "
 "№{{object.counter}}"
+
+#. module: account_invoice_overdue_reminder
+#. odoo-python
+#: code:addons/account_invoice_overdue_reminder/models/account_invoice_overdue_reminder.py:0
+msgid "%(invoice_name)s Reminder n°%(counter)d"
+msgstr "%(invoice_name)s Нагадування №%(counter)d"
+
+#. module: account_invoice_overdue_reminder
+#. odoo-python
+#: code:addons/account_invoice_overdue_reminder/models/overdue_reminder_action.py:0
+msgid "%(partner_name)s, Reminder %(date)s"
+msgstr "%(partner_name)s, Нагадування %(date)s"
+
+#. module: account_invoice_overdue_reminder
+#. odoo-python
+#: code:addons/account_invoice_overdue_reminder/wizard/overdue_reminder_wizard.py:0
+msgid "<strong>Overdue reminder</strong> by phone. Result/Info: %(result)s."
+msgstr ""
+"<strong>Нагадування про прострочення</strong> телефоном. Результат/Інфо: "
+"%(result)s."
+
+#. module: account_invoice_overdue_reminder
+#. odoo-python
+#: code:addons/account_invoice_overdue_reminder/wizard/overdue_reminder_wizard.py:0
+msgid ""
+"<strong>Overdue reminder</strong> sent by mail: <a href=# data-oe-"
+"model=mail.mail data-oe-id=%(mail_id)s>%(mail_subject)s</a>."
+msgstr ""
+"<strong>Нагадування про прострочення</strong> надіслано поштою: <a href=# "
+"data-oe-model=mail.mail data-oe-id=%(mail_id)s>%(mail_subject)s</a>."
+
+#. module: account_invoice_overdue_reminder
+#. odoo-python
+#: code:addons/account_invoice_overdue_reminder/wizard/overdue_reminder_wizard.py:0
+msgid "<strong>Overdue reminder</strong> sent by post."
+msgstr "<strong>Нагадування про прострочення</strong> надіслано поштою."
+
+#. module: account_invoice_overdue_reminder
+#. odoo-python
+#: code:addons/account_invoice_overdue_reminder/models/account_invoice_overdue_reminder.py:0
+msgid ""
+"An overdue reminder can only be attached to a customer invoice or credit "
+"note"
+msgstr ""
+"Нагадування про прострочення можна прикріпити лише до рахунку клієнта або "
+"кредит-ноти"
+
+#. module: account_invoice_overdue_reminder
+#. odoo-python
+#: code:addons/account_invoice_overdue_reminder/wizard/overdue_reminder_wizard.py:0
+msgid "E-mail missing on partner '%s'."
+msgstr "У партнера '%s' відсутня електронна адреса."
+
+#. module: account_invoice_overdue_reminder
+#. odoo-python
+#: code:addons/account_invoice_overdue_reminder/wizard/overdue_reminder_wizard.py:0
+msgid ""
+"For the reminder of customer '%s', the deadline is missing for the activity."
+msgstr "Для нагадування клієнту «%s» відсутній строк виконання активності."
+
+#. module: account_invoice_overdue_reminder
+#. odoo-python
+#: code:addons/account_invoice_overdue_reminder/wizard/overdue_reminder_wizard.py:0
+msgid ""
+"For the reminder of customer '%s', you must assign someone for the activity."
+msgstr ""
+"Для нагадування клієнту «%s» потрібно призначити відповідального за "
+"активність."
+
+#. module: account_invoice_overdue_reminder
+#. odoo-python
+#: code:addons/account_invoice_overdue_reminder/wizard/overdue_reminder_wizard.py:0
+msgid "Good job!"
+msgstr "Чудова робота!"
+
+#. module: account_invoice_overdue_reminder
+#. odoo-python
+#: code:addons/account_invoice_overdue_reminder/models/res_company.py:0
+msgid "Invoice Contact"
+msgstr "Контакт для рахунків"
+
+#. module: account_invoice_overdue_reminder
+#. odoo-python
+#: code:addons/account_invoice_overdue_reminder/models/res_company.py:0
+msgid "Last Invoice"
+msgstr "Останній рахунок"
+
+#. module: account_invoice_overdue_reminder
+#. odoo-python
+#: code:addons/account_invoice_overdue_reminder/wizard/overdue_reminder_wizard.py:0
+msgid "Mail body is empty."
+msgstr "Тіло листа порожнє."
+
+#. module: account_invoice_overdue_reminder
+#. odoo-python
+#: code:addons/account_invoice_overdue_reminder/wizard/overdue_reminder_wizard.py:0
+msgid "Mail subject is empty."
+msgstr "Тема листа порожня."
+
+#. module: account_invoice_overdue_reminder
+#. odoo-python
+#: code:addons/account_invoice_overdue_reminder/models/res_company.py:0
+msgid "Mass"
+msgstr "Маса"
+
+#. module: account_invoice_overdue_reminder
+#. odoo-python
+#: code:addons/account_invoice_overdue_reminder/models/res_company.py:0
+msgid "One by One"
+msgstr "По одному"
+
+#. module: account_invoice_overdue_reminder
+#. odoo-python
+#: code:addons/account_invoice_overdue_reminder/wizard/overdue_reminder_wizard.py:0
+msgid "Remind letter hasn't been printed!"
+msgstr "Лист-нагадування ще не надруковано!"
+
+#. module: account_invoice_overdue_reminder
+#. odoo-python
+#: code:addons/account_invoice_overdue_reminder/wizard/overdue_reminder_wizard.py:0
+msgid "The minimum delay since last reminder must be strictly positive."
+msgstr ""
+"Мінімальна затримка від останнього нагадування має бути строго додатною."
+
+#. module: account_invoice_overdue_reminder
+#. odoo-python
+#: code:addons/account_invoice_overdue_reminder/wizard/overdue_reminder_wizard.py:0
+msgid "The trigger delay cannot be negative."
+msgstr "Затримка тригера не може бути від’ємною."
+
+#. module: account_invoice_overdue_reminder
+#. odoo-python
+#: code:addons/account_invoice_overdue_reminder/wizard/overdue_reminder_wizard.py:0
+msgid "There are no invoices to remind for customer '%s'."
+msgstr "Немає рахунків для нагадування клієнту «%s»."
+
+#. module: account_invoice_overdue_reminder
+#. odoo-python
+#: code:addons/account_invoice_overdue_reminder/wizard/overdue_reminder_wizard.py:0
+msgid "There are no overdue reminders."
+msgstr "Прострочених нагадувань немає."
+
+#. module: account_invoice_overdue_reminder
+#. odoo-python
+#: code:addons/account_invoice_overdue_reminder/wizard/overdue_reminder_wizard.py:0
+msgid ""
+"User company is different from action company. This should never happen."
+msgstr ""
+"Компанія користувача відрізняється від компанії дії. Такого не повинно "
+"траплятися."
+
+#. module: account_invoice_overdue_reminder
+#. odoo-python
+#: code:addons/account_invoice_overdue_reminder/wizard/overdue_reminder_wizard.py:0
+msgid "You must select the new reminder type."
+msgstr "Потрібно вибрати новий тип нагадування."
+
+#. module: account_invoice_overdue_reminder
+#. odoo-python
+#: code:addons/account_invoice_overdue_reminder/wizard/overdue_reminder_wizard.py:0
+msgid "You processed all your overdue invoice reminders."
+msgstr "Усі нагадування про прострочені рахунки оброблено."

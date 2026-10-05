@@ -27,3 +27,33 @@ msgstr "Генератор рядків кредитного контролю"
 #: model:ir.model,name:account_credit_control_queue_job.model_credit_control_communication
 msgid "credit control communication"
 msgstr "Комунікація кредитного контролю"
+
+#. module: account_credit_control_queue_job
+#. odoo-python
+#: code:addons/account_credit_control_queue_job/models/credit_control_communication.py:0
+msgid "Credit Control Emails"
+msgstr "Листи кредитного контролю"
+
+#. module: account_credit_control_queue_job
+#. odoo-python
+#: code:addons/account_credit_control_queue_job/models/credit_control_run.py:0
+msgid "Jobs enqueued"
+msgstr "Завдання поставлено в чергу"
+
+#. module: account_credit_control_queue_job
+#. odoo-python
+#: code:addons/account_credit_control_queue_job/models/credit_control_communication.py:0
+msgid "Sending credit control email for %s"
+msgstr "Надсилання листа кредитного контролю для %s"
+
+#. module: account_credit_control_queue_job
+#. odoo-python
+#: code:addons/account_credit_control_queue_job/models/credit_control_communication.py:0
+msgid "Sending credit control emails for ids: %s"
+msgstr "Надсилання листів кредитного контролю для ID: %s"
+
+#. module: account_credit_control_queue_job
+#. odoo-python
+#: code:addons/account_credit_control_queue_job/models/credit_control_run.py:0
+msgid "The emails will be sent in the background"
+msgstr "Електронні листи буде надіслано у фоновому режимі"
