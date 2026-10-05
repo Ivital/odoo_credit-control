@@ -1,0 +1,91 @@
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: Odoo Server 18.0\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: \n"
+"PO-Revision-Date: 2026-10-05 05:39+0000\n"
+"Last-Translator: Ivital <Ivital@users.noreply.github.com>\n"
+"Language-Team: Ukrainian\n"
+"Language: uk_UA\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && n%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2);\n"
+
+#. module: partner_risk_insurance
+#: model:ir.model.fields,field_description:partner_risk_insurance.field_credit_policy_company__active
+#: model:ir.model.fields,field_description:partner_risk_insurance.field_credit_policy_state__active
+msgid "Active"
+msgstr "Активний"
+
+#. module: partner_risk_insurance
+#: model:ir.model.fields,field_description:partner_risk_insurance.field_credit_policy_company__partner_id
+msgid "Company"
+msgstr "Компанія"
+
+#. module: partner_risk_insurance
+#: model:ir.model.fields,field_description:partner_risk_insurance.field_credit_policy_company__create_uid
+#: model:ir.model.fields,field_description:partner_risk_insurance.field_credit_policy_state__create_uid
+#: model:ir.model.fields,field_description:partner_risk_insurance.field_partner_risk_insurance_wizard__create_uid
+msgid "Created by"
+msgstr "Створив"
+
+#. module: partner_risk_insurance
+#: model:ir.model.fields,field_description:partner_risk_insurance.field_credit_policy_company__create_date
+#: model:ir.model.fields,field_description:partner_risk_insurance.field_credit_policy_state__create_date
+#: model:ir.model.fields,field_description:partner_risk_insurance.field_partner_risk_insurance_wizard__create_date
+msgid "Created on"
+msgstr "Створено"
+
+#. module: partner_risk_insurance
+#: model:ir.model.fields,field_description:partner_risk_insurance.field_res_partner__credit_limit
+#: model:ir.model.fields,field_description:partner_risk_insurance.field_res_users__credit_limit
+msgid "Credit Limit"
+msgstr "Кредитний ліміт"
+
+#. module: partner_risk_insurance
+#: model:ir.model.fields,field_description:partner_risk_insurance.field_credit_policy_company__display_name
+#: model:ir.model.fields,field_description:partner_risk_insurance.field_credit_policy_state__display_name
+#: model:ir.model.fields,field_description:partner_risk_insurance.field_partner_risk_insurance_wizard__display_name
+msgid "Display Name"
+msgstr "Відображувана назва"
+
+#. module: partner_risk_insurance
+#: model:ir.model.fields,field_description:partner_risk_insurance.field_partner_risk_insurance_wizard__date_from
+msgid "From"
+msgstr "Від"
+
+#. module: partner_risk_insurance
+#: model:ir.actions.act_window,name:partner_risk_insurance.invoice_risk_insurance_action
+#: model:ir.actions.report,name:partner_risk_insurance.action_report_invoice_risk_insurance_template
+#: model:ir.ui.menu,name:partner_risk_insurance.invoice_risk_insurance_menu
+msgid "Invoice Risk Insurance Report"
+msgstr "Звіт страхування ризику рахунків"
+
+#. module: partner_risk_insurance
+#: model:ir.model.fields,field_description:partner_risk_insurance.field_credit_policy_company__name
+#: model:ir.model.fields,field_description:partner_risk_insurance.field_credit_policy_state__name
+msgid "Name"
+msgstr "Назва"
+
+#. module: partner_risk_insurance
+#: model:ir.model.fields,field_description:partner_risk_insurance.field_partner_risk_insurance_wizard__only_unpaid
+msgid "Only Unpaid"
+msgstr "Лише неоплачені"
+
+#. module: partner_risk_insurance
+#: model:ir.model.fields,field_description:partner_risk_insurance.field_res_partner__credit_policy_state_id
+#: model:ir.model.fields,field_description:partner_risk_insurance.field_res_users__credit_policy_state_id
+msgid "Policy State"
+msgstr "Стан політики"
+
+#. module: partner_risk_insurance
+#: model_terms:ir.ui.view,arch_db:partner_risk_insurance.invoice_risk_insurance_form
+msgid "Print"
+msgstr "Друк"
+
+#. module: partner_risk_insurance
+#: model:ir.model.fields,field_description:partner_risk_insurance.field_partner_risk_insurance_wizard__date_to
+msgid "To"
+msgstr "Кому"
