@@ -30,3 +30,28 @@ msgstr "Обмежувати повернення платежів"
 #: model:ir.model.fields,field_description:account_payment_return_financial_risk.field_res_users__risk_payment_return
 msgid "Total Payments Returns"
 msgstr "Загальна сума повернених платежів"
+
+#. module: account_payment_return_financial_risk
+#: model:ir.model.fields,help:account_payment_return_financial_risk.field_res_partner__risk_payment_return_include
+#: model:ir.model.fields,help:account_payment_return_financial_risk.field_res_users__risk_payment_return_include
+msgid ""
+"Full risk computation.\n"
+"Residual amount of move lines not reconciled with returned lines related."
+msgstr ""
+"Повний розрахунок ризику.\n"
+"Залишкова сума рядків проведень, не узгоджених із пов'язаними поверненими рядками."
+
+#. module: account_payment_return_financial_risk
+#: model:ir.model.fields,help:account_payment_return_financial_risk.field_res_partner__risk_payment_return
+#: model:ir.model.fields,help:account_payment_return_financial_risk.field_res_users__risk_payment_return
+msgid ""
+"Residual amount of move lines not reconciled with returned lines related."
+msgstr ""
+"Залишкова сума рядків проведень, не узгоджених із пов'язаними поверненими "
+"рядками."
+
+#. module: account_payment_return_financial_risk
+#: model:ir.model.fields,help:account_payment_return_financial_risk.field_res_partner__risk_payment_return_limit
+#: model:ir.model.fields,help:account_payment_return_financial_risk.field_res_users__risk_payment_return_limit
+msgid "Set 0 if it is not locked"
+msgstr "Установіть 0, якщо не заблоковано"

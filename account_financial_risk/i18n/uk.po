@@ -40,17 +40,17 @@ msgstr ""
 #. module: account_financial_risk
 #: model_terms:ir.ui.view,arch_db:account_financial_risk.financial_risk_info
 msgid "<strong>Consumed credit </strong>"
-msgstr ""
+msgstr "<strong>Використаний кредит </strong>"
 
 #. module: account_financial_risk
 #: model_terms:ir.ui.view,arch_db:account_financial_risk.financial_risk_info
 msgid "<strong>Credit limit </strong>"
-msgstr ""
+msgstr "<strong>Кредитний ліміт </strong>"
 
 #. module: account_financial_risk
 #: model_terms:ir.ui.view,arch_db:account_financial_risk.financial_risk_info
 msgid "<strong>Remaining credit </strong>"
-msgstr ""
+msgstr "<strong>Залишковий кредит </strong>"
 
 #. module: account_financial_risk
 #: model:ir.model.fields,field_description:account_financial_risk.field_res_partner__move_line_ids
@@ -61,7 +61,7 @@ msgstr "Бухгалтерські проведення"
 #. module: account_financial_risk
 #: model_terms:ir.ui.view,arch_db:account_financial_risk.financial_risk_account_move_line_pivot_view
 msgid "Account move lines"
-msgstr ""
+msgstr "Рядки бухгалтерських проводок"
 
 #. module: account_financial_risk
 #: model:ir.model.fields,field_description:account_financial_risk.field_res_company__allow_overrisk_invoice_validation
@@ -78,6 +78,9 @@ msgid ""
 "                                 has already been allowed when confirming "
 "these."
 msgstr ""
+"Завжди дозволяти підтвердження чернеток рахунків. Корисно, коли процес "
+"походить із замовлень на продаж і перевищення кредитного ризику вже було "
+"дозволено під час їх підтвердження."
 
 #. module: account_financial_risk
 #: model:ir.model.fields,help:account_financial_risk.field_res_company__allow_overrisk_invoice_validation
@@ -165,7 +168,7 @@ msgstr "Кредитна політика"
 #. module: account_financial_risk
 #: model_terms:ir.ui.view,arch_db:account_financial_risk.financial_risk_info
 msgid "Credit information"
-msgstr ""
+msgstr "Кредитна інформація"
 
 #. module: account_financial_risk
 #: model:ir.model.fields,help:account_financial_risk.field_res_partner__credit_limit
@@ -223,7 +226,7 @@ msgstr ""
 #: model:ir.model.fields,help:account_financial_risk.field_res_partner__risk_invoice_draft_include
 #: model:ir.model.fields,help:account_financial_risk.field_res_users__risk_invoice_draft_include
 msgid "Full risk computation"
-msgstr ""
+msgstr "Повний розрахунок ризику"
 
 #. module: account_financial_risk
 #: model:ir.model.fields,help:account_financial_risk.field_res_partner__risk_account_amount_unpaid_include
@@ -232,6 +235,8 @@ msgid ""
 "Full risk computation.\n"
 "Residual amount of move lines not reconciled with distinct account that is set as partner receivable and date maturity exceeded, considering Due Margin set in account settings."
 msgstr ""
+"Повний розрахунок ризику.\n"
+"Залишкова сума рядків проведень, не узгоджених з іншим рахунком, установленим як дебіторський рахунок контрагента, строк погашення яких перевищено з урахуванням запасу строку, заданого в налаштуваннях рахунку."
 
 #. module: account_financial_risk
 #: model:ir.model.fields,help:account_financial_risk.field_res_partner__risk_account_amount_include
@@ -240,6 +245,8 @@ msgid ""
 "Full risk computation.\n"
 "Residual amount of move lines not reconciled with distinct account that is set as partner receivable and date maturity not exceeded, considering Due Margin set in account settings."
 msgstr ""
+"Повний розрахунок ризику.\n"
+"Залишкова сума рядків проведень, не узгоджених з іншим рахунком, установленим як дебіторський рахунок контрагента, строк погашення яких не перевищено з урахуванням запасу строку, заданого в налаштуваннях рахунку."
 
 #. module: account_financial_risk
 #: model:ir.model.fields,help:account_financial_risk.field_res_partner__risk_invoice_unpaid_include
@@ -248,6 +255,8 @@ msgid ""
 "Full risk computation.\n"
 "Residual amount of move lines not reconciled with the same account that is set as partner receivable and date maturity exceeded, considering Due Margin set in account settings."
 msgstr ""
+"Повний розрахунок ризику.\n"
+"Залишкова сума рядків проведень, не узгоджених із тим самим рахунком, установленим як дебіторський рахунок контрагента, строк погашення яких перевищено з урахуванням запасу строку, заданого в налаштуваннях рахунку."
 
 #. module: account_financial_risk
 #: model:ir.model.fields,help:account_financial_risk.field_res_partner__risk_invoice_open_include
@@ -256,6 +265,8 @@ msgid ""
 "Full risk computation.\n"
 "Residual amount of move lines not reconciled with the same account that is set as partner receivable and date maturity not exceeded, considering Due Margin set in account settings."
 msgstr ""
+"Повний розрахунок ризику.\n"
+"Залишкова сума рядків проведень, не узгоджених із тим самим рахунком, установленим як дебіторський рахунок контрагента, строк погашення яких не перевищено з урахуванням запасу строку, заданого в налаштуваннях рахунку."
 
 #. module: account_financial_risk
 #: model_terms:ir.ui.view,arch_db:account_financial_risk.res_partner_view_risk
@@ -269,6 +280,8 @@ msgid ""
 "Helper field to control visibility of the partner option based on global "
 "config."
 msgstr ""
+"Допоміжне поле для керування видимістю опції контрагента на основі "
+"глобальної конфігурації."
 
 #. module: account_financial_risk
 #: model:ir.model.fields,field_description:account_financial_risk.field_partner_risk_exceeded_wiz__id
@@ -290,6 +303,8 @@ msgid ""
 "If enabled, this partner will see their financial risk in the portal, "
 "provided the global setting is also enabled."
 msgstr ""
+"Якщо увімкнено, цей контрагент бачитиме свій фінансовий ризик на порталі за "
+"умови, що глобальне налаштування також увімкнено."
 
 #. module: account_financial_risk
 #: model:ir.model.fields,field_description:account_financial_risk.field_res_partner__risk_invoice_draft_include
@@ -330,7 +345,7 @@ msgstr "Інформація"
 #: model:ir.model.fields,help:account_financial_risk.field_res_partner__risk_exception
 #: model:ir.model.fields,help:account_financial_risk.field_res_users__risk_exception
 msgid "It Indicate if partner risk exceeded"
-msgstr ""
+msgstr "Вказує, чи перевищено ризик контрагента"
 
 #. module: account_financial_risk
 #: model:ir.model,name:account_financial_risk.model_account_move
@@ -426,7 +441,7 @@ msgstr "Показ фінансового ризику на порталі"
 #. module: account_financial_risk
 #: model:ir.model.fields.selection,name:account_financial_risk.selection__res_partner__credit_currency__pricelist
 msgid "Pricelist Currency"
-msgstr ""
+msgstr "Валюта прайс-листа"
 
 #. module: account_financial_risk
 #: model:res.groups,comment:account_financial_risk.group_account_financial_risk_user
@@ -436,7 +451,7 @@ msgstr ""
 #. module: account_financial_risk
 #: model:ir.model.fields.selection,name:account_financial_risk.selection__res_partner__credit_currency__receivable
 msgid "Receivable Currency"
-msgstr ""
+msgstr "Валюта дебіторської заборгованості"
 
 #. module: account_financial_risk
 #: model:ir.model.fields,help:account_financial_risk.field_res_partner__risk_account_amount_unpaid
@@ -446,6 +461,9 @@ msgid ""
 "set as partner receivable and date maturity exceeded, considering Due Margin"
 " set in account settings."
 msgstr ""
+"Залишкова сума рядків проведень, не узгоджених з іншим рахунком, "
+"установленим як дебіторський рахунок контрагента, строк погашення яких "
+"перевищено з урахуванням запасу строку, заданого в налаштуваннях рахунку."
 
 #. module: account_financial_risk
 #: model:ir.model.fields,help:account_financial_risk.field_res_partner__risk_account_amount
@@ -455,6 +473,9 @@ msgid ""
 "set as partner receivable and date maturity not exceeded, considering Due "
 "Margin set in account settings."
 msgstr ""
+"Залишкова сума рядків проведень, не узгоджених з іншим рахунком, "
+"установленим як дебіторський рахунок контрагента, строк погашення яких не "
+"перевищено з урахуванням запасу строку, заданого в налаштуваннях рахунку."
 
 #. module: account_financial_risk
 #: model:ir.model.fields,help:account_financial_risk.field_res_partner__risk_invoice_unpaid
@@ -464,6 +485,9 @@ msgid ""
 "set as partner receivable and date maturity exceeded, considering Due Margin"
 " set in account settings."
 msgstr ""
+"Залишкова сума рядків проведень, не узгоджених із тим самим рахунком, "
+"установленим як дебіторський рахунок контрагента, строк погашення яких "
+"перевищено з урахуванням запасу строку, заданого в налаштуваннях рахунку."
 
 #. module: account_financial_risk
 #: model:ir.model.fields,help:account_financial_risk.field_res_partner__risk_invoice_open
@@ -473,6 +497,9 @@ msgid ""
 "set as partner receivable and date maturity not exceeded, considering Due "
 "Margin set in account settings."
 msgstr ""
+"Залишкова сума рядків проведень, не узгоджених із тим самим рахунком, "
+"установленим як дебіторський рахунок контрагента, строк погашення яких не "
+"перевищено з урахуванням запасу строку, заданого в налаштуваннях рахунку."
 
 #. module: account_financial_risk
 #: model:ir.model.fields,field_description:account_financial_risk.field_res_partner__risk_allow_edit
@@ -540,7 +567,7 @@ msgstr "Ризик перевищено"
 #: model:ir.model.fields,help:account_financial_risk.field_res_users__risk_invoice_open_limit
 #: model:ir.model.fields,help:account_financial_risk.field_res_users__risk_invoice_unpaid_limit
 msgid "Set 0 if it is not locked"
-msgstr ""
+msgstr "Установіть 0, якщо не заблоковано"
 
 #. module: account_financial_risk
 #: model:ir.model.fields,field_description:account_financial_risk.field_res_config_settings__portal_show_financial_risk
@@ -558,7 +585,7 @@ msgstr "Конкретні ліміти"
 #: model:ir.model.fields,help:account_financial_risk.field_res_partner__risk_total
 #: model:ir.model.fields,help:account_financial_risk.field_res_users__risk_total
 msgid "Sum of total risk included"
-msgstr ""
+msgstr "Сума включеного загального ризику"
 
 #. module: account_financial_risk
 #. odoo-python
@@ -571,7 +598,7 @@ msgstr ""
 #. module: account_financial_risk
 #: model_terms:ir.ui.view,arch_db:account_financial_risk.partner_risk_exceeded_wizard
 msgid "The partner has exceeded his risk"
-msgstr ""
+msgstr "Контрагент перевищив свій ризик"
 
 #. module: account_financial_risk
 #. odoo-python
@@ -625,7 +652,7 @@ msgstr "Загальна сума несплачених рахунків/осн
 #: model:ir.model.fields,help:account_financial_risk.field_res_partner__risk_invoice_draft
 #: model:ir.model.fields,help:account_financial_risk.field_res_users__risk_invoice_draft
 msgid "Total amount of invoices in Draft or Pro-forma state"
-msgstr ""
+msgstr "Загальна сума рахунків у стані «Чернетка» або «Про-форма»"
 
 #. module: account_financial_risk
 #: model:res.groups,name:account_financial_risk.group_account_financial_risk_user

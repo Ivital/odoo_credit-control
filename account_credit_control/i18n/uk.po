@@ -38,7 +38,7 @@ msgstr ""
 #. module: account_credit_control
 #: model:ir.model.fields,field_description:account_credit_control.field_credit_control_run__credit_control_communication_count
 msgid "# of Credit Control Communications"
-msgstr ""
+msgstr "К-сть комунікацій кредитного контролю"
 
 #. module: account_credit_control
 #: model:ir.model.fields,field_description:account_credit_control.field_credit_control_run__credit_control_count
@@ -86,6 +86,8 @@ msgid ""
 "<span class=\"o_form_label\">This wizard will let you set the overdue policy"
 " and level for selected invoices</span>"
 msgstr ""
+"<span class=\"o_form_label\">Цей майстер дасть змогу встановити політику й "
+"рівень прострочення для вибраних рахунків</span>"
 
 #. module: account_credit_control
 #: model_terms:ir.ui.view,arch_db:account_credit_control.credit_line_marker_form
@@ -93,6 +95,8 @@ msgid ""
 "<span class=\"o_form_label\">Warning: you will maybe not be able to revert this operation.\n"
 "                </span>"
 msgstr ""
+"<span class=\"o_form_label\">Попередження: можливо, ви не зможете скасувати цю операцію.\n"
+"                </span>"
 
 #. module: account_credit_control
 #: model_terms:ir.ui.view,arch_db:account_credit_control.report_credit_control_summary_document
@@ -102,12 +106,12 @@ msgstr "<strong>Дата:</strong>"
 #. module: account_credit_control
 #: model_terms:ir.ui.view,arch_db:account_credit_control.report_credit_control_summary_document
 msgid "<strong>Total Due</strong>"
-msgstr ""
+msgstr "<strong>Усього до сплати</strong>"
 
 #. module: account_credit_control
 #: model_terms:ir.ui.view,arch_db:account_credit_control.report_credit_control_summary_document
 msgid "<strong>Total Invoiced</strong>"
-msgstr ""
+msgstr "<strong>Усього виставлено</strong>"
 
 #. module: account_credit_control
 #: model:ir.model,name:account_credit_control.model_credit_control_line
@@ -192,7 +196,7 @@ msgstr "Піктограма типу дії"
 #. module: account_credit_control
 #: model_terms:ir.actions.act_window,help:account_credit_control.action_wizard_credit_policy_changer
 msgid "Allows to manually change credit level"
-msgstr ""
+msgstr "Дозволяє вручну змінювати рівень кредиту"
 
 #. module: account_credit_control
 #. odoo-python
@@ -203,7 +207,7 @@ msgstr "Сума до сплати"
 #. module: account_credit_control
 #: model_terms:ir.ui.view,arch_db:account_credit_control.credit_control_line_search
 msgid "An error has occured during the sending of the email."
-msgstr ""
+msgstr "Під час надсилання email сталася помилка."
 
 #. module: account_credit_control
 #: model:ir.model.fields,help:account_credit_control.field_credit_control_policy__apply_max_policy_level
@@ -226,6 +230,9 @@ msgid ""
 "                             control run execution to have all credit "
 "control lines on                             same communication level"
 msgstr ""
+"Застосовувати максимальний рівень політики для одного контрагента під час "
+"виконання контролю кредиту, щоб усі рядки кредитного контролю мали однаковий"
+" рівень комунікації"
 
 #. module: account_credit_control
 #: model_terms:ir.ui.view,arch_db:account_credit_control.credit_control_policy_form
@@ -236,12 +243,13 @@ msgstr "Архівовано"
 #. module: account_credit_control
 #: model_terms:ir.ui.view,arch_db:account_credit_control.credit_control_run_form
 msgid "Are you sure you want to run all ready lines channel action?"
-msgstr ""
+msgstr "Ви впевнені, що хочете запустити дію каналу для всіх готових рядків?"
 
 #. module: account_credit_control
 #: model_terms:ir.ui.view,arch_db:account_credit_control.credit_control_run_form
 msgid "Are you sure you want to set all Draft lines as Ready To Send?"
 msgstr ""
+"Ви впевнені, що хочете позначити всі чернетки як готові до надсилання?"
 
 #. module: account_credit_control
 #: model:ir.model.fields,field_description:account_credit_control.field_credit_control_communication__message_attachment_count
@@ -256,7 +264,7 @@ msgstr "Кількість вкладень"
 #: model_terms:credit.control.policy.level,custom_mail_text:account_credit_control.3_time_2
 #: model_terms:credit.control.policy.level,custom_mail_text:account_credit_control.3_time_3
 msgid "Best regards"
-msgstr ""
+msgstr "З найкращими побажаннями"
 
 #. module: account_credit_control
 #. odoo-python
@@ -288,17 +296,17 @@ msgstr "Змінити поточну кредитну політику"
 #. module: account_credit_control
 #: model_terms:ir.ui.view,arch_db:account_credit_control.credit_control_policy_changer_form
 msgid "Change the overdue level of current invoice"
-msgstr ""
+msgstr "Змінити рівень прострочення поточного рахунка"
 
 #. module: account_credit_control
 #: model_terms:ir.ui.view,arch_db:account_credit_control.credit_line_marker_form
 msgid "Change the state of the selected lines"
-msgstr ""
+msgstr "Змінити стан вибраних рядків"
 
 #. module: account_credit_control
 #: model_terms:ir.actions.act_window,help:account_credit_control.open_credit_line_marker_wizard
 msgid "Change the state of the selected lines."
-msgstr ""
+msgstr "Змінити стан вибраних рядків."
 
 #. module: account_credit_control
 #: model:ir.model.fields,field_description:account_credit_control.field_credit_control_line__channel
@@ -315,7 +323,7 @@ msgstr "Комерційна організація"
 #. module: account_credit_control
 #: model:ir.model.fields,field_description:account_credit_control.field_credit_control_line__communication_id
 msgid "Communication process"
-msgstr ""
+msgstr "Процес комунікації"
 
 #. module: account_credit_control
 #: model:ir.ui.menu,name:account_credit_control.credit_control_communication_action_menu
@@ -342,7 +350,7 @@ msgstr "Компанія"
 #. module: account_credit_control
 #: model_terms:ir.ui.view,arch_db:account_credit_control.credit_control_run_form
 msgid "Compute Credit Control Lines"
-msgstr ""
+msgstr "Обчислити рядки кредитного контролю"
 
 #. module: account_credit_control
 #: model:ir.model.fields,field_description:account_credit_control.field_credit_control_policy_level__computation_mode
@@ -436,7 +444,7 @@ msgstr "Аналіз кредитного контролю"
 #. module: account_credit_control
 #: model:ir.actions.act_window,name:account_credit_control.credit_control_communication_action
 msgid "Credit Control Communications"
-msgstr ""
+msgstr "Комунікації кредитного контролю"
 
 #. module: account_credit_control
 #: model:mail.template,name:account_credit_control.email_template_credit_control_base
@@ -481,12 +489,12 @@ msgstr ""
 #. module: account_credit_control
 #: model:ir.actions.act_window,name:account_credit_control.credit_control_run
 msgid "Credit Control Run"
-msgstr ""
+msgstr "Запуск кредитного контролю"
 
 #. module: account_credit_control
 #: model:ir.actions.report,name:account_credit_control.credit_control_summary
 msgid "Credit Control Summary"
-msgstr ""
+msgstr "Підсумок кредитного контролю"
 
 #. module: account_credit_control
 #: model:ir.model.fields,field_description:account_credit_control.field_res_company__credit_control_tolerance
@@ -512,7 +520,7 @@ msgstr "Кредитні рядки"
 #. module: account_credit_control
 #: model_terms:ir.ui.view,arch_db:account_credit_control.res_config_settings_view_form
 msgid "Credit Tolerance Limit"
-msgstr ""
+msgstr "Межа допустимого відхилення кредиту"
 
 #. module: account_credit_control
 #: model:mail.message.subtype,name:account_credit_control.mt_credit_control_new
@@ -557,7 +565,7 @@ msgstr "Валюта"
 #. module: account_credit_control
 #: model:ir.model.fields,field_description:account_credit_control.field_credit_control_policy_level__custom_mail_text
 msgid "Custom Mail Message"
-msgstr ""
+msgstr "Користувацьке поштове повідомлення"
 
 #. module: account_credit_control
 #: model:ir.model.fields,field_description:account_credit_control.field_credit_control_policy_level__custom_text
@@ -567,7 +575,7 @@ msgstr "Користувацьке повідомлення"
 #. module: account_credit_control
 #: model:ir.model.fields,field_description:account_credit_control.field_credit_control_policy_level__custom_text_after_details
 msgid "Custom Message after details"
-msgstr ""
+msgstr "Користувацьке повідомлення після деталей"
 
 #. module: account_credit_control
 #: model:ir.model.fields,field_description:account_credit_control.field_res_partner__payment_note
@@ -583,7 +591,7 @@ msgstr "Строк оплати"
 #. module: account_credit_control
 #: model_terms:ir.ui.view,arch_db:account_credit_control.res_config_settings_view_form
 msgid "Default credit control policy to partners"
-msgstr ""
+msgstr "Політика кредитного контролю контрагентів за замовчуванням"
 
 #. module: account_credit_control
 #: model:ir.model,name:account_credit_control.model_credit_control_policy
@@ -645,7 +653,7 @@ msgstr "Чернетка"
 #. module: account_credit_control
 #: model_terms:ir.ui.view,arch_db:account_credit_control.credit_control_line_search
 msgid "Draft lines have to be triaged."
-msgstr ""
+msgstr "Рядки-чернетки потрібно розібрати."
 
 #. module: account_credit_control
 #: model:ir.model.fields,help:account_credit_control.field_credit_control_line__state
@@ -658,7 +666,7 @@ msgstr ""
 #. module: account_credit_control
 #: model:ir.model.fields,field_description:account_credit_control.field_credit_control_line__amount_due
 msgid "Due Amount Tax incl."
-msgstr ""
+msgstr "Сума до сплати з податком"
 
 #. module: account_credit_control
 #: model:ir.model.fields.selection,name:account_credit_control.selection__credit_control_policy_level__computation_mode__net_days
@@ -668,7 +676,7 @@ msgstr "Термін оплати"
 #. module: account_credit_control
 #: model:ir.model.fields.selection,name:account_credit_control.selection__credit_control_policy_level__computation_mode__end_of_month
 msgid "Due Date, End Of Month"
-msgstr ""
+msgstr "Дата оплати, кінець місяця"
 
 #. module: account_credit_control
 #: model:ir.model.fields,field_description:account_credit_control.field_credit_control_line__balance_due
@@ -741,7 +749,7 @@ msgstr ""
 #: model:ir.model.fields,help:account_credit_control.field_credit_control_communication__activity_type_icon
 #: model:ir.model.fields,help:account_credit_control.field_credit_control_line__activity_type_icon
 msgid "Font awesome icon e.g. fa-tasks"
-msgstr ""
+msgstr "Піктограма Font Awesome, наприклад fa-tasks"
 
 #. module: account_credit_control
 #: model:ir.model.fields,help:account_credit_control.field_credit_control_policy__do_nothing
@@ -765,6 +773,9 @@ msgid ""
 "Go to <i>Invoicing &gt; Credit Control &gt; Credit Control Run</i> to create"
 " a new credit control communication process."
 msgstr ""
+"Перейдіть до <i>Виставлення рахунків &gt; Контроль кредиту &gt; Запуск "
+"контролю кредиту</i>, щоб створити новий процес комунікації з контролю "
+"кредиту."
 
 #. module: account_credit_control
 #: model_terms:ir.ui.view,arch_db:account_credit_control.credit_control_communication_search_view
@@ -781,7 +792,7 @@ msgstr "Має повідомлення"
 #. module: account_credit_control
 #: model:ir.model.fields,field_description:account_credit_control.field_credit_control_run__hide_change_state_button
 msgid "Hide Change State Button"
-msgstr ""
+msgstr "Приховати кнопку зміни стану"
 
 #. module: account_credit_control
 #: model:ir.model.fields,field_description:account_credit_control.field_credit_control_analysis__id
@@ -808,7 +819,7 @@ msgstr "Іконка"
 #: model:ir.model.fields,help:account_credit_control.field_credit_control_communication__activity_exception_icon
 #: model:ir.model.fields,help:account_credit_control.field_credit_control_line__activity_exception_icon
 msgid "Icon to indicate an exception activity."
-msgstr ""
+msgstr "Піктограма для позначення дії-винятку."
 
 #. module: account_credit_control
 #: model:ir.model.fields,help:account_credit_control.field_credit_control_run__manual_ids
@@ -821,13 +832,13 @@ msgstr ""
 #: model:ir.model.fields,help:account_credit_control.field_credit_control_communication__message_needaction
 #: model:ir.model.fields,help:account_credit_control.field_credit_control_line__message_needaction
 msgid "If checked, new messages require your attention."
-msgstr ""
+msgstr "Якщо позначено, нові повідомлення потребують вашої уваги."
 
 #. module: account_credit_control
 #: model:ir.model.fields,help:account_credit_control.field_credit_control_communication__message_has_error
 #: model:ir.model.fields,help:account_credit_control.field_credit_control_line__message_has_error
 msgid "If checked, some messages have a delivery error."
-msgstr ""
+msgstr "Якщо позначено, деякі повідомлення мають помилку доставки."
 
 #. module: account_credit_control
 #: model_terms:credit.control.policy.level,custom_mail_text:account_credit_control.2_time_2
@@ -961,7 +972,7 @@ msgstr "Рядки"
 #. module: account_credit_control
 #: model_terms:ir.ui.view,arch_db:account_credit_control.credit_control_line_search
 msgid "Lines already done."
-msgstr ""
+msgstr "Рядки вже виконано."
 
 #. module: account_credit_control
 #: model_terms:ir.ui.view,arch_db:account_credit_control.credit_line_marker_form
@@ -976,12 +987,12 @@ msgstr "Звіт рядків"
 #. module: account_credit_control
 #: model:ir.model.fields,field_description:account_credit_control.field_credit_control_run__manual_ids
 msgid "Lines to handle manually"
-msgstr ""
+msgstr "Рядки для ручної обробки"
 
 #. module: account_credit_control
 #: model_terms:ir.ui.view,arch_db:account_credit_control.credit_control_line_search
 msgid "Lines which have been ignored from previous runs."
-msgstr ""
+msgstr "Рядки, проігноровані у попередніх запусках."
 
 #. module: account_credit_control
 #: model_terms:ir.ui.view,arch_db:account_credit_control.credit_control_policy_form
@@ -1002,12 +1013,12 @@ msgstr "Керівник"
 #. module: account_credit_control
 #: model_terms:ir.ui.view,arch_db:account_credit_control.view_move_form
 msgid "Manual Credit Control Policy"
-msgstr ""
+msgstr "Політика кредитного контролю вручну"
 
 #. module: account_credit_control
 #: model:ir.actions.act_window,name:account_credit_control.action_customer_followup
 msgid "Manual Follow-Ups"
-msgstr ""
+msgstr "Ручні подальші дії"
 
 #. module: account_credit_control
 #: model:ir.model.fields,field_description:account_credit_control.field_credit_control_line__manual_followup
@@ -1040,7 +1051,7 @@ msgstr ""
 #. module: account_credit_control
 #: model:ir.model.fields,field_description:account_credit_control.field_credit_control_line__manually_overridden
 msgid "Manually Overridden"
-msgstr ""
+msgstr "Перевизначено вручну"
 
 #. module: account_credit_control
 #: model:ir.model.fields,field_description:account_credit_control.field_credit_control_marker__name
@@ -1050,7 +1061,7 @@ msgstr "Позначити як"
 #. module: account_credit_control
 #: model:ir.model.fields,field_description:account_credit_control.field_credit_control_printer__mark_as_sent
 msgid "Mark letter lines as done"
-msgstr ""
+msgstr "Позначити рядки листа виконаними"
 
 #. module: account_credit_control
 #: model:ir.model,name:account_credit_control.model_credit_control_emailer
@@ -1092,12 +1103,12 @@ msgstr "Рядок переміщення"
 #. module: account_credit_control
 #: model:ir.model.fields,field_description:account_credit_control.field_credit_control_policy_changer__move_line_ids
 msgid "Move line to change"
-msgstr ""
+msgstr "Рядок руху для зміни"
 
 #. module: account_credit_control
 #: model_terms:ir.ui.view,arch_db:account_credit_control.credit_control_policy_changer_form
 msgid "Move lines to affect"
-msgstr ""
+msgstr "Рядки руху для застосування"
 
 #. module: account_credit_control
 #: model:ir.model.fields,field_description:account_credit_control.field_credit_control_communication__my_activity_date_deadline
@@ -1115,12 +1126,12 @@ msgstr "Назва"
 #. module: account_credit_control
 #: model:ir.model.fields,field_description:account_credit_control.field_credit_control_policy_changer__new_policy_id
 msgid "New Policy to Apply"
-msgstr ""
+msgstr "Нова політика для застосування"
 
 #. module: account_credit_control
 #: model:ir.model.fields,field_description:account_credit_control.field_credit_control_policy_changer__new_policy_level_id
 msgid "New level to apply"
-msgstr ""
+msgstr "Новий рівень для застосування"
 
 #. module: account_credit_control
 #: model:ir.model.fields,field_description:account_credit_control.field_res_partner__payment_next_action
@@ -1198,13 +1209,13 @@ msgstr "Кількість помилок"
 #: model:ir.model.fields,help:account_credit_control.field_credit_control_communication__message_needaction_counter
 #: model:ir.model.fields,help:account_credit_control.field_credit_control_line__message_needaction_counter
 msgid "Number of messages requiring action"
-msgstr ""
+msgstr "Кількість повідомлень, що потребують дії"
 
 #. module: account_credit_control
 #: model:ir.model.fields,help:account_credit_control.field_credit_control_communication__message_has_error_counter
 #: model:ir.model.fields,help:account_credit_control.field_credit_control_line__message_has_error_counter
 msgid "Number of messages with delivery error"
-msgstr ""
+msgstr "Кількість повідомлень із помилкою доставки"
 
 #. module: account_credit_control
 #: model:ir.model.fields,help:account_credit_control.field_credit_control_printer__mark_as_sent
@@ -1229,6 +1240,8 @@ msgid ""
 "Optionally you can assign a user to this field, which will make him "
 "responsible for the action."
 msgstr ""
+"За бажанням можна призначити користувача цьому полю; тоді він стане "
+"відповідальним за дію."
 
 #. module: account_credit_control
 #: model:credit.control.policy.level,custom_text:account_credit_control.2_time_1
@@ -1355,7 +1368,7 @@ msgstr "Партнери"
 #: model:ir.model.fields,help:account_credit_control.field_res_partner__payment_note
 #: model:ir.model.fields,help:account_credit_control.field_res_users__payment_note
 msgid "Payment Note"
-msgstr ""
+msgstr "Примітка до платежу"
 
 #. module: account_credit_control
 #. odoo-python
@@ -1420,7 +1433,7 @@ msgstr "Рівні політики"
 #. module: account_credit_control
 #: model:ir.model.fields.selection,name:account_credit_control.selection__credit_control_policy_level__computation_mode__previous_date
 msgid "Previous Reminder"
-msgstr ""
+msgstr "Попереднє нагадування"
 
 #. module: account_credit_control
 #: model_terms:ir.ui.view,arch_db:account_credit_control.credit_line_printer_form
@@ -1436,12 +1449,12 @@ msgstr "Друкувати рядки"
 #. module: account_credit_control
 #: model_terms:ir.actions.act_window,help:account_credit_control.open_credit_line_printer_wizard
 msgid "Print selected lines"
-msgstr ""
+msgstr "Друкувати вибрані рядки"
 
 #. module: account_credit_control
 #: model_terms:ir.ui.view,arch_db:account_credit_control.credit_line_printer_form
 msgid "Print the selected lines"
-msgstr ""
+msgstr "Друкувати вибрані рядки"
 
 #. module: account_credit_control
 #: model:ir.model.fields.selection,name:account_credit_control.selection__credit_control_line__state__queued
@@ -1486,7 +1499,7 @@ msgstr "Відповідальний користувач"
 #. module: account_credit_control
 #: model_terms:ir.ui.view,arch_db:account_credit_control.credit_control_run_form
 msgid "Run channel action"
-msgstr ""
+msgstr "Запустити дію каналу"
 
 #. module: account_credit_control
 #: model_terms:ir.ui.view,arch_db:account_credit_control.credit_control_communication_search_view
@@ -1515,12 +1528,12 @@ msgstr "Надіслати електронною поштою"
 #. module: account_credit_control
 #: model_terms:ir.actions.act_window,help:account_credit_control.open_credit_line_emailer_wizard
 msgid "Send an email for the selected lines."
-msgstr ""
+msgstr "Надіслати електронний лист для вибраних рядків."
 
 #. module: account_credit_control
 #: model_terms:ir.ui.view,arch_db:account_credit_control.credit_line_emailer_form
 msgid "Send emails for the selected lines"
-msgstr ""
+msgstr "Надіслати листи для вибраних рядків"
 
 #. module: account_credit_control
 #: model_terms:ir.ui.view,arch_db:account_credit_control.credit_line_emailer_form
@@ -1535,7 +1548,7 @@ msgstr "Послідовність"
 #. module: account_credit_control
 #: model_terms:ir.ui.view,arch_db:account_credit_control.credit_control_policy_changer_form
 msgid "Set current credit level"
-msgstr ""
+msgstr "Встановити поточний рівень кредиту"
 
 #. module: account_credit_control
 #: model_terms:ir.ui.view,arch_db:account_credit_control.credit_control_policy_changer_form
@@ -1545,7 +1558,7 @@ msgstr "Встановити нову політику"
 #. module: account_credit_control
 #: model_terms:ir.ui.view,arch_db:account_credit_control.credit_control_run_form
 msgid "Set to ready all"
-msgstr ""
+msgstr "Позначити все готовим"
 
 #. module: account_credit_control
 #: model_terms:credit.control.policy.level,custom_mail_text:account_credit_control.2_time_2
@@ -1558,7 +1571,7 @@ msgstr ""
 #. module: account_credit_control
 #: model:ir.model.fields,field_description:account_credit_control.field_credit_control_policy_level__mail_show_invoice_detail
 msgid "Show Invoice Details in mail"
-msgstr ""
+msgstr "Показувати деталі рахунка в листі"
 
 #. module: account_credit_control
 #: model:ir.model.fields,field_description:account_credit_control.field_credit_control_line__run_id
@@ -1580,6 +1593,10 @@ msgid ""
 "Today: Activity date is today\n"
 "Planned: Future activities."
 msgstr ""
+"Стан на основі дій\n"
+"Прострочено: строк уже минув\n"
+"Сьогодні: дата дії — сьогодні\n"
+"Заплановано: майбутні дії."
 
 #. module: account_credit_control
 #: model_terms:ir.ui.view,arch_db:account_credit_control.report_credit_control_summary_document
@@ -1593,7 +1610,7 @@ msgstr "Підсумок"
 #: model_terms:credit.control.policy.level,custom_mail_text:account_credit_control.3_time_2
 #: model_terms:credit.control.policy.level,custom_mail_text:account_credit_control.3_time_3
 msgid "Thank you in advance for your anticipated cooperation in this matter."
-msgstr ""
+msgstr "Заздалегідь дякуємо за очікувану співпрацю в цьому питанні."
 
 #. module: account_credit_control
 #: model_terms:ir.actions.act_window,help:account_credit_control.credit_control_communication_action
@@ -1601,6 +1618,8 @@ msgid ""
 "That's the most common way of creating these records. However, you can do it"
 " from here too if you want, by pressing <i>Create</i>."
 msgstr ""
+"Це найпоширеніший спосіб створення таких записів. Однак за потреби це можна "
+"зробити й тут, натиснувши <i>Створити</i>."
 
 #. module: account_credit_control
 #: model:ir.model.fields,help:account_credit_control.field_account_bank_statement_line__credit_policy_id
@@ -1617,6 +1636,9 @@ msgid ""
 "The Credit Control Policy used for this partner. This setting can be forced "
 "on the invoice. If nothing is defined, it will use the company setting."
 msgstr ""
+"Політика кредитного контролю, що використовується для цього контрагента. Це "
+"налаштування можна примусово задати в рахунку. Якщо нічого не визначено, "
+"буде використано налаштування компанії."
 
 #. module: account_credit_control
 #: model:ir.model.fields,help:account_credit_control.field_res_company__credit_policy_id
@@ -1629,12 +1651,12 @@ msgstr ""
 #. module: account_credit_control
 #: model_terms:ir.ui.view,arch_db:account_credit_control.credit_control_line_search
 msgid "The line was deprecated by a manual change of policy on invoice."
-msgstr ""
+msgstr "Рядок застарів через ручну зміну політики в рахунку."
 
 #. module: account_credit_control
 #: model_terms:ir.ui.view,arch_db:account_credit_control.credit_control_line_search
 msgid "The partner had a manual followup."
-msgstr ""
+msgstr "Контрагент мав ручне нагадування."
 
 #. module: account_credit_control
 #. odoo-python
@@ -1645,19 +1667,19 @@ msgstr ""
 #. module: account_credit_control
 #: model_terms:ir.ui.view,arch_db:account_credit_control.credit_control_line_search
 msgid "These lines are to do using the Actions."
-msgstr ""
+msgstr "Ці рядки потрібно обробити через «Дії»."
 
 #. module: account_credit_control
 #: model:ir.model.fields,help:account_credit_control.field_res_partner__payment_next_action
 #: model:ir.model.fields,help:account_credit_control.field_res_users__payment_next_action
 msgid "This is the next action to be taken."
-msgstr ""
+msgstr "Це наступна дія, яку потрібно виконати."
 
 #. module: account_credit_control
 #: model:ir.model.fields,help:account_credit_control.field_res_partner__payment_next_action_date
 #: model:ir.model.fields,help:account_credit_control.field_res_users__payment_next_action_date
 msgid "This is when the manual follow-up is needed."
-msgstr ""
+msgstr "Момент, коли потрібне ручне подальше опрацювання."
 
 #. module: account_credit_control
 #: model:ir.model.fields,help:account_credit_control.field_credit_control_policy__account_ids
@@ -1690,7 +1712,7 @@ msgstr "Загальна виставлена сума"
 #: model:ir.model.fields,help:account_credit_control.field_credit_control_communication__activity_exception_decoration
 #: model:ir.model.fields,help:account_credit_control.field_credit_control_line__activity_exception_decoration
 msgid "Type of the exception activity on record."
-msgstr ""
+msgstr "Тип дії-винятку для запису."
 
 #. module: account_credit_control
 #: model:ir.model.fields,field_description:account_credit_control.field_credit_control_communication__user_id
@@ -1708,7 +1730,7 @@ msgstr "Повідомлення вебсайту"
 #: model:ir.model.fields,help:account_credit_control.field_credit_control_communication__website_message_ids
 #: model:ir.model.fields,help:account_credit_control.field_credit_control_line__website_message_ids
 msgid "Website communication history"
-msgstr ""
+msgstr "Історія комунікації через вебсайт"
 
 #. module: account_credit_control
 #. odoo-python

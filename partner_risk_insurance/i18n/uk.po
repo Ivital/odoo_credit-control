@@ -202,3 +202,152 @@ msgstr "Останнє оновлення ким"
 #: model:ir.model.fields,field_description:partner_risk_insurance.field_partner_risk_insurance_wizard__write_date
 msgid "Last Updated on"
 msgstr "Останнє оновлення"
+
+#. module: partner_risk_insurance
+#: model_terms:ir.ui.view,arch_db:partner_risk_insurance.view_move_form
+msgid "<span> with </span>"
+msgstr "<span> з </span>"
+
+#. module: partner_risk_insurance
+#: model_terms:ir.ui.view,arch_db:partner_risk_insurance.report_invoice_risk_insurance_document
+msgid "<strong>Invoice</strong>"
+msgstr "<strong>Рахунок</strong>"
+
+#. module: partner_risk_insurance
+#: model_terms:ir.ui.view,arch_db:partner_risk_insurance.report_invoice_risk_insurance_document
+msgid "<strong>Partner Name</strong>"
+msgstr "<strong>Назва контрагента</strong>"
+
+#. module: partner_risk_insurance
+#: model_terms:ir.ui.view,arch_db:partner_risk_insurance.report_invoice_risk_insurance_document
+msgid "<strong>Partner Ref.</strong>"
+msgstr "<strong>Посилання контрагента</strong>"
+
+#. module: partner_risk_insurance
+#: model_terms:ir.ui.view,arch_db:partner_risk_insurance.report_invoice_risk_insurance_document
+msgid "<strong>Total Amount</strong>"
+msgstr "<strong>Загальна сума</strong>"
+
+#. module: partner_risk_insurance
+#: model_terms:ir.ui.view,arch_db:partner_risk_insurance.report_invoice_risk_insurance_document
+msgid "<strong>Total amount:</strong>"
+msgstr "<strong>Загальна сума:</strong>"
+
+#. module: partner_risk_insurance
+#: model_terms:ir.ui.view,arch_db:partner_risk_insurance.report_invoice_risk_insurance_document
+msgid "<strong>Total by country:</strong>"
+msgstr "<strong>Усього за країною:</strong>"
+
+#. module: partner_risk_insurance
+#: model:ir.model.fields,help:partner_risk_insurance.field_res_partner__company_credit_limit
+#: model:ir.model.fields,help:partner_risk_insurance.field_res_users__company_credit_limit
+msgid ""
+"Calculated as the Total minus Insured credit limits, reflecting the credit "
+"limit the company is willing to offer to the client, excluding the insured "
+"portion."
+msgstr ""
+"Обчислюється як «Усього» мінус застраховані кредитні ліміти та відображає "
+"кредитний ліміт, який компанія готова надати клієнту без урахування "
+"застрахованої частини."
+
+#. module: partner_risk_insurance
+#: model:ir.model.fields,help:partner_risk_insurance.field_res_partner__risk_insurance_code
+#: model:ir.model.fields,help:partner_risk_insurance.field_res_users__risk_insurance_code
+msgid "Code assigned to this partner by the risk insurance company."
+msgstr "Код, присвоєний цьому контрагенту компанією зі страхування ризиків."
+
+#. module: partner_risk_insurance
+#: model:ir.model.fields,help:partner_risk_insurance.field_res_partner__credit_limit
+#: model:ir.model.fields,help:partner_risk_insurance.field_res_users__credit_limit
+msgid "Credit limit specific to this partner."
+msgstr "Кредитний ліміт, специфічний для цього контрагента."
+
+#. module: partner_risk_insurance
+#: model:ir.model.fields,help:partner_risk_insurance.field_res_partner__risk_insurance_grant_date
+#: model:ir.model.fields,help:partner_risk_insurance.field_res_users__risk_insurance_grant_date
+msgid "Date when the insurance was granted by the insurance company."
+msgstr "Дата надання страхування страховою компанією."
+
+#. module: partner_risk_insurance
+#: model_terms:ir.ui.view,arch_db:partner_risk_insurance.report_invoice_risk_insurance_document
+msgid "INSURED CUSTOMERS"
+msgstr "ЗАСТРАХОВАНІ КЛІЄНТИ"
+
+#. module: partner_risk_insurance
+#: model_terms:ir.ui.view,arch_db:partner_risk_insurance.report_invoice_risk_insurance_document
+msgid "INVOICE LIST - COUNTRY - INSURED"
+msgstr "СПИСОК РАХУНКІВ — КРАЇНА — ЗАСТРАХОВАНО"
+
+#. module: partner_risk_insurance
+#: model:ir.model.fields,help:partner_risk_insurance.field_credit_policy_state__insure_invoices
+#: model:ir.model.fields,help:partner_risk_insurance.field_res_partner__credit_policy_insure_invoices
+#: model:ir.model.fields,help:partner_risk_insurance.field_res_users__credit_policy_insure_invoices
+msgid ""
+"If checked, the invoices created when the partner has this state will be "
+"marked as insured"
+msgstr ""
+"Якщо позначено, рахунки, створені для контрагента з цим станом, буде "
+"позначено як застраховані"
+
+#. module: partner_risk_insurance
+#: model:ir.model.fields,help:partner_risk_insurance.field_res_partner__risk_insurance_requested
+#: model:ir.model.fields,help:partner_risk_insurance.field_res_users__risk_insurance_requested
+msgid ""
+"Mark this field if an insurance was requested for the credit of this "
+"partner."
+msgstr ""
+"Позначте це поле, якщо для кредиту цього контрагента було запитано "
+"страхування."
+
+#. module: partner_risk_insurance
+#: model:ir.model.fields,help:partner_risk_insurance.field_res_partner__risk_insurance_coverage_percent
+#: model:ir.model.fields,help:partner_risk_insurance.field_res_users__risk_insurance_coverage_percent
+msgid "Percentage of the credit that is covered by the insurance."
+msgstr "Відсоток кредиту, покритий страхуванням."
+
+#. module: partner_risk_insurance
+#: model:ir.model.fields,help:partner_risk_insurance.field_res_partner__risk_insurance_code_2
+#: model:ir.model.fields,help:partner_risk_insurance.field_res_users__risk_insurance_code_2
+msgid "Secondary code assigned to this partner by the risk insurance company."
+msgstr ""
+"Додатковий код, присвоєний цьому контрагенту компанією зі страхування "
+"ризиків."
+
+#. module: partner_risk_insurance
+#: model_terms:ir.ui.view,arch_db:partner_risk_insurance.view_partner_form
+msgid ""
+"The overall credit limit available to a client, set by the user. It includes"
+" both the company's own credit limit and the insured credit limit."
+msgstr ""
+"Загальний кредитний ліміт, доступний клієнту й заданий користувачем. Він "
+"включає власний кредитний ліміт компанії та застрахований кредитний ліміт."
+
+#. module: partner_risk_insurance
+#: model:ir.model.fields,help:partner_risk_insurance.field_res_partner__insurance_credit_limit
+#: model:ir.model.fields,help:partner_risk_insurance.field_res_users__insurance_credit_limit
+msgid ""
+"The portion of credit that is covered by insurance, set by the user. It "
+"represents the amount of credit that an insurance policy guarantees."
+msgstr ""
+"Частина кредиту, покрита страхуванням і задана користувачем. Це сума "
+"кредиту, яку гарантує страховий поліс."
+
+#. module: partner_risk_insurance
+#: model_terms:ir.ui.view,arch_db:partner_risk_insurance.view_partner_form
+msgid "Total credit limit"
+msgstr "Загальний кредитний ліміт"
+
+#. module: partner_risk_insurance
+#: model_terms:ir.ui.view,arch_db:partner_risk_insurance.report_invoice_risk_insurance_document
+msgid "Total insured customers:"
+msgstr "Усього застрахованих клієнтів:"
+
+#. module: partner_risk_insurance
+#: model_terms:ir.ui.view,arch_db:partner_risk_insurance.report_invoice_risk_insurance_document
+msgid "Total not insured customers:"
+msgstr "Усього незастрахованих клієнтів:"
+
+#. module: partner_risk_insurance
+#: model_terms:ir.ui.view,arch_db:partner_risk_insurance.report_invoice_risk_insurance_document
+msgid "UNINSURED CUSTOMERS"
+msgstr "НЕЗАСТРАХОВАНІ КЛІЄНТИ"

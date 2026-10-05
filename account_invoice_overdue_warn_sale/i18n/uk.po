@@ -37,3 +37,13 @@ msgstr "має"
 #: model_terms:ir.ui.view,arch_db:account_invoice_overdue_warn_sale.view_order_form
 msgid "overdue invoice(s)"
 msgstr "прострочений рахунок(и)"
+
+#. module: account_invoice_overdue_warn_sale
+#: model:ir.model.fields,field_description:account_invoice_overdue_warn_sale.field_sale_order__commercial_partner_invoicing_id
+msgid "Commercial Invoicing Partner"
+msgstr "Комерційний контрагент для виставлення рахунків"
+
+#. module: account_invoice_overdue_warn_sale
+#: model_terms:ir.ui.view,arch_db:account_invoice_overdue_warn_sale.view_order_form
+msgid "The invoicing partner"
+msgstr "Контрагент для виставлення рахунків"

@@ -12,3 +12,8 @@ msgstr ""
 #: model:ir.module.module,shortdesc:base.module_account_credit_control_queue_job
 msgid "Account Credit Control"
 msgstr "Контроль дебіторської заборгованості"
+
+#. module: account_credit_control_queue_job
+#: model:ir.model.fields,field_description:account_credit_control_queue_job.field_res_config_settings__credit_control_batch_size
+msgid "Batch Size for Credit Control"
+msgstr "Розмір пакета для кредитного контролю"

@@ -42,3 +42,37 @@ msgstr "Платіжний лист продажу"
 #: model:ir.model.fields,field_description:sale_payment_sheet_financial_risk.field_res_users__risk_sale_payment_sheet
 msgid "Total Sale Payment Sheet"
 msgstr "Загальна сума платіжного листа продажу"
+
+#. module: sale_payment_sheet_financial_risk
+#: model:ir.model.fields,help:sale_payment_sheet_financial_risk.field_res_partner__risk_sale_payment_sheet_include
+#: model:ir.model.fields,help:sale_payment_sheet_financial_risk.field_res_users__risk_sale_payment_sheet_include
+msgid ""
+"Deduct pending payments in each field depending of sheet invoice status"
+msgstr ""
+"Віднімати платежі, що очікують обробки, у кожному полі залежно від стану "
+"рахунку у відомості"
+
+#. module: sale_payment_sheet_financial_risk
+#: model_terms:ir.ui.view,arch_db:sale_payment_sheet_financial_risk.financial_risk_sale_payment_sheet_line_pivot_view
+msgid "Sale Payment Sheet Lines"
+msgstr "Рядки платіжної відомості продажу"
+
+#. module: sale_payment_sheet_financial_risk
+#: model:ir.model.fields,help:sale_payment_sheet_financial_risk.field_res_partner__risk_sale_payment_sheet_limit
+#: model:ir.model.fields,help:sale_payment_sheet_financial_risk.field_res_users__risk_sale_payment_sheet_limit
+msgid "Set 0 if it is not locked"
+msgstr "Установіть 0, якщо не заблоковано"
+
+#. module: sale_payment_sheet_financial_risk
+#: model:ir.model.fields,help:sale_payment_sheet_financial_risk.field_res_partner__risk_sale_payment_sheet_info
+#: model:ir.model.fields,help:sale_payment_sheet_financial_risk.field_res_users__risk_sale_payment_sheet_info
+msgid ""
+"Sheet payment amounts grouped by reduce field (amount field in brackets)"
+msgstr ""
+"Суми платежів відомості, згруповані за полем зменшення (поле суми в дужках)"
+
+#. module: sale_payment_sheet_financial_risk
+#: model:ir.model.fields,help:sale_payment_sheet_financial_risk.field_res_partner__risk_sale_payment_sheet
+#: model:ir.model.fields,help:sale_payment_sheet_financial_risk.field_res_users__risk_sale_payment_sheet
+msgid "Sum of payment sheet amount pending to validate"
+msgstr "Сума платіжних відомостей, що очікує підтвердження"

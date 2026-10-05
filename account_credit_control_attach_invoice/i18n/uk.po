@@ -19,3 +19,8 @@ msgstr ""
 #: model_terms:ir.ui.view,arch_db:account_credit_control_attach_invoice.res_config_settings_view_form
 msgid "Report to attach to credit control summary"
 msgstr "Звіт для додавання до підсумку кредитного контролю"
+
+#. module: account_credit_control_attach_invoice
+#: model_terms:ir.ui.view,arch_db:account_credit_control_attach_invoice.res_config_settings_view_form
+msgid "Report Attachment"
+msgstr "Вкладення звіту"

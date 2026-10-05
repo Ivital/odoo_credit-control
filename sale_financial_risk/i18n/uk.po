@@ -62,3 +62,38 @@ msgstr "Рядки продажу"
 #: model:ir.model.fields,field_description:sale_financial_risk.field_res_users__risk_sale_order
 msgid "Total Sales Orders Not Invoiced"
 msgstr "Загальна сума невиставлених замовлень на продаж"
+
+#. module: sale_financial_risk
+#: model_terms:ir.ui.view,arch_db:sale_financial_risk.res_config_settings_view_form
+msgid "Allow sale order confirm over the risk"
+msgstr "Дозволити підтвердження замовлення продажу понад ризик"
+
+#. module: sale_financial_risk
+#: model_terms:ir.ui.view,arch_db:sale_financial_risk.res_config_settings_view_form
+msgid "Always allow the confirmation of sale orders."
+msgstr "Завжди дозволяти підтвердження замовлень продажу."
+
+#. module: sale_financial_risk
+#: model:ir.model.fields,help:sale_financial_risk.field_res_partner__risk_sale_order_include
+#: model:ir.model.fields,help:sale_financial_risk.field_res_users__risk_sale_order_include
+msgid "Full risk computation"
+msgstr "Повний розрахунок ризику"
+
+#. module: sale_financial_risk
+#: model_terms:ir.ui.view,arch_db:sale_financial_risk.res_config_settings_view_form
+msgid "Include orders in done state"
+msgstr "Включати замовлення у стані «Виконано»"
+
+#. module: sale_financial_risk
+#: model:ir.model.fields,help:sale_financial_risk.field_res_partner__risk_sale_order_limit
+#: model:ir.model.fields,help:sale_financial_risk.field_res_users__risk_sale_order_limit
+msgid "Set 0 if it is not locked"
+msgstr "Установіть 0, якщо не заблоковано"
+
+#. module: sale_financial_risk
+#: model:ir.model.fields,help:sale_financial_risk.field_res_partner__risk_sale_order
+#: model:ir.model.fields,help:sale_financial_risk.field_res_users__risk_sale_order
+msgid "Total not invoiced of sales orders in Sale Order state"
+msgstr ""
+"Загальна невиставлена сума замовлень на продаж у стані «Замовлення на "
+"продаж»"

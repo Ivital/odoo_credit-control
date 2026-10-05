@@ -34,3 +34,14 @@ msgstr "для загального залишку"
 #: model_terms:ir.ui.view,arch_db:account_invoice_overdue_warn.view_partner_form_overdue_warn
 msgid "overdue invoice(s)"
 msgstr "прострочений рахунок(и)"
+
+#. module: account_invoice_overdue_warn
+#: model:ir.model.fields,help:account_invoice_overdue_warn.field_res_partner__overdue_invoice_amount
+#: model:ir.model.fields,help:account_invoice_overdue_warn.field_res_users__overdue_invoice_amount
+msgid "Overdue invoice total residual amount in company currency."
+msgstr "Загальна залишкова сума прострочених рахунків у валюті компанії."
+
+#. module: account_invoice_overdue_warn
+#: model_terms:ir.ui.view,arch_db:account_invoice_overdue_warn.view_partner_form_overdue_warn
+msgid "This customer has"
+msgstr "Цей клієнт має"
